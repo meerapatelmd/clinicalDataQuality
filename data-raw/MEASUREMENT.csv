@@ -1,0 +1,615 @@
+person_id,gender,measurement_date,measurement_source
+1,MALE,2018-10-04,Throat culture
+3,MALE,2012-06-01,Throat culture
+3,MALE,2018-11-03,Throat culture
+4,MALE,1967-07-20,Measurement of respiratory function
+5,MALE,2013-07-16,Throat culture
+5,MALE,2020-11-08,Measurement of respiratory function
+6,FEMALE,1961-08-05,Throat culture
+7,MALE,2015-11-29,Throat culture
+8,FEMALE,2011-09-12,Measurement of respiratory function
+9,MALE,2016-04-07,Throat culture
+10,MALE,2015-12-07,Spirometry
+10,MALE,2017-12-18,Spirometry
+10,MALE,2016-12-12,Spirometry
+10,MALE,2012-11-19,Spirometry
+10,MALE,2011-11-14,Spirometry
+10,MALE,2014-12-01,Spirometry
+10,MALE,2013-11-25,Spirometry
+10,MALE,2018-12-24,Spirometry
+10,MALE,2019-12-30,Spirometry
+11,FEMALE,2018-11-04,"Skin test for tuberculosis, Tine test"
+11,FEMALE,2018-11-04,Urine screening test for diabetes
+11,FEMALE,2018-11-04,"Hepatitis C antibody, confirmatory test"
+11,FEMALE,2018-11-04,HIV antigen test
+11,FEMALE,2018-11-04,Chlamydia antigen test
+11,FEMALE,2018-11-04,Gonorrhea infection titer test
+11,FEMALE,2018-11-04,Measurement of Varicella-zoster virus antibody
+11,FEMALE,2020-09-13,Standard pregnancy test
+11,FEMALE,2018-12-30,Alpha-fetoprotein test - antenatal
+11,FEMALE,2019-03-24,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+11,FEMALE,2019-03-24,Urine screening for glucose
+11,FEMALE,2018-11-04,Syphilis infectious titer test
+11,FEMALE,2018-11-04,Urine culture
+11,FEMALE,2018-11-04,Blood group typing
+11,FEMALE,2018-11-04,Standard pregnancy test
+11,FEMALE,2018-11-04,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+11,FEMALE,2018-11-04,Urine protein test
+11,FEMALE,2017-10-15,Standard pregnancy test
+11,FEMALE,2018-11-04,Hepatitis B surface antigen measurement
+11,FEMALE,2019-05-19,Streptococcus pneumoniae group B antigen assay
+11,FEMALE,2017-01-01,Standard pregnancy test
+12,MALE,1996-01-15,Peripheral blood smear interpretation
+12,MALE,1992-05-19,Measurement of respiratory function
+13,MALE,2011-05-28,Peripheral blood smear interpretation
+15,FEMALE,2007-03-08,Urine screening for glucose
+15,FEMALE,2007-03-08,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+15,FEMALE,2000-02-03,Standard pregnancy test
+15,FEMALE,2006-12-14,Alpha-fetoprotein test - antenatal
+15,FEMALE,2007-11-08,HIV antigen test
+15,FEMALE,2007-11-08,Urine protein test
+15,FEMALE,2007-11-08,"Skin test for tuberculosis, Tine test"
+15,FEMALE,2007-11-08,Measurement of Varicella-zoster virus antibody
+15,FEMALE,2007-11-08,"Hepatitis C antibody, confirmatory test"
+15,FEMALE,2007-11-08,Urine screening test for diabetes
+15,FEMALE,2007-11-08,Urine culture
+15,FEMALE,2007-11-08,Syphilis infectious titer test
+15,FEMALE,2007-11-08,Gonorrhea infection titer test
+15,FEMALE,2007-11-08,Chlamydia antigen test
+15,FEMALE,2008-03-27,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+15,FEMALE,2008-03-27,Urine screening for glucose
+15,FEMALE,2004-01-22,Standard pregnancy test
+15,FEMALE,2006-10-19,Standard pregnancy test
+15,FEMALE,2006-10-19,Blood group typing
+15,FEMALE,2007-05-03,Streptococcus pneumoniae group B antigen assay
+15,FEMALE,2006-10-19,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+15,FEMALE,2006-10-19,Hepatitis B surface antigen measurement
+15,FEMALE,2006-10-19,HIV antigen test
+15,FEMALE,2006-10-19,Chlamydia antigen test
+15,FEMALE,2006-10-19,Gonorrhea infection titer test
+15,FEMALE,2006-10-19,Syphilis infectious titer test
+15,FEMALE,2006-10-19,Urine culture
+15,FEMALE,2006-10-19,Urine screening test for diabetes
+15,FEMALE,2006-10-19,"Hepatitis C antibody, confirmatory test"
+15,FEMALE,2006-10-19,Measurement of Varicella-zoster virus antibody
+15,FEMALE,2006-10-19,"Skin test for tuberculosis, Tine test"
+15,FEMALE,2006-10-19,Urine protein test
+15,FEMALE,2008-01-03,Alpha-fetoprotein test - antenatal
+15,FEMALE,2007-11-08,Standard pregnancy test
+15,FEMALE,2008-05-22,Streptococcus pneumoniae group B antigen assay
+15,FEMALE,2007-11-08,Blood group typing
+15,FEMALE,2007-11-08,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+15,FEMALE,2007-11-08,Hepatitis B surface antigen measurement
+16,MALE,2011-01-25,Peripheral blood smear interpretation
+19,FEMALE,1999-03-07,Throat culture
+20,FEMALE,2017-11-19,Alpha-fetoprotein test - antenatal
+20,FEMALE,2018-02-11,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+20,FEMALE,2018-02-11,Antenatal RhD antibody screening
+20,FEMALE,2018-02-11,Urine screening for glucose
+20,FEMALE,2017-09-24,Urine culture
+20,FEMALE,2017-09-24,"Hepatitis C antibody, confirmatory test"
+20,FEMALE,2017-09-24,Urine screening test for diabetes
+20,FEMALE,2017-09-24,Syphilis infectious titer test
+20,FEMALE,2017-09-24,Urine protein test
+20,FEMALE,2017-09-24,"Skin test for tuberculosis, Tine test"
+20,FEMALE,2017-09-24,Measurement of Varicella-zoster virus antibody
+20,FEMALE,2017-09-24,Standard pregnancy test
+20,FEMALE,2017-09-24,Blood group typing
+20,FEMALE,2017-09-24,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+20,FEMALE,2017-09-24,Hepatitis B surface antigen measurement
+20,FEMALE,2017-09-24,HIV antigen test
+20,FEMALE,2017-09-24,Chlamydia antigen test
+20,FEMALE,2017-09-24,Gonorrhea infection titer test
+20,FEMALE,2018-04-08,Streptococcus pneumoniae group B antigen assay
+22,FEMALE,2015-02-22,Urine screening for glucose
+22,FEMALE,2015-02-22,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+22,FEMALE,2014-10-05,Urine culture
+22,FEMALE,2014-10-05,Urine screening test for diabetes
+22,FEMALE,2014-10-05,"Hepatitis C antibody, confirmatory test"
+22,FEMALE,2014-10-05,Measurement of Varicella-zoster virus antibody
+22,FEMALE,2014-10-05,"Skin test for tuberculosis, Tine test"
+22,FEMALE,2014-10-05,Urine protein test
+22,FEMALE,2014-10-05,Standard pregnancy test
+22,FEMALE,2014-10-05,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+22,FEMALE,2014-10-05,HIV antigen test
+22,FEMALE,2014-10-05,Chlamydia antigen test
+22,FEMALE,2014-10-05,Gonorrhea infection titer test
+22,FEMALE,2014-11-30,Alpha-fetoprotein test - antenatal
+22,FEMALE,2014-10-05,Syphilis infectious titer test
+22,FEMALE,2014-10-05,Hepatitis B surface antigen measurement
+22,FEMALE,2015-04-19,Streptococcus pneumoniae group B antigen assay
+22,FEMALE,2014-10-05,Blood group typing
+24,FEMALE,2017-08-31,Measurement of respiratory function
+24,FEMALE,2014-12-25,Measurement of respiratory function
+26,FEMALE,2013-11-06,Alpha-fetoprotein test - antenatal
+26,FEMALE,2014-01-29,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+26,FEMALE,2014-01-29,Urine screening for glucose
+26,FEMALE,2013-09-11,Measurement of Varicella-zoster virus antibody
+26,FEMALE,2013-09-11,Urine screening test for diabetes
+26,FEMALE,2013-09-11,Urine culture
+26,FEMALE,2013-09-11,Syphilis infectious titer test
+26,FEMALE,2013-09-11,Gonorrhea infection titer test
+26,FEMALE,2013-09-11,Chlamydia antigen test
+26,FEMALE,2013-09-11,HIV antigen test
+26,FEMALE,2013-09-11,Hepatitis B surface antigen measurement
+26,FEMALE,2013-09-11,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+26,FEMALE,2013-09-11,Blood group typing
+26,FEMALE,2013-09-11,Standard pregnancy test
+26,FEMALE,2013-09-11,"Hepatitis C antibody, confirmatory test"
+26,FEMALE,2013-09-11,"Skin test for tuberculosis, Tine test"
+26,FEMALE,2013-09-11,Urine protein test
+27,FEMALE,2013-09-20,Peripheral blood smear interpretation
+27,FEMALE,2011-12-23,Standard pregnancy test
+28,MALE,2001-05-13,Peripheral blood smear interpretation
+29,FEMALE,2014-01-02,Throat culture
+31,FEMALE,2012-12-20,Measurement of respiratory function
+31,FEMALE,2012-08-13,Measurement of respiratory function
+31,FEMALE,2012-09-15,Throat culture
+33,FEMALE,2016-04-04,Hepatitis B surface antigen measurement
+33,FEMALE,2016-04-04,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+33,FEMALE,2016-04-04,Blood group typing
+33,FEMALE,2016-04-04,Standard pregnancy test
+33,FEMALE,2016-04-04,Urine protein test
+33,FEMALE,2016-04-04,"Skin test for tuberculosis, Tine test"
+33,FEMALE,2016-04-04,Measurement of Varicella-zoster virus antibody
+33,FEMALE,2016-04-04,"Hepatitis C antibody, confirmatory test"
+33,FEMALE,2016-04-04,Urine screening test for diabetes
+33,FEMALE,2016-02-11,Throat culture
+33,FEMALE,2016-04-04,Urine culture
+33,FEMALE,2020-04-20,Alpha-fetoprotein test - antenatal
+33,FEMALE,2016-04-04,Syphilis infectious titer test
+33,FEMALE,2020-09-07,Streptococcus pneumoniae group B antigen assay
+33,FEMALE,2016-04-04,Chlamydia antigen test
+33,FEMALE,2016-08-22,Urine screening for glucose
+33,FEMALE,2016-08-22,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+33,FEMALE,2016-04-04,HIV antigen test
+33,FEMALE,2016-04-04,Gonorrhea infection titer test
+33,FEMALE,2016-10-17,Streptococcus pneumoniae group B antigen assay
+33,FEMALE,2020-07-13,Urine screening for glucose
+33,FEMALE,2020-02-24,Urine protein test
+33,FEMALE,2020-02-24,"Skin test for tuberculosis, Tine test"
+33,FEMALE,2020-02-24,Measurement of Varicella-zoster virus antibody
+33,FEMALE,2020-02-24,"Hepatitis C antibody, confirmatory test"
+33,FEMALE,2020-07-13,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+33,FEMALE,2020-02-24,Chlamydia antigen test
+33,FEMALE,2020-02-24,HIV antigen test
+33,FEMALE,2020-02-24,Hepatitis B surface antigen measurement
+33,FEMALE,2020-02-24,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+33,FEMALE,2020-02-24,Blood group typing
+33,FEMALE,2020-02-24,Standard pregnancy test
+33,FEMALE,2020-02-24,Gonorrhea infection titer test
+33,FEMALE,2016-05-30,Alpha-fetoprotein test - antenatal
+33,FEMALE,2020-02-24,Urine screening test for diabetes
+33,FEMALE,2020-02-24,Urine culture
+33,FEMALE,2020-02-24,Syphilis infectious titer test
+34,MALE,2013-03-13,Measurement of respiratory function
+35,MALE,1992-12-24,Spirometry
+35,MALE,1996-10-03,Spirometry
+35,MALE,1987-05-07,Spirometry
+35,MALE,1990-08-02,Spirometry
+35,MALE,1994-12-08,Spirometry
+35,MALE,1989-05-25,Spirometry
+35,MALE,1987-08-06,Spirometry
+35,MALE,1987-06-04,Spirometry
+35,MALE,1994-02-10,Spirometry
+35,MALE,1991-08-22,Spirometry
+35,MALE,1990-08-23,Spirometry
+35,MALE,1997-04-24,Spirometry
+35,MALE,1990-02-22,Spirometry
+35,MALE,1994-09-15,Spirometry
+35,MALE,1997-02-27,Spirometry
+35,MALE,1987-12-31,Spirometry
+35,MALE,1995-01-12,Spirometry
+35,MALE,1989-03-23,Spirometry
+35,MALE,1995-02-16,Spirometry
+35,MALE,1990-03-22,Spirometry
+35,MALE,1989-06-22,Spirometry
+35,MALE,1987-07-09,Spirometry
+35,MALE,1989-12-28,Spirometry
+35,MALE,1996-03-07,Spirometry
+35,MALE,1996-12-26,Spirometry
+35,MALE,1990-10-25,Spirometry
+35,MALE,1991-03-14,Spirometry
+35,MALE,1992-02-20,Spirometry
+35,MALE,1991-10-10,Spirometry
+35,MALE,1994-02-17,Spirometry
+35,MALE,1992-10-22,Spirometry
+35,MALE,1989-08-31,Spirometry
+35,MALE,1995-06-08,Spirometry
+35,MALE,1987-12-10,Spirometry
+35,MALE,1991-11-14,Spirometry
+35,MALE,1988-03-31,Spirometry
+35,MALE,1989-01-12,Spirometry
+35,MALE,1996-06-06,Spirometry
+35,MALE,1995-11-02,Spirometry
+35,MALE,1992-03-12,Spirometry
+35,MALE,1989-10-26,Spirometry
+35,MALE,1994-01-13,Spirometry
+35,MALE,1993-05-20,Spirometry
+35,MALE,1992-07-16,Spirometry
+35,MALE,1994-06-16,Spirometry
+35,MALE,1988-10-27,Spirometry
+35,MALE,1987-09-10,Spirometry
+35,MALE,1988-03-03,Spirometry
+35,MALE,1988-01-07,Spirometry
+35,MALE,1988-08-25,Spirometry
+35,MALE,1995-05-11,Spirometry
+35,MALE,1991-09-12,Spirometry
+35,MALE,1995-04-13,Spirometry
+35,MALE,1993-03-18,Spirometry
+35,MALE,1997-03-27,Spirometry
+35,MALE,1993-02-04,Spirometry
+35,MALE,1989-11-23,Spirometry
+35,MALE,1993-04-15,Spirometry
+35,MALE,1996-05-02,Spirometry
+35,MALE,1989-09-21,Spirometry
+35,MALE,1989-02-02,Spirometry
+35,MALE,1987-11-05,Spirometry
+35,MALE,1989-08-03,Spirometry
+35,MALE,1989-02-23,Spirometry
+35,MALE,1996-04-04,Spirometry
+35,MALE,1996-10-31,Spirometry
+35,MALE,1990-05-24,Spirometry
+35,MALE,1988-10-06,Spirometry
+35,MALE,1996-02-01,Spirometry
+35,MALE,1990-04-26,Spirometry
+35,MALE,1992-01-30,Spirometry
+35,MALE,1990-06-28,Spirometry
+35,MALE,1996-02-22,Spirometry
+35,MALE,1990-01-18,Spirometry
+35,MALE,1988-07-07,Spirometry
+35,MALE,1991-01-24,Spirometry
+35,MALE,1992-11-19,Spirometry
+35,MALE,1989-04-27,Spirometry
+35,MALE,1997-01-30,Spirometry
+35,MALE,1993-11-18,Spirometry
+35,MALE,1991-06-20,Spirometry
+37,FEMALE,2015-10-25,Measurement of respiratory function
+41,FEMALE,2013-07-04,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+41,FEMALE,2013-07-04,Urine screening for glucose
+41,FEMALE,2014-06-05,Alpha-fetoprotein test - antenatal
+41,FEMALE,2014-04-10,Chlamydia antigen test
+41,FEMALE,2013-02-14,"Hepatitis C antibody, confirmatory test"
+41,FEMALE,2014-04-10,Gonorrhea infection titer test
+41,FEMALE,2014-04-10,Syphilis infectious titer test
+41,FEMALE,2014-04-10,Urine culture
+41,FEMALE,2014-04-10,Urine screening test for diabetes
+41,FEMALE,2014-04-10,"Hepatitis C antibody, confirmatory test"
+41,FEMALE,2014-04-10,Measurement of Varicella-zoster virus antibody
+41,FEMALE,2014-04-10,"Skin test for tuberculosis, Tine test"
+41,FEMALE,2014-04-10,Urine protein test
+41,FEMALE,2013-02-14,Urine screening test for diabetes
+41,FEMALE,2013-02-14,Measurement of Varicella-zoster virus antibody
+41,FEMALE,2013-02-14,Urine protein test
+41,FEMALE,2013-02-14,Urine culture
+41,FEMALE,2013-02-14,"Skin test for tuberculosis, Tine test"
+41,FEMALE,2013-08-29,Streptococcus pneumoniae group B antigen assay
+41,FEMALE,2014-04-10,Blood group typing
+41,FEMALE,2013-02-14,Chlamydia antigen test
+41,FEMALE,2014-04-10,Standard pregnancy test
+41,FEMALE,2013-02-14,Hepatitis B surface antigen measurement
+41,FEMALE,2013-02-14,Blood group typing
+41,FEMALE,2013-02-14,Standard pregnancy test
+41,FEMALE,2013-02-14,Syphilis infectious titer test
+41,FEMALE,2014-04-10,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+41,FEMALE,2013-02-14,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+41,FEMALE,2011-04-05,Throat culture
+41,FEMALE,2013-02-14,Gonorrhea infection titer test
+41,FEMALE,2014-08-28,Urine screening for glucose
+41,FEMALE,2013-04-11,Alpha-fetoprotein test - antenatal
+41,FEMALE,2013-02-14,HIV antigen test
+41,FEMALE,2014-08-28,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+41,FEMALE,2014-04-10,Hepatitis B surface antigen measurement
+41,FEMALE,2014-04-10,HIV antigen test
+45,FEMALE,2019-10-09,"Skin test for tuberculosis, Tine test"
+45,FEMALE,2019-10-09,Urine protein test
+45,FEMALE,2019-10-09,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+45,FEMALE,2019-10-09,Hepatitis B surface antigen measurement
+45,FEMALE,2019-10-09,HIV antigen test
+45,FEMALE,2019-10-09,Standard pregnancy test
+45,FEMALE,2020-04-22,Streptococcus pneumoniae group B antigen assay
+45,FEMALE,2019-10-09,Gonorrhea infection titer test
+45,FEMALE,2019-10-09,Syphilis infectious titer test
+45,FEMALE,2019-10-09,Blood group typing
+45,FEMALE,2019-10-09,Urine culture
+45,FEMALE,2019-12-04,Alpha-fetoprotein test - antenatal
+45,FEMALE,2020-11-25,Urine protein test
+45,FEMALE,2020-11-25,"Skin test for tuberculosis, Tine test"
+45,FEMALE,2020-11-25,Measurement of Varicella-zoster virus antibody
+45,FEMALE,2020-11-25,"Hepatitis C antibody, confirmatory test"
+45,FEMALE,2020-11-25,Urine screening test for diabetes
+45,FEMALE,2020-11-25,Urine culture
+45,FEMALE,2020-11-25,Syphilis infectious titer test
+45,FEMALE,2020-11-25,Gonorrhea infection titer test
+45,FEMALE,2020-11-25,Chlamydia antigen test
+45,FEMALE,2019-10-09,Urine screening test for diabetes
+45,FEMALE,2020-11-25,HIV antigen test
+45,FEMALE,2020-11-25,Hepatitis B surface antigen measurement
+45,FEMALE,2020-11-25,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+45,FEMALE,2020-11-25,Blood group typing
+45,FEMALE,2020-11-25,Standard pregnancy test
+45,FEMALE,2019-10-09,"Hepatitis C antibody, confirmatory test"
+45,FEMALE,2019-10-09,Chlamydia antigen test
+45,FEMALE,2019-10-09,Measurement of Varicella-zoster virus antibody
+45,FEMALE,2017-11-29,Alpha-fetoprotein test - antenatal
+45,FEMALE,2017-10-04,Chlamydia antigen test
+45,FEMALE,2017-10-04,Urine protein test
+45,FEMALE,2017-10-04,Urine culture
+45,FEMALE,2017-10-04,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+45,FEMALE,2017-10-04,Urine screening test for diabetes
+45,FEMALE,2017-10-04,"Hepatitis C antibody, confirmatory test"
+45,FEMALE,2017-10-04,Gonorrhea infection titer test
+45,FEMALE,2020-02-26,Urine screening for glucose
+45,FEMALE,2017-10-04,Measurement of Varicella-zoster virus antibody
+45,FEMALE,2018-02-21,Urine screening for glucose
+45,FEMALE,2018-02-21,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+45,FEMALE,2020-02-26,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+45,FEMALE,2017-10-04,Syphilis infectious titer test
+45,FEMALE,2017-10-04,Blood group typing
+45,FEMALE,2017-10-04,Hepatitis B surface antigen measurement
+45,FEMALE,2017-10-04,HIV antigen test
+45,FEMALE,2017-10-04,Standard pregnancy test
+45,FEMALE,2011-06-26,Measurement of respiratory function
+45,FEMALE,2017-10-04,"Skin test for tuberculosis, Tine test"
+45,FEMALE,2018-04-18,Streptococcus pneumoniae group B antigen assay
+48,MALE,2014-08-04,Throat culture
+48,MALE,2018-02-13,Peripheral blood smear interpretation
+52,MALE,2020-09-22,Throat culture
+53,MALE,2017-04-15,Measurement of respiratory function
+56,MALE,2019-06-22,Throat culture
+58,FEMALE,2013-04-27,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+58,FEMALE,2013-04-27,Urine screening for glucose
+58,FEMALE,2013-02-02,Alpha-fetoprotein test - antenatal
+58,FEMALE,2011-04-16,Standard pregnancy test
+58,FEMALE,2012-12-08,Urine culture
+58,FEMALE,2012-12-08,Urine protein test
+58,FEMALE,2012-12-08,"Skin test for tuberculosis, Tine test"
+58,FEMALE,2012-12-08,Measurement of Varicella-zoster virus antibody
+58,FEMALE,2012-12-08,"Hepatitis C antibody, confirmatory test"
+58,FEMALE,2012-12-08,Urine screening test for diabetes
+58,FEMALE,2012-12-08,Chlamydia antigen test
+58,FEMALE,2012-12-08,Gonorrhea infection titer test
+58,FEMALE,2013-06-22,Streptococcus pneumoniae group B antigen assay
+58,FEMALE,2012-12-08,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+58,FEMALE,2012-12-08,Blood group typing
+58,FEMALE,2012-12-08,Standard pregnancy test
+58,FEMALE,2012-12-08,Syphilis infectious titer test
+58,FEMALE,2012-12-08,HIV antigen test
+58,FEMALE,2012-12-08,Hepatitis B surface antigen measurement
+59,MALE,2011-05-31,Throat culture
+60,FEMALE,2011-12-24,Blood group typing
+60,FEMALE,2011-12-24,Urine screening test for diabetes
+60,FEMALE,2011-12-24,Urine culture
+60,FEMALE,2011-12-24,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+60,FEMALE,2011-12-24,Urine protein test
+60,FEMALE,2011-12-24,Chlamydia antigen test
+60,FEMALE,2011-12-24,"Skin test for tuberculosis, Tine test"
+60,FEMALE,2011-12-24,Hepatitis B surface antigen measurement
+60,FEMALE,2012-02-18,Alpha-fetoprotein test - antenatal
+60,FEMALE,2011-12-24,HIV antigen test
+60,FEMALE,2011-12-24,Measurement of Varicella-zoster virus antibody
+60,FEMALE,2011-12-24,Syphilis infectious titer test
+60,FEMALE,2012-04-01,Measurement of respiratory function
+60,FEMALE,2011-12-24,Gonorrhea infection titer test
+60,FEMALE,2011-12-24,"Hepatitis C antibody, confirmatory test"
+60,FEMALE,2011-12-24,Standard pregnancy test
+60,FEMALE,2012-05-12,Urine screening for glucose
+60,FEMALE,2012-05-12,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+60,FEMALE,2012-07-07,Streptococcus pneumoniae group B antigen assay
+61,FEMALE,2011-02-15,Antenatal RhD antibody screening
+61,FEMALE,2011-02-15,Urine screening for glucose
+61,FEMALE,2011-02-15,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+61,FEMALE,2011-04-12,Streptococcus pneumoniae group B antigen assay
+65,FEMALE,2016-01-25,Throat culture
+66,MALE,2011-12-27,Throat culture
+66,MALE,2011-04-25,Measurement of respiratory function
+69,MALE,2012-08-07,Throat culture
+69,MALE,2016-05-13,Measurement of respiratory function
+70,FEMALE,2020-08-02,Throat culture
+70,FEMALE,2020-05-19,Throat culture
+70,FEMALE,2014-03-22,Measurement of respiratory function
+71,FEMALE,2014-01-03,Throat culture
+71,FEMALE,2018-09-21,Standard pregnancy test
+71,FEMALE,2014-03-07,Standard pregnancy test
+72,FEMALE,2013-09-29,Measurement of respiratory function
+77,FEMALE,2014-01-26,Measurement of respiratory function
+79,FEMALE,2016-03-04,Streptococcus pneumoniae group B antigen assay
+79,FEMALE,2015-10-16,Alpha-fetoprotein test - antenatal
+79,FEMALE,2016-01-08,Urine screening for glucose
+79,FEMALE,2016-01-08,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+79,FEMALE,2017-12-06,Measurement of respiratory function
+79,FEMALE,2015-08-21,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+79,FEMALE,2015-08-21,Standard pregnancy test
+79,FEMALE,2015-08-21,Blood group typing
+79,FEMALE,2015-08-21,Syphilis infectious titer test
+79,FEMALE,2015-08-21,Urine screening test for diabetes
+79,FEMALE,2015-08-21,"Hepatitis C antibody, confirmatory test"
+79,FEMALE,2015-08-21,Measurement of Varicella-zoster virus antibody
+79,FEMALE,2015-08-21,Urine culture
+79,FEMALE,2015-08-21,"Skin test for tuberculosis, Tine test"
+79,FEMALE,2015-08-21,Urine protein test
+79,FEMALE,2015-08-21,Gonorrhea infection titer test
+79,FEMALE,2015-08-21,HIV antigen test
+79,FEMALE,2015-08-21,Chlamydia antigen test
+79,FEMALE,2015-08-21,Hepatitis B surface antigen measurement
+80,FEMALE,2016-06-04,Throat culture
+81,FEMALE,2015-08-19,Streptococcus pneumoniae group B antigen assay
+81,FEMALE,2018-05-23,Standard pregnancy test
+81,FEMALE,2015-02-04,Chlamydia antigen test
+81,FEMALE,2015-06-24,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+81,FEMALE,2015-02-04,Blood group typing
+81,FEMALE,2015-02-04,HIV antigen test
+81,FEMALE,2015-02-04,Hepatitis B surface antigen measurement
+81,FEMALE,2015-02-04,"Skin test for tuberculosis, Tine test"
+81,FEMALE,2015-02-04,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+81,FEMALE,2015-02-04,Measurement of Varicella-zoster virus antibody
+81,FEMALE,2013-09-10,Throat culture
+81,FEMALE,2015-02-04,Urine protein test
+81,FEMALE,2015-02-04,Standard pregnancy test
+81,FEMALE,2015-06-24,Urine screening for glucose
+81,FEMALE,2015-04-01,Alpha-fetoprotein test - antenatal
+81,FEMALE,2015-02-04,Urine culture
+81,FEMALE,2015-02-04,"Hepatitis C antibody, confirmatory test"
+81,FEMALE,2015-02-04,Urine screening test for diabetes
+81,FEMALE,2015-02-04,Syphilis infectious titer test
+81,FEMALE,2015-02-04,Gonorrhea infection titer test
+83,FEMALE,2014-07-06,Syphilis infectious titer test
+83,FEMALE,2014-07-06,Chlamydia antigen test
+83,FEMALE,2014-07-06,HIV antigen test
+83,FEMALE,2014-07-06,Hepatitis B surface antigen measurement
+83,FEMALE,2014-07-06,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+83,FEMALE,2014-07-06,Blood group typing
+83,FEMALE,2012-02-19,Streptococcus pneumoniae group B antigen assay
+83,FEMALE,2014-07-06,Standard pregnancy test
+83,FEMALE,2014-07-06,Urine protein test
+83,FEMALE,2014-07-06,"Skin test for tuberculosis, Tine test"
+83,FEMALE,2014-07-06,Measurement of Varicella-zoster virus antibody
+83,FEMALE,2014-07-06,"Hepatitis C antibody, confirmatory test"
+83,FEMALE,2014-07-06,Urine screening test for diabetes
+83,FEMALE,2014-07-06,Urine culture
+83,FEMALE,2014-07-06,Gonorrhea infection titer test
+83,FEMALE,2011-08-07,Standard pregnancy test
+83,FEMALE,2011-08-07,Blood group typing
+83,FEMALE,2011-08-07,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+83,FEMALE,2011-08-07,Urine culture
+83,FEMALE,2011-08-07,Hepatitis B surface antigen measurement
+83,FEMALE,2011-08-07,HIV antigen test
+83,FEMALE,2011-08-07,Chlamydia antigen test
+83,FEMALE,2011-08-07,"Skin test for tuberculosis, Tine test"
+83,FEMALE,2020-10-25,Streptococcus pneumoniae group B antigen assay
+83,FEMALE,2011-08-07,Urine protein test
+83,FEMALE,2011-08-07,Gonorrhea infection titer test
+83,FEMALE,2014-11-23,Urine screening for glucose
+83,FEMALE,2014-11-23,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+83,FEMALE,2011-12-25,Urine screening for glucose
+83,FEMALE,2011-08-07,"Hepatitis C antibody, confirmatory test"
+83,FEMALE,2011-08-07,Syphilis infectious titer test
+83,FEMALE,2011-12-25,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+83,FEMALE,2011-08-07,Measurement of Varicella-zoster virus antibody
+83,FEMALE,2011-12-25,Antenatal RhD antibody screening
+83,FEMALE,2015-01-18,Streptococcus pneumoniae group B antigen assay
+83,FEMALE,2020-08-30,Urine screening for glucose
+83,FEMALE,2014-08-31,Alpha-fetoprotein test - antenatal
+83,FEMALE,2020-04-12,"Hepatitis C antibody, confirmatory test"
+83,FEMALE,2020-04-12,Urine culture
+83,FEMALE,2020-04-12,Syphilis infectious titer test
+83,FEMALE,2020-04-12,Gonorrhea infection titer test
+83,FEMALE,2020-04-12,Chlamydia antigen test
+83,FEMALE,2020-04-12,HIV antigen test
+83,FEMALE,2020-04-12,Hepatitis B surface antigen measurement
+83,FEMALE,2020-04-12,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+83,FEMALE,2020-04-12,Blood group typing
+83,FEMALE,2020-04-12,Standard pregnancy test
+83,FEMALE,2020-04-12,Measurement of Varicella-zoster virus antibody
+83,FEMALE,2020-04-12,"Skin test for tuberculosis, Tine test"
+83,FEMALE,2020-04-12,Urine protein test
+83,FEMALE,2020-06-07,Alpha-fetoprotein test - antenatal
+83,FEMALE,2020-08-30,Antenatal RhD antibody screening
+83,FEMALE,2011-08-07,Urine screening test for diabetes
+83,FEMALE,2011-10-02,Alpha-fetoprotein test - antenatal
+83,FEMALE,2020-08-30,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+83,FEMALE,2014-11-23,Antenatal RhD antibody screening
+83,FEMALE,2020-04-12,Urine screening test for diabetes
+84,MALE,2017-04-25,Measurement of respiratory function
+85,MALE,2017-01-31,Throat culture
+85,MALE,2012-07-10,Measurement of respiratory function
+87,MALE,2018-09-10,Throat culture
+87,MALE,2019-12-20,Throat culture
+89,FEMALE,2014-05-01,Urine protein test
+89,FEMALE,2014-05-01,Peripheral blood smear interpretation
+89,FEMALE,2020-10-29,Urine protein test
+89,FEMALE,2020-10-29,"Skin test for tuberculosis, Tine test"
+89,FEMALE,2020-10-29,Measurement of Varicella-zoster virus antibody
+89,FEMALE,2020-10-29,"Hepatitis C antibody, confirmatory test"
+89,FEMALE,2020-10-29,Urine screening test for diabetes
+89,FEMALE,2020-10-29,Urine culture
+89,FEMALE,2020-10-29,Syphilis infectious titer test
+89,FEMALE,2020-10-29,Gonorrhea infection titer test
+89,FEMALE,2020-10-29,Chlamydia antigen test
+89,FEMALE,2020-10-29,HIV antigen test
+89,FEMALE,2020-10-29,Hepatitis B surface antigen measurement
+89,FEMALE,2020-10-29,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+89,FEMALE,2020-10-29,Blood group typing
+89,FEMALE,2020-10-29,Standard pregnancy test
+89,FEMALE,2014-05-01,"Skin test for tuberculosis, Tine test"
+89,FEMALE,2014-05-01,Measurement of Varicella-zoster virus antibody
+89,FEMALE,2014-05-01,"Hepatitis C antibody, confirmatory test"
+89,FEMALE,2014-05-01,Urine screening test for diabetes
+89,FEMALE,2014-05-01,Urine culture
+89,FEMALE,2014-05-01,Syphilis infectious titer test
+89,FEMALE,2014-05-01,Gonorrhea infection titer test
+89,FEMALE,2014-05-01,Chlamydia antigen test
+89,FEMALE,2014-05-01,HIV antigen test
+89,FEMALE,2014-05-01,Hepatitis B surface antigen measurement
+89,FEMALE,2014-05-01,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+89,FEMALE,2014-05-01,Blood group typing
+89,FEMALE,2014-05-01,Standard pregnancy test
+89,FEMALE,2018-03-22,Standard pregnancy test
+89,FEMALE,2020-08-31,Measurement of respiratory function
+89,FEMALE,2014-11-20,Streptococcus pneumoniae group B antigen assay
+89,FEMALE,2018-07-12,Blood group typing
+89,FEMALE,2014-07-03,Alpha-fetoprotein test - antenatal
+89,FEMALE,2018-11-29,Urine screening for glucose
+89,FEMALE,2018-11-29,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+89,FEMALE,2018-09-06,Alpha-fetoprotein test - antenatal
+89,FEMALE,2019-01-24,Streptococcus pneumoniae group B antigen assay
+89,FEMALE,2018-07-12,Urine protein test
+89,FEMALE,2018-07-12,"Skin test for tuberculosis, Tine test"
+89,FEMALE,2018-07-12,Measurement of Varicella-zoster virus antibody
+89,FEMALE,2018-07-12,"Hepatitis C antibody, confirmatory test"
+89,FEMALE,2018-07-12,Urine screening test for diabetes
+89,FEMALE,2018-07-12,Urine culture
+89,FEMALE,2018-07-12,Syphilis infectious titer test
+89,FEMALE,2018-07-12,Gonorrhea infection titer test
+89,FEMALE,2018-07-12,Chlamydia antigen test
+89,FEMALE,2018-07-12,HIV antigen test
+89,FEMALE,2018-07-12,Hepatitis B surface antigen measurement
+89,FEMALE,2018-07-12,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+89,FEMALE,2018-07-12,Standard pregnancy test
+89,FEMALE,2014-09-25,Urine screening for glucose
+89,FEMALE,2014-09-25,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+91,MALE,2014-07-20,Measurement of respiratory function
+92,MALE,1947-04-20,Measurement of respiratory function
+92,MALE,1950-11-13,Measurement of respiratory function
+92,MALE,1949-12-24,Throat culture
+96,MALE,2015-08-25,Measurement of respiratory function
+97,FEMALE,2020-03-07,Throat culture
+98,FEMALE,2018-03-06,Streptococcus pneumoniae group B antigen assay
+98,FEMALE,2017-10-17,Alpha-fetoprotein test - antenatal
+98,FEMALE,2019-04-09,Streptococcus pneumoniae group B antigen assay
+98,FEMALE,2017-08-22,HIV antigen test
+98,FEMALE,2018-09-25,Blood group typing
+98,FEMALE,2018-09-25,Standard pregnancy test
+98,FEMALE,2017-08-22,Syphilis infectious titer test
+98,FEMALE,2018-11-20,Alpha-fetoprotein test - antenatal
+98,FEMALE,2017-08-22,Urine culture
+98,FEMALE,2017-08-22,Urine screening test for diabetes
+98,FEMALE,2016-11-01,Standard pregnancy test
+98,FEMALE,2017-08-22,"Hepatitis C antibody, confirmatory test"
+98,FEMALE,2018-09-25,Urine protein test
+98,FEMALE,2018-09-25,"Skin test for tuberculosis, Tine test"
+98,FEMALE,2019-02-12,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+98,FEMALE,2019-02-12,Urine screening for glucose
+98,FEMALE,2018-09-25,Measurement of Varicella-zoster virus antibody
+98,FEMALE,2017-08-22,Measurement of Varicella-zoster virus antibody
+98,FEMALE,2017-08-22,"Skin test for tuberculosis, Tine test"
+98,FEMALE,2018-09-25,"Hepatitis C antibody, confirmatory test"
+98,FEMALE,2017-08-22,Urine protein test
+98,FEMALE,2017-08-22,Chlamydia antigen test
+98,FEMALE,2017-08-22,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+98,FEMALE,2017-08-22,Blood group typing
+98,FEMALE,2018-09-25,Urine screening test for diabetes
+98,FEMALE,2017-08-22,Hepatitis B surface antigen measurement
+98,FEMALE,2018-09-25,Gonorrhea infection titer test
+98,FEMALE,2018-09-25,Urine culture
+98,FEMALE,2018-09-25,Syphilis infectious titer test
+98,FEMALE,2017-08-22,Standard pregnancy test
+98,FEMALE,2018-01-09,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+98,FEMALE,2018-09-25,HIV antigen test
+98,FEMALE,2018-09-25,Hepatitis B surface antigen measurement
+98,FEMALE,2018-09-25,"Hemogram, automated, with RBC, WBC, Hgb, Hct, Indices, Platelet count, and manual WBC differential"
+98,FEMALE,2018-01-09,Urine screening for glucose
+98,FEMALE,2017-08-22,Gonorrhea infection titer test
+98,FEMALE,2018-09-25,Chlamydia antigen test
+100,FEMALE,2016-01-11,Throat culture
+100,FEMALE,2014-11-08,Throat culture

@@ -1,0 +1,3755 @@
+person_id,gender,procedure_date,procedure_source
+1,MALE,2018-11-22,Medication Reconciliation
+1,MALE,2012-02-04,Suture open wound
+1,MALE,2013-10-24,Medication Reconciliation
+1,MALE,2015-11-05,Medication Reconciliation
+1,MALE,2020-12-03,Medication Reconciliation
+2,MALE,2017-10-02,Medication Reconciliation
+2,MALE,2014-09-15,Medication Reconciliation
+2,MALE,2011-08-29,Medication Reconciliation
+2,MALE,2018-04-09,Medication Reconciliation
+2,MALE,2012-12-10,Medication Reconciliation
+2,MALE,2020-10-05,Medication Reconciliation
+2,MALE,2018-03-22,Sputum examination
+3,MALE,2014-02-10,Colonoscopy
+3,MALE,2020-04-15,Medication Reconciliation
+3,MALE,2013-03-06,Medication Reconciliation
+3,MALE,2020-02-04,Colonoscopy
+3,MALE,2015-03-18,Medication Reconciliation
+3,MALE,2017-03-29,Medication Reconciliation
+3,MALE,2019-02-09,Colonoscopy
+3,MALE,2019-02-09,Rectal polypectomy
+3,MALE,2014-03-12,Medication Reconciliation
+3,MALE,2019-02-09,Screening for occult blood in feces
+4,MALE,1970-04-23,Coronary artery bypass graft
+4,MALE,1970-04-23,Echocardiography
+4,MALE,1970-04-23,Percutaneous coronary intervention
+4,MALE,1961-02-19,Suture open wound
+4,MALE,1967-08-03,Medication Reconciliation
+4,MALE,1969-08-28,Medication Reconciliation
+4,MALE,1966-08-11,Medication Reconciliation
+4,MALE,1963-07-25,Medication Reconciliation
+4,MALE,1960-07-07,Medication Reconciliation
+4,MALE,1968-08-22,Medication Reconciliation
+4,MALE,1968-03-07,Medication Reconciliation
+5,MALE,2013-03-11,Medication Reconciliation
+5,MALE,2011-02-28,Medication Reconciliation
+5,MALE,2019-04-15,Medication Reconciliation
+5,MALE,2018-04-09,Medication Reconciliation
+5,MALE,2014-03-17,Medication Reconciliation
+5,MALE,2012-03-05,Medication Reconciliation
+6,FEMALE,1961-02-19,Medication Reconciliation
+6,FEMALE,1958-02-02,Medication Reconciliation
+6,FEMALE,1959-02-08,Medication Reconciliation
+6,FEMALE,1967-03-26,Medication Reconciliation
+6,FEMALE,1963-07-28,Electroencephalogram
+6,FEMALE,1962-02-26,Electroencephalogram
+7,MALE,2020-03-23,Placing subject in prone position
+7,MALE,2020-03-19,Oxygen administration by mask
+7,MALE,2020-03-23,Oxygen administration by mask
+7,MALE,2020-03-21,Oxygen administration by mask
+7,MALE,2020-03-19,Placing subject in prone position
+7,MALE,2020-03-20,Oxygen administration by mask
+7,MALE,2020-03-20,Placing subject in prone position
+7,MALE,2020-03-14,Placing subject in prone position
+7,MALE,2020-03-15,Oxygen administration by mask
+7,MALE,2020-08-05,Medication Reconciliation
+7,MALE,2020-03-12,Plain chest X-ray
+7,MALE,2020-03-15,Placing subject in prone position
+7,MALE,2020-03-16,Oxygen administration by mask
+7,MALE,2020-03-16,Placing subject in prone position
+7,MALE,2020-03-17,Oxygen administration by mask
+7,MALE,2020-03-22,Oxygen administration by mask
+7,MALE,2020-03-22,Placing subject in prone position
+7,MALE,2020-03-17,Placing subject in prone position
+7,MALE,2016-04-03,Colonoscopy
+7,MALE,2020-03-21,Placing subject in prone position
+7,MALE,2017-07-19,Medication Reconciliation
+7,MALE,2020-03-12,Oxygen administration by mask
+7,MALE,2020-03-12,Placing subject in prone position
+7,MALE,2020-03-13,Oxygen administration by mask
+7,MALE,2020-03-18,Oxygen administration by mask
+7,MALE,2020-03-18,Placing subject in prone position
+7,MALE,2020-03-13,Placing subject in prone position
+7,MALE,2019-08-28,Suture open wound
+7,MALE,2019-08-28,Injection of tetanus antitoxin
+7,MALE,2020-03-14,Oxygen administration by mask
+7,MALE,2014-03-20,Sputum examination
+7,MALE,2018-07-25,Medication Reconciliation
+7,MALE,2013-06-26,Medication Reconciliation
+7,MALE,2018-10-18,Suture open wound
+7,MALE,2011-04-05,Colonoscopy
+8,FEMALE,2014-03-11,Colonoscopy
+8,FEMALE,2017-06-26,Medication Reconciliation
+8,FEMALE,2011-05-23,Medication Reconciliation
+8,FEMALE,2018-07-02,Medication Reconciliation
+8,FEMALE,2019-03-10,Colonoscopy
+9,MALE,2020-04-19,Medication Reconciliation
+9,MALE,2014-03-16,Medication Reconciliation
+9,MALE,2019-04-14,Medication Reconciliation
+9,MALE,2011-02-27,Medication Reconciliation
+9,MALE,2020-01-20,Colonoscopy
+9,MALE,2015-01-21,Colonoscopy
+10,MALE,2017-01-11,Screening for occult blood in feces
+10,MALE,2012-11-19,Pulmonary rehabilitation
+10,MALE,2012-11-19,Digital examination of rectum
+10,MALE,2013-11-19,Digital examination of rectum
+10,MALE,2013-11-25,Pulmonary rehabilitation
+10,MALE,2017-01-11,Colonoscopy
+10,MALE,2017-01-11,Rectal polypectomy
+10,MALE,2018-12-24,Medication Reconciliation
+10,MALE,2018-02-05,Colonoscopy
+10,MALE,2018-12-24,Digital examination of rectum
+10,MALE,2014-12-01,Digital examination of rectum
+10,MALE,2018-12-24,Pulmonary rehabilitation
+10,MALE,2014-12-01,Pulmonary rehabilitation
+10,MALE,2014-03-17,Echocardiography
+10,MALE,2014-03-17,Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance
+10,MALE,2016-12-12,Digital examination of rectum
+10,MALE,2015-12-01,Digital examination of rectum
+10,MALE,2011-11-08,Digital examination of rectum
+10,MALE,2011-11-14,Pulmonary rehabilitation
+10,MALE,2011-11-14,Medication Reconciliation
+10,MALE,2015-12-07,Pulmonary rehabilitation
+10,MALE,2016-12-12,Pulmonary rehabilitation
+10,MALE,2016-12-12,Medication Reconciliation
+10,MALE,2019-12-24,Digital examination of rectum
+10,MALE,2012-01-13,Colonoscopy
+10,MALE,2019-12-30,Medication Reconciliation
+10,MALE,2019-12-30,Pulmonary rehabilitation
+10,MALE,2017-12-12,Digital examination of rectum
+10,MALE,2017-12-18,Pulmonary rehabilitation
+10,MALE,2017-12-18,Medication Reconciliation
+11,FEMALE,2018-12-02,Evaluation of uterine fundal height
+11,FEMALE,2019-05-19,Evaluation of uterine fundal height
+11,FEMALE,2018-12-02,Auscultation of the fetal heart
+11,FEMALE,2019-05-19,Auscultation of the fetal heart
+11,FEMALE,2018-12-02,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+11,FEMALE,2018-11-04,Auscultation of the fetal heart
+11,FEMALE,2018-11-04,Evaluation of uterine fundal height
+11,FEMALE,2020-09-20,Depression screening
+11,FEMALE,2020-09-20,Physical examination
+11,FEMALE,2018-11-04,Ultrasound scan for fetal viability
+11,FEMALE,2018-11-04,Physical examination
+11,FEMALE,2018-11-04,Rubella screening
+11,FEMALE,2019-02-24,Auscultation of the fetal heart
+11,FEMALE,2018-11-04,"Cytopathology procedure, preparation of smear, genital source"
+11,FEMALE,2019-02-24,Evaluation of uterine fundal height
+11,FEMALE,2017-10-15,Ultrasound scan for fetal viability
+11,FEMALE,2013-04-28,Medication Reconciliation
+11,FEMALE,2017-01-01,Ultrasound scan for fetal viability
+11,FEMALE,2012-04-22,Medication Reconciliation
+11,FEMALE,2020-09-13,Ultrasound scan for fetal viability
+11,FEMALE,2017-01-15,Physical examination
+11,FEMALE,2012-11-25,Medication Reconciliation
+11,FEMALE,2017-01-15,Depression screening
+11,FEMALE,2012-11-19,Sputum examination
+11,FEMALE,2011-04-17,Medication Reconciliation
+11,FEMALE,2019-01-27,Auscultation of the fetal heart
+11,FEMALE,2019-01-27,Evaluation of uterine fundal height
+11,FEMALE,2017-10-22,Depression screening
+11,FEMALE,2018-12-30,Evaluation of uterine fundal height
+11,FEMALE,2018-12-30,Auscultation of the fetal heart
+11,FEMALE,2019-04-21,Auscultation of the fetal heart
+11,FEMALE,2019-07-14,Depression screening
+11,FEMALE,2019-04-21,Evaluation of uterine fundal height
+11,FEMALE,2016-01-14,Suture open wound
+11,FEMALE,2018-05-13,Medication Reconciliation
+11,FEMALE,2019-07-14,Physical examination
+11,FEMALE,2019-03-24,Evaluation of uterine fundal height
+11,FEMALE,2019-03-24,Auscultation of the fetal heart
+11,FEMALE,2017-10-22,Physical examination
+11,FEMALE,2019-03-24,"Vaccination for diphtheria, pertussis, and tetanus"
+11,FEMALE,2018-12-30,Fetal anatomy study
+12,MALE,1995-04-22,Subcutaneous immunotherapy
+12,MALE,1996-05-25,Subcutaneous immunotherapy
+12,MALE,1996-06-15,Subcutaneous immunotherapy
+12,MALE,1995-05-13,Subcutaneous immunotherapy
+12,MALE,1998-03-29,Subcutaneous immunotherapy
+12,MALE,1994-11-26,Allergy screening test
+12,MALE,1996-04-13,Subcutaneous immunotherapy
+12,MALE,1996-07-06,Subcutaneous immunotherapy
+12,MALE,1996-05-04,Subcutaneous immunotherapy
+12,MALE,1997-08-31,Subcutaneous immunotherapy
+12,MALE,1997-08-10,Subcutaneous immunotherapy
+12,MALE,1990-01-08,Medication Reconciliation
+12,MALE,1995-09-16,Subcutaneous immunotherapy
+12,MALE,1997-06-08,Subcutaneous immunotherapy
+12,MALE,1999-01-18,Medication Reconciliation
+12,MALE,1997-12-14,Subcutaneous immunotherapy
+12,MALE,1997-02-23,Subcutaneous immunotherapy
+12,MALE,1996-11-10,Subcutaneous immunotherapy
+12,MALE,1995-12-09,Subcutaneous immunotherapy
+12,MALE,1996-01-15,Review of systems
+12,MALE,1996-01-20,Subcutaneous immunotherapy
+12,MALE,1995-04-01,Subcutaneous immunotherapy
+12,MALE,1995-08-26,Subcutaneous immunotherapy
+12,MALE,1997-05-18,Subcutaneous immunotherapy
+12,MALE,1996-01-15,Medication Reconciliation
+12,MALE,1997-07-20,Subcutaneous immunotherapy
+12,MALE,1998-02-15,Subcutaneous immunotherapy
+12,MALE,1996-07-27,Subcutaneous immunotherapy
+12,MALE,1995-07-15,Subcutaneous immunotherapy
+12,MALE,1997-03-16,Subcutaneous immunotherapy
+12,MALE,1995-10-28,Subcutaneous immunotherapy
+12,MALE,1998-04-19,Subcutaneous immunotherapy
+12,MALE,1995-01-07,Subcutaneous immunotherapy
+12,MALE,1998-03-08,Subcutaneous immunotherapy
+12,MALE,1996-09-29,Subcutaneous immunotherapy
+12,MALE,1996-12-01,Subcutaneous immunotherapy
+12,MALE,1996-01-15,Brief general examination
+12,MALE,1998-05-31,Allergy screening test
+12,MALE,1996-12-22,Subcutaneous immunotherapy
+12,MALE,1995-08-05,Subcutaneous immunotherapy
+12,MALE,1995-01-28,Subcutaneous immunotherapy
+12,MALE,1997-04-06,Subcutaneous immunotherapy
+12,MALE,1995-02-18,Subcutaneous immunotherapy
+12,MALE,1998-01-04,Subcutaneous immunotherapy
+12,MALE,1997-11-02,Subcutaneous immunotherapy
+12,MALE,1996-02-10,Subcutaneous immunotherapy
+12,MALE,1995-11-18,Subcutaneous immunotherapy
+12,MALE,1996-03-02,Subcutaneous immunotherapy
+12,MALE,1995-03-11,Subcutaneous immunotherapy
+12,MALE,1998-01-25,Subcutaneous immunotherapy
+12,MALE,1993-01-11,Medication Reconciliation
+12,MALE,1996-10-20,Subcutaneous immunotherapy
+12,MALE,1996-03-23,Subcutaneous immunotherapy
+12,MALE,1996-08-18,Subcutaneous immunotherapy
+12,MALE,1997-06-29,Subcutaneous immunotherapy
+12,MALE,1998-05-10,Subcutaneous immunotherapy
+12,MALE,1994-11-26,Allergy screening test
+12,MALE,1997-11-23,Subcutaneous immunotherapy
+12,MALE,1995-10-07,Subcutaneous immunotherapy
+12,MALE,1994-12-17,Subcutaneous immunotherapy
+12,MALE,1997-04-27,Subcutaneous immunotherapy
+12,MALE,1997-02-20,Suture open wound
+12,MALE,1997-01-12,Subcutaneous immunotherapy
+12,MALE,1997-02-02,Subcutaneous immunotherapy
+12,MALE,1995-12-30,Subcutaneous immunotherapy
+12,MALE,1996-09-08,Subcutaneous immunotherapy
+12,MALE,1994-08-22,Medication Reconciliation
+12,MALE,1997-10-12,Subcutaneous immunotherapy
+12,MALE,1997-09-21,Subcutaneous immunotherapy
+12,MALE,1995-06-03,Subcutaneous immunotherapy
+12,MALE,1995-06-24,Subcutaneous immunotherapy
+13,MALE,2014-06-14,Medication Reconciliation
+13,MALE,2011-05-28,Review of systems
+13,MALE,2011-05-28,Brief general examination
+13,MALE,2011-05-28,Medication Reconciliation
+13,MALE,2011-05-28,Medication Reconciliation
+13,MALE,2012-05-03,Colonoscopy
+13,MALE,2017-05-02,Colonoscopy
+13,MALE,2019-07-13,Medication Reconciliation
+13,MALE,2017-07-01,Medication Reconciliation
+13,MALE,2013-06-08,Medication Reconciliation
+13,MALE,2020-07-18,Medication Reconciliation
+14,FEMALE,2015-11-28,Replacement of intrauterine contraceptive device
+14,FEMALE,2011-11-22,Insertion of subcutaneous contraceptive
+14,FEMALE,2020-07-25,Colonoscopy
+14,FEMALE,2019-11-02,Removal of intrauterine device
+14,FEMALE,2012-11-23,Insertion of intrauterine contraceptive device
+14,FEMALE,2019-06-01,Rectal polypectomy
+14,FEMALE,2016-11-03,Insertion of subcutaneous contraceptive
+14,FEMALE,2019-06-01,Medication Reconciliation
+14,FEMALE,2019-06-01,Screening for occult blood in feces
+14,FEMALE,2017-11-22,Suture open wound
+14,FEMALE,2017-11-22,Injection of tetanus antitoxin
+14,FEMALE,2019-06-01,Colonoscopy
+15,FEMALE,2008-01-31,Evaluation of uterine fundal height
+15,FEMALE,2000-02-10,Induced termination of pregnancy
+15,FEMALE,2000-02-10,Counseling for termination of pregnancy
+15,FEMALE,2008-06-19,Episiotomy
+15,FEMALE,2007-11-08,Physical examination
+15,FEMALE,2007-11-08,Rubella screening
+15,FEMALE,2007-11-08,"Cytopathology procedure, preparation of smear, genital source"
+15,FEMALE,2007-11-08,Auscultation of the fetal heart
+15,FEMALE,2007-11-08,Evaluation of uterine fundal height
+15,FEMALE,2007-11-08,Ultrasound scan for fetal viability
+15,FEMALE,2004-02-05,Counseling for termination of pregnancy
+15,FEMALE,2004-02-05,Induced termination of pregnancy
+15,FEMALE,2007-05-17,Evaluation of uterine fundal height
+15,FEMALE,2007-05-17,Auscultation of the fetal heart
+15,FEMALE,2008-01-31,Auscultation of the fetal heart
+15,FEMALE,2006-11-16,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+15,FEMALE,2007-07-12,Physical examination
+15,FEMALE,2004-01-22,Ultrasound scan for fetal viability
+15,FEMALE,2007-05-24,Evaluation of uterine fundal height
+15,FEMALE,2007-05-24,Auscultation of the fetal heart
+15,FEMALE,2007-07-12,Depression screening
+15,FEMALE,2006-12-14,Fetal anatomy study
+15,FEMALE,2006-12-14,Evaluation of uterine fundal height
+15,FEMALE,2006-12-14,Auscultation of the fetal heart
+15,FEMALE,2006-11-16,Auscultation of the fetal heart
+15,FEMALE,2006-11-16,Evaluation of uterine fundal height
+15,FEMALE,2000-02-03,Ultrasound scan for fetal viability
+15,FEMALE,2008-04-24,Auscultation of the fetal heart
+15,FEMALE,2008-04-24,Evaluation of uterine fundal height
+15,FEMALE,2008-06-05,Auscultation of the fetal heart
+15,FEMALE,2008-06-05,Evaluation of uterine fundal height
+15,FEMALE,2007-12-06,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+15,FEMALE,2007-12-06,Auscultation of the fetal heart
+15,FEMALE,2008-02-28,Auscultation of the fetal heart
+15,FEMALE,2007-05-31,Medical induction of labor
+15,FEMALE,2008-01-03,Auscultation of the fetal heart
+15,FEMALE,2008-01-03,Evaluation of uterine fundal height
+15,FEMALE,2008-01-03,Fetal anatomy study
+15,FEMALE,2008-05-22,Auscultation of the fetal heart
+15,FEMALE,2007-12-06,Evaluation of uterine fundal height
+15,FEMALE,2008-02-28,Evaluation of uterine fundal height
+15,FEMALE,2008-05-22,Evaluation of uterine fundal height
+15,FEMALE,2008-07-31,Physical examination
+15,FEMALE,2008-07-31,Depression screening
+15,FEMALE,2009-07-26,Insertion of subcutaneous contraceptive
+15,FEMALE,2007-04-05,Evaluation of uterine fundal height
+15,FEMALE,2006-10-19,Rubella screening
+15,FEMALE,2006-10-19,Auscultation of the fetal heart
+15,FEMALE,2006-10-19,Evaluation of uterine fundal height
+15,FEMALE,2008-03-27,"Vaccination for diphtheria, pertussis, and tetanus"
+15,FEMALE,2006-10-19,"Cytopathology procedure, preparation of smear, genital source"
+15,FEMALE,2007-05-03,Auscultation of the fetal heart
+15,FEMALE,2007-05-03,Evaluation of uterine fundal height
+15,FEMALE,2008-06-12,Auscultation of the fetal heart
+15,FEMALE,2007-02-08,Auscultation of the fetal heart
+15,FEMALE,2008-06-12,Evaluation of uterine fundal height
+15,FEMALE,2004-02-12,Depression screening
+15,FEMALE,2004-02-12,Physical examination
+15,FEMALE,2007-02-08,Evaluation of uterine fundal height
+15,FEMALE,2008-03-27,Evaluation of uterine fundal height
+15,FEMALE,2006-10-19,Physical examination
+15,FEMALE,2006-10-19,Ultrasound scan for fetal viability
+15,FEMALE,2007-04-05,Auscultation of the fetal heart
+15,FEMALE,2008-03-27,Auscultation of the fetal heart
+15,FEMALE,2007-01-11,Evaluation of uterine fundal height
+15,FEMALE,2007-01-11,Auscultation of the fetal heart
+15,FEMALE,2000-02-24,Depression screening
+15,FEMALE,2000-02-24,Physical examination
+15,FEMALE,2007-03-08,Auscultation of the fetal heart
+15,FEMALE,2007-03-08,"Vaccination for diphtheria, pertussis, and tetanus"
+15,FEMALE,2007-03-08,Evaluation of uterine fundal height
+16,MALE,2011-01-25,Medication Reconciliation
+16,MALE,2011-01-25,Brief general examination
+16,MALE,2011-01-25,Review of systems
+17,MALE,2015-06-23,Colonoscopy
+18,MALE,2011-03-19,Medication Reconciliation
+18,MALE,2014-04-05,Medication Reconciliation
+18,MALE,2016-04-16,Medication Reconciliation
+18,MALE,2019-08-15,Colonoscopy
+18,MALE,2014-08-16,Colonoscopy
+19,FEMALE,2005-06-15,Plain chest X-ray
+19,FEMALE,2005-06-10,Oxygen administration by mask
+19,FEMALE,2005-06-10,Placing subject in prone position
+19,FEMALE,2005-06-15,Oxygen administration by mask
+19,FEMALE,2005-06-15,Placing subject in prone position
+19,FEMALE,2004-12-12,Echocardiography
+19,FEMALE,2004-12-12,Medication Reconciliation
+19,FEMALE,2005-06-10,Plain chest X-ray
+19,FEMALE,2005-06-15,Placing subject in prone position
+19,FEMALE,2005-06-16,Placing subject in prone position
+19,FEMALE,2005-06-16,Oxygen administration by mask
+19,FEMALE,2003-07-18,Medication Reconciliation
+19,FEMALE,2004-07-23,Medication Reconciliation
+19,FEMALE,2005-06-17,Heart failure education
+19,FEMALE,2005-06-15,Electrocardiographic procedure
+19,FEMALE,2005-06-15,Medication Reconciliation
+19,FEMALE,2005-06-15,Oxygen administration by mask
+19,FEMALE,2005-06-10,Oxygen administration by mask
+19,FEMALE,2005-06-10,Placing subject in prone position
+19,FEMALE,2005-06-10,Medication Reconciliation
+19,FEMALE,2004-11-28,Assessment using New York Heart Association Classification
+19,FEMALE,2005-06-10,Electrocardiographic procedure
+19,FEMALE,2004-11-28,Electrocardiographic procedure
+19,FEMALE,2005-06-11,Heart failure education
+19,FEMALE,2004-11-28,Plain chest X-ray
+20,FEMALE,2017-01-22,Intramuscular injection
+20,FEMALE,2018-02-11,Passive immunization
+20,FEMALE,2018-02-11,"Vaccination for diphtheria, pertussis, and tetanus"
+20,FEMALE,2018-04-08,Auscultation of the fetal heart
+20,FEMALE,2018-02-11,Auscultation of the fetal heart
+20,FEMALE,2018-04-08,Evaluation of uterine fundal height
+20,FEMALE,2017-07-23,Intramuscular injection
+20,FEMALE,2018-04-29,Episiotomy
+20,FEMALE,2018-02-11,Evaluation of uterine fundal height
+20,FEMALE,2018-03-11,Auscultation of the fetal heart
+20,FEMALE,2016-01-24,Intramuscular injection
+20,FEMALE,2015-10-25,Intramuscular injection
+20,FEMALE,2017-04-23,Intramuscular injection
+20,FEMALE,2017-07-02,Medication Reconciliation
+20,FEMALE,2012-06-03,Medication Reconciliation
+20,FEMALE,2018-03-11,Evaluation of uterine fundal height
+20,FEMALE,2018-04-22,Auscultation of the fetal heart
+20,FEMALE,2016-10-23,Intramuscular injection
+20,FEMALE,2016-07-24,Intramuscular injection
+20,FEMALE,2017-12-17,Auscultation of the fetal heart
+20,FEMALE,2015-07-26,Intramuscular injection
+20,FEMALE,2018-04-22,Evaluation of uterine fundal height
+20,FEMALE,2015-04-14,Intramuscular injection
+20,FEMALE,2017-12-17,Evaluation of uterine fundal height
+20,FEMALE,2017-10-22,Auscultation of the fetal heart
+20,FEMALE,2018-06-10,Depression screening
+20,FEMALE,2018-01-14,Evaluation of uterine fundal height
+20,FEMALE,2018-01-14,Auscultation of the fetal heart
+20,FEMALE,2017-10-22,Evaluation of uterine fundal height
+20,FEMALE,2017-09-24,Auscultation of the fetal heart
+20,FEMALE,2016-04-24,Intramuscular injection
+20,FEMALE,2017-10-22,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+20,FEMALE,2017-11-19,Fetal anatomy study
+20,FEMALE,2017-11-19,Evaluation of uterine fundal height
+20,FEMALE,2017-11-19,Auscultation of the fetal heart
+20,FEMALE,2017-09-24,Evaluation of uterine fundal height
+20,FEMALE,2018-06-10,Passive immunization
+20,FEMALE,2017-09-24,Ultrasound scan for fetal viability
+20,FEMALE,2017-09-24,"Cytopathology procedure, preparation of smear, genital source"
+20,FEMALE,2017-09-24,Physical examination
+20,FEMALE,2017-09-24,Rubella screening
+20,FEMALE,2018-06-10,Physical examination
+21,MALE,2015-09-02,Medication Reconciliation
+21,MALE,2020-03-03,Oxygen administration by mask
+21,MALE,2020-02-28,Plain chest X-ray
+21,MALE,2020-02-28,Oxygen administration by mask
+21,MALE,2020-02-28,Placing subject in prone position
+21,MALE,2020-02-29,Oxygen administration by mask
+21,MALE,2020-02-29,Placing subject in prone position
+21,MALE,2020-03-01,Oxygen administration by mask
+21,MALE,2020-03-01,Placing subject in prone position
+21,MALE,2020-03-02,Oxygen administration by mask
+21,MALE,2020-03-02,Placing subject in prone position
+21,MALE,2020-03-03,Placing subject in prone position
+21,MALE,2020-03-04,Oxygen administration by mask
+21,MALE,2020-03-04,Placing subject in prone position
+21,MALE,2020-03-05,Oxygen administration by mask
+21,MALE,2020-03-05,Placing subject in prone position
+21,MALE,2020-03-06,Oxygen administration by mask
+21,MALE,2020-03-06,Placing subject in prone position
+21,MALE,2020-03-07,Oxygen administration by mask
+21,MALE,2020-03-07,Placing subject in prone position
+21,MALE,2020-03-08,Oxygen administration by mask
+21,MALE,2020-03-08,Placing subject in prone position
+21,MALE,2019-09-11,Medication Reconciliation
+21,MALE,2017-09-06,Medication Reconciliation
+22,FEMALE,2015-01-25,Auscultation of the fetal heart
+22,FEMALE,2014-11-02,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+22,FEMALE,2014-11-02,Auscultation of the fetal heart
+22,FEMALE,2014-11-02,Evaluation of uterine fundal height
+22,FEMALE,2015-01-25,Evaluation of uterine fundal height
+22,FEMALE,2015-06-21,Depression screening
+22,FEMALE,2015-04-19,Evaluation of uterine fundal height
+22,FEMALE,2015-04-19,Auscultation of the fetal heart
+22,FEMALE,2015-06-21,Physical examination
+22,FEMALE,2015-05-03,Evaluation of uterine fundal height
+22,FEMALE,2014-08-10,Removal of intrauterine device
+22,FEMALE,2015-05-03,Auscultation of the fetal heart
+22,FEMALE,2016-07-03,Removal of subcutaneous contraceptive
+22,FEMALE,2016-05-15,Medication Reconciliation
+22,FEMALE,2016-05-15,Colonoscopy
+22,FEMALE,2013-04-28,Replacement of intrauterine contraceptive device
+22,FEMALE,2015-06-21,Insertion of subcutaneous contraceptive
+22,FEMALE,2019-06-02,Medication Reconciliation
+22,FEMALE,2015-02-22,Auscultation of the fetal heart
+22,FEMALE,2014-11-30,Auscultation of the fetal heart
+22,FEMALE,2014-12-28,Auscultation of the fetal heart
+22,FEMALE,2015-02-22,Evaluation of uterine fundal height
+22,FEMALE,2014-10-05,Ultrasound scan for fetal viability
+22,FEMALE,2014-10-05,"Cytopathology procedure, preparation of smear, genital source"
+22,FEMALE,2014-11-30,Fetal anatomy study
+22,FEMALE,2014-10-05,Rubella screening
+22,FEMALE,2014-10-05,Evaluation of uterine fundal height
+22,FEMALE,2015-03-22,Evaluation of uterine fundal height
+22,FEMALE,2015-03-22,Auscultation of the fetal heart
+22,FEMALE,2017-05-21,Medication Reconciliation
+22,FEMALE,2015-02-22,"Vaccination for diphtheria, pertussis, and tetanus"
+22,FEMALE,2014-10-05,Auscultation of the fetal heart
+22,FEMALE,2014-10-05,Physical examination
+22,FEMALE,2020-06-07,Medication Reconciliation
+22,FEMALE,2014-12-28,Evaluation of uterine fundal height
+22,FEMALE,2014-11-30,Evaluation of uterine fundal height
+23,MALE,2002-03-09,Medication Reconciliation
+23,MALE,2004-10-21,Oxygen administration by mask
+23,MALE,1996-11-09,Direct current cardioversion
+23,MALE,2004-10-21,Medication Reconciliation
+23,MALE,2002-03-02,Direct current cardioversion
+23,MALE,2004-10-22,Heart failure education
+23,MALE,1998-11-21,Direct current cardioversion
+23,MALE,1995-11-04,Direct current cardioversion
+23,MALE,2004-10-21,Placing subject in prone position
+23,MALE,2002-03-09,Direct current cardioversion
+23,MALE,2004-10-21,Electrocardiographic procedure
+23,MALE,2005-04-20,Echocardiography
+23,MALE,2004-04-22,Oxygen administration by mask
+23,MALE,2005-10-17,Plain chest X-ray
+23,MALE,2005-10-17,Placing subject in prone position
+23,MALE,2003-10-25,Echocardiography
+23,MALE,1999-11-27,Medication Reconciliation
+23,MALE,2003-12-20,Medication Reconciliation
+23,MALE,2003-12-20,Direct current cardioversion
+23,MALE,1997-11-15,Medication Reconciliation
+23,MALE,2005-10-17,Oxygen administration by mask
+23,MALE,2005-04-20,Medication Reconciliation
+23,MALE,1997-11-15,Direct current cardioversion
+23,MALE,1999-11-27,Direct current cardioversion
+23,MALE,2004-04-22,Plain chest X-ray
+23,MALE,2004-04-22,Placing subject in prone position
+23,MALE,2003-10-25,Medication Reconciliation
+23,MALE,2004-10-21,Oxygen administration by mask
+23,MALE,2004-10-21,Plain chest X-ray
+23,MALE,2000-12-02,Direct current cardioversion
+23,MALE,2000-12-02,Medication Reconciliation
+23,MALE,2000-12-02,Bone density scan
+23,MALE,2002-02-19,Sputum examination
+23,MALE,2005-10-17,Medication Reconciliation
+23,MALE,2005-10-17,Electrocardiographic procedure
+23,MALE,2005-10-17,Oxygen administration by mask
+23,MALE,2005-10-17,Placing subject in prone position
+23,MALE,2001-12-08,Direct current cardioversion
+23,MALE,2004-04-22,Medication Reconciliation
+23,MALE,2004-04-22,Electrocardiographic procedure
+23,MALE,2004-04-22,Echocardiography
+23,MALE,2004-04-22,Oxygen administration by mask
+23,MALE,2004-04-22,Placing subject in prone position
+23,MALE,2004-04-23,Oxygen administration by mask
+23,MALE,2004-04-23,Placing subject in prone position
+23,MALE,2004-04-24,Heart failure education
+23,MALE,2004-12-25,Medication Reconciliation
+23,MALE,2004-12-25,Direct current cardioversion
+23,MALE,2004-10-21,Placing subject in prone position
+23,MALE,2000-10-16,Screening for occult blood in feces
+23,MALE,2000-10-16,Colonoscopy
+23,MALE,2003-10-11,Electrocardiographic procedure
+23,MALE,2002-12-14,Direct current cardioversion
+23,MALE,2003-10-11,Assessment using New York Heart Association Classification
+23,MALE,2000-10-16,Rectal polypectomy
+23,MALE,2001-10-11,Colonoscopy
+23,MALE,1999-08-12,Nasal sinus endoscopy
+24,FEMALE,2015-04-12,Medication Reconciliation
+24,FEMALE,2014-04-13,Medication Reconciliation
+24,FEMALE,2016-04-10,Medication Reconciliation
+24,FEMALE,2016-10-09,Medication Reconciliation
+24,FEMALE,2018-02-06,Bone immobilization
+24,FEMALE,2018-02-06,Radiography of ankle
+24,FEMALE,2015-10-11,Medication Reconciliation
+25,MALE,2014-02-14,Medication Reconciliation
+25,MALE,2018-08-24,Colonoscopy
+25,MALE,2012-09-07,Medication Reconciliation
+26,FEMALE,2014-05-07,Depression screening
+26,FEMALE,2011-09-28,Medication Reconciliation
+26,FEMALE,2014-02-19,Cognitive and behavioral therapy
+26,FEMALE,2014-05-07,Physical examination
+26,FEMALE,2017-09-27,Medication Reconciliation
+26,FEMALE,2014-01-01,Auscultation of the fetal heart
+26,FEMALE,2014-01-01,Evaluation of uterine fundal height
+26,FEMALE,2013-11-06,Auscultation of the fetal heart
+26,FEMALE,2013-11-06,Evaluation of uterine fundal height
+26,FEMALE,2014-03-26,Medical induction of labor
+26,FEMALE,2014-03-26,Cesarean section
+26,FEMALE,2014-02-22,Cognitive and behavioral therapy
+26,FEMALE,2014-02-26,Auscultation of the fetal heart
+26,FEMALE,2014-02-26,Evaluation of uterine fundal height
+26,FEMALE,2014-09-10,Medication Reconciliation
+26,FEMALE,2013-11-06,Fetal anatomy study
+26,FEMALE,2014-02-16,Cognitive and behavioral therapy
+26,FEMALE,2013-10-09,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+26,FEMALE,2014-01-29,Auscultation of the fetal heart
+26,FEMALE,2013-10-09,Evaluation of uterine fundal height
+26,FEMALE,2013-09-04,Medication Reconciliation
+26,FEMALE,2014-02-03,Cognitive and behavioral therapy
+26,FEMALE,2014-01-29,"Vaccination for diphtheria, pertussis, and tetanus"
+26,FEMALE,2014-01-29,Evaluation of uterine fundal height
+26,FEMALE,2014-02-09,Cognitive and behavioral therapy
+26,FEMALE,2013-10-09,Auscultation of the fetal heart
+26,FEMALE,2014-02-25,Cognitive and behavioral therapy
+26,FEMALE,2013-09-11,"Cytopathology procedure, preparation of smear, genital source"
+26,FEMALE,2013-09-11,Auscultation of the fetal heart
+26,FEMALE,2013-09-11,Evaluation of uterine fundal height
+26,FEMALE,2013-09-11,Ultrasound scan for fetal viability
+26,FEMALE,2013-12-04,Evaluation of uterine fundal height
+26,FEMALE,2013-12-04,Auscultation of the fetal heart
+26,FEMALE,2014-02-06,Cognitive and behavioral therapy
+26,FEMALE,2014-02-12,Cognitive and behavioral therapy
+26,FEMALE,2013-09-11,Physical examination
+26,FEMALE,2013-09-11,Rubella screening
+27,FEMALE,2017-09-13,Colonoscopy
+27,FEMALE,2014-12-12,Medication Reconciliation
+27,FEMALE,2012-09-14,Colonoscopy
+27,FEMALE,2011-12-23,Ultrasound scan for fetal viability
+27,FEMALE,2011-10-28,Removal of intrauterine device
+27,FEMALE,2013-09-20,Medication Reconciliation
+27,FEMALE,2011-12-30,Physical examination
+27,FEMALE,2011-12-30,Depression screening
+27,FEMALE,2013-09-20,Brief general examination
+27,FEMALE,2020-03-17,Plain chest X-ray
+27,FEMALE,2020-03-17,Oxygen administration by mask
+27,FEMALE,2020-03-17,Placing subject in prone position
+27,FEMALE,2020-03-24,Oxygen administration by mask
+27,FEMALE,2020-03-18,Oxygen administration by mask
+27,FEMALE,2020-03-25,Placing subject in prone position
+27,FEMALE,2020-03-18,Placing subject in prone position
+27,FEMALE,2020-03-19,Oxygen administration by mask
+27,FEMALE,2013-09-20,Review of systems
+27,FEMALE,2020-03-19,Placing subject in prone position
+27,FEMALE,2020-03-25,Oxygen administration by mask
+27,FEMALE,2020-03-20,Oxygen administration by mask
+27,FEMALE,2020-03-20,Placing subject in prone position
+27,FEMALE,2020-03-21,Oxygen administration by mask
+27,FEMALE,2020-03-21,Placing subject in prone position
+27,FEMALE,2020-03-22,Oxygen administration by mask
+27,FEMALE,2020-03-22,Placing subject in prone position
+27,FEMALE,2020-03-23,Oxygen administration by mask
+27,FEMALE,2020-03-23,Placing subject in prone position
+27,FEMALE,2020-03-24,Placing subject in prone position
+28,MALE,2001-05-10,Colonoscopy
+28,MALE,2001-05-10,Rectal polypectomy
+28,MALE,2000-03-03,Medication Reconciliation
+28,MALE,2001-07-10,Combined chemotherapy and radiation therapy
+28,MALE,1995-05-17,Colonoscopy
+28,MALE,2001-03-09,Medication Reconciliation
+28,MALE,2001-08-12,Combined chemotherapy and radiation therapy
+28,MALE,2000-05-15,Screening for occult blood in feces
+28,MALE,2000-05-15,Colonoscopy
+28,MALE,1997-02-14,Medication Reconciliation
+28,MALE,2001-09-10,Combined chemotherapy and radiation therapy
+28,MALE,2000-05-15,Rectal polypectomy
+28,MALE,2004-03-26,Medication Reconciliation
+28,MALE,2001-10-09,Combined chemotherapy and radiation therapy
+28,MALE,2001-05-13,Medication Reconciliation
+28,MALE,2001-05-13,Review of systems
+28,MALE,2001-11-11,Combined chemotherapy and radiation therapy
+28,MALE,1998-02-20,Medication Reconciliation
+28,MALE,2001-05-13,Brief general examination
+28,MALE,2003-03-21,Medication Reconciliation
+28,MALE,2001-05-25,Partial resection of colon
+28,MALE,2002-03-15,Medication Reconciliation
+28,MALE,2001-06-12,Combined chemotherapy and radiation therapy
+29,FEMALE,2012-08-13,Medication Reconciliation
+29,FEMALE,2016-09-05,Medication Reconciliation
+29,FEMALE,2017-09-11,Medication Reconciliation
+29,FEMALE,2020-12-13,Sputum examination
+29,FEMALE,2019-09-23,Medication Reconciliation
+30,FEMALE,2019-01-02,Medication Reconciliation
+30,FEMALE,2019-10-02,Medication Reconciliation
+30,FEMALE,2017-11-29,Medication Reconciliation
+30,FEMALE,2019-04-03,Medication Reconciliation
+30,FEMALE,2018-01-31,Medication Reconciliation
+30,FEMALE,2017-10-25,Medication Reconciliation
+31,FEMALE,2020-07-02,Medication Reconciliation
+31,FEMALE,2014-05-29,Medication Reconciliation
+31,FEMALE,2011-09-01,Medication Reconciliation
+31,FEMALE,2011-11-10,Medication Reconciliation
+31,FEMALE,2012-08-23,Medication Reconciliation
+31,FEMALE,2015-06-04,Medication Reconciliation
+31,FEMALE,2011-03-03,Medication Reconciliation
+31,FEMALE,2011-12-29,Medication Reconciliation
+31,FEMALE,2013-05-30,Medication Reconciliation
+32,FEMALE,2017-06-16,Extraction of wisdom tooth
+32,FEMALE,2020-08-29,Bilateral tubal ligation
+32,FEMALE,2018-01-19,Medication Reconciliation
+32,FEMALE,2012-12-21,Medication Reconciliation
+33,FEMALE,2020-11-09,Physical examination
+33,FEMALE,2020-11-09,Depression screening
+33,FEMALE,2013-04-29,Intramuscular injection
+33,FEMALE,2015-10-26,Intramuscular injection
+33,FEMALE,2011-03-15,Subcutaneous immunotherapy
+33,FEMALE,2015-07-27,Intramuscular injection
+33,FEMALE,2011-01-11,Subcutaneous immunotherapy
+33,FEMALE,2020-02-24,"Cytopathology procedure, preparation of smear, genital source"
+33,FEMALE,2016-08-22,Auscultation of the fetal heart
+33,FEMALE,2020-02-24,Evaluation of uterine fundal height
+33,FEMALE,2015-01-26,Intramuscular injection
+33,FEMALE,2020-04-20,Fetal anatomy study
+33,FEMALE,2016-04-04,Rubella screening
+33,FEMALE,2013-01-28,Intramuscular injection
+33,FEMALE,2020-02-24,Auscultation of the fetal heart
+33,FEMALE,2016-04-04,Evaluation of uterine fundal height
+33,FEMALE,2013-07-29,Intramuscular injection
+33,FEMALE,2012-04-30,Intramuscular injection
+33,FEMALE,2020-09-07,Evaluation of uterine fundal height
+33,FEMALE,2020-09-07,Auscultation of the fetal heart
+33,FEMALE,2012-07-30,Intramuscular injection
+33,FEMALE,2011-12-26,Medication Reconciliation
+33,FEMALE,2016-04-04,"Cytopathology procedure, preparation of smear, genital source"
+33,FEMALE,2012-01-30,Intramuscular injection
+33,FEMALE,2020-03-23,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+33,FEMALE,2020-03-23,Auscultation of the fetal heart
+33,FEMALE,2020-04-20,Evaluation of uterine fundal height
+33,FEMALE,2016-08-22,"Vaccination for diphtheria, pertussis, and tetanus"
+33,FEMALE,2020-03-23,Evaluation of uterine fundal height
+33,FEMALE,2016-01-25,Intramuscular injection
+33,FEMALE,2020-09-21,Evaluation of uterine fundal height
+33,FEMALE,2016-08-22,Evaluation of uterine fundal height
+33,FEMALE,2020-04-20,Auscultation of the fetal heart
+33,FEMALE,2020-09-28,Augmentation of labor
+33,FEMALE,2014-04-28,Intramuscular injection
+33,FEMALE,2016-04-04,Physical examination
+33,FEMALE,2020-02-24,Ultrasound scan for fetal viability
+33,FEMALE,2016-07-25,Auscultation of the fetal heart
+33,FEMALE,2016-07-25,Evaluation of uterine fundal height
+33,FEMALE,2011-05-17,Allergy screening test
+33,FEMALE,2020-02-24,Physical examination
+33,FEMALE,2012-10-29,Intramuscular injection
+33,FEMALE,2016-04-04,Ultrasound scan for fetal viability
+33,FEMALE,2016-04-04,Auscultation of the fetal heart
+33,FEMALE,2020-09-21,Auscultation of the fetal heart
+33,FEMALE,2020-02-24,Rubella screening
+33,FEMALE,2020-08-10,Evaluation of uterine fundal height
+33,FEMALE,2020-08-10,Auscultation of the fetal heart
+33,FEMALE,2011-02-01,Subcutaneous immunotherapy
+33,FEMALE,2011-10-19,Intramuscular injection
+33,FEMALE,2011-04-05,Subcutaneous immunotherapy
+33,FEMALE,2020-05-18,Auscultation of the fetal heart
+33,FEMALE,2011-04-26,Subcutaneous immunotherapy
+33,FEMALE,2016-05-02,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+33,FEMALE,2011-02-22,Subcutaneous immunotherapy
+33,FEMALE,2020-07-13,"Vaccination for diphtheria, pertussis, and tetanus"
+33,FEMALE,2016-05-02,Evaluation of uterine fundal height
+33,FEMALE,2016-05-02,Auscultation of the fetal heart
+33,FEMALE,2020-05-18,Evaluation of uterine fundal height
+33,FEMALE,2014-10-27,Intramuscular injection
+33,FEMALE,2015-04-27,Intramuscular injection
+33,FEMALE,2016-06-27,Evaluation of uterine fundal height
+33,FEMALE,2016-10-17,Auscultation of the fetal heart
+33,FEMALE,2012-12-31,Medication Reconciliation
+33,FEMALE,2016-06-27,Auscultation of the fetal heart
+33,FEMALE,2020-07-13,Evaluation of uterine fundal height
+33,FEMALE,2020-07-13,Auscultation of the fetal heart
+33,FEMALE,2016-10-17,Evaluation of uterine fundal height
+33,FEMALE,2016-09-19,Evaluation of uterine fundal height
+33,FEMALE,2016-05-30,Auscultation of the fetal heart
+33,FEMALE,2016-05-30,Evaluation of uterine fundal height
+33,FEMALE,2020-06-15,Auscultation of the fetal heart
+33,FEMALE,2016-10-31,Auscultation of the fetal heart
+33,FEMALE,2016-09-19,Auscultation of the fetal heart
+33,FEMALE,2013-10-28,Intramuscular injection
+33,FEMALE,2016-05-30,Fetal anatomy study
+33,FEMALE,2016-11-07,Evaluation of uterine fundal height
+33,FEMALE,2016-12-26,Depression screening
+33,FEMALE,2014-07-28,Intramuscular injection
+33,FEMALE,2016-11-07,Auscultation of the fetal heart
+33,FEMALE,2016-12-26,Physical examination
+33,FEMALE,2016-10-31,Evaluation of uterine fundal height
+33,FEMALE,2014-01-27,Intramuscular injection
+33,FEMALE,2020-06-15,Evaluation of uterine fundal height
+34,MALE,2013-11-03,Medication Reconciliation
+34,MALE,2016-11-06,Medication Reconciliation
+34,MALE,2019-11-10,Medication Reconciliation
+35,MALE,1996-04-04,Medication Reconciliation
+35,MALE,1987-12-10,Medication Reconciliation
+35,MALE,1987-12-10,Pulmonary rehabilitation
+35,MALE,1996-02-22,Pulmonary rehabilitation
+35,MALE,1988-08-25,Medication Reconciliation
+35,MALE,1987-11-05,Pulmonary rehabilitation
+35,MALE,1990-08-23,Medication Reconciliation
+35,MALE,1990-08-23,Pulmonary rehabilitation
+35,MALE,1993-02-04,Medication Reconciliation
+35,MALE,1988-03-31,Pulmonary rehabilitation
+35,MALE,1988-03-31,Medication Reconciliation
+35,MALE,1995-02-16,Pulmonary rehabilitation
+35,MALE,1997-03-27,Pulmonary rehabilitation
+35,MALE,1997-03-27,Medication Reconciliation
+35,MALE,1993-02-04,Pulmonary rehabilitation
+35,MALE,1996-05-02,Pulmonary rehabilitation
+35,MALE,1990-02-22,Pulmonary rehabilitation
+35,MALE,1988-08-25,Pulmonary rehabilitation
+35,MALE,1996-04-04,Pulmonary rehabilitation
+35,MALE,1989-08-31,Pulmonary rehabilitation
+35,MALE,1989-11-23,Pulmonary rehabilitation
+35,MALE,1989-11-23,Medication Reconciliation
+35,MALE,1990-06-28,Pulmonary rehabilitation
+35,MALE,1992-12-24,Pulmonary rehabilitation
+35,MALE,1992-12-24,Medication Reconciliation
+35,MALE,1989-10-26,Medication Reconciliation
+35,MALE,1989-10-26,Pulmonary rehabilitation
+35,MALE,1994-06-16,Pulmonary rehabilitation
+35,MALE,1987-12-31,Pulmonary rehabilitation
+35,MALE,1992-02-20,Pulmonary rehabilitation
+35,MALE,1987-08-06,Pulmonary rehabilitation
+35,MALE,1992-02-20,Medication Reconciliation
+35,MALE,1991-06-20,Pulmonary rehabilitation
+35,MALE,1988-01-07,Pulmonary rehabilitation
+35,MALE,1994-02-10,Medication Reconciliation
+35,MALE,1992-07-16,Medication Reconciliation
+35,MALE,1996-10-03,Pulmonary rehabilitation
+35,MALE,1993-11-18,Pulmonary rehabilitation
+35,MALE,1992-07-16,Pulmonary rehabilitation
+35,MALE,1990-04-26,Pulmonary rehabilitation
+35,MALE,1993-03-18,Pulmonary rehabilitation
+35,MALE,1996-12-26,Pulmonary rehabilitation
+35,MALE,1995-01-12,Pulmonary rehabilitation
+35,MALE,1994-01-13,Pulmonary rehabilitation
+35,MALE,1994-01-13,Medication Reconciliation
+35,MALE,1990-04-26,Medication Reconciliation
+35,MALE,1995-06-08,Pulmonary rehabilitation
+35,MALE,1995-06-08,Medication Reconciliation
+35,MALE,1993-11-18,Medication Reconciliation
+35,MALE,1996-02-01,Pulmonary rehabilitation
+35,MALE,1991-08-22,Pulmonary rehabilitation
+35,MALE,1994-12-08,Pulmonary rehabilitation
+35,MALE,1992-11-19,Pulmonary rehabilitation
+35,MALE,1988-07-07,Medication Reconciliation
+35,MALE,1994-05-30,Colonoscopy
+35,MALE,1991-11-14,Medication Reconciliation
+35,MALE,1991-11-14,Pulmonary rehabilitation
+35,MALE,1988-03-03,Pulmonary rehabilitation
+35,MALE,1988-07-07,Pulmonary rehabilitation
+35,MALE,1994-02-10,Pulmonary rehabilitation
+35,MALE,1989-01-12,Pulmonary rehabilitation
+35,MALE,1989-01-12,Medication Reconciliation
+35,MALE,1993-05-20,Pulmonary rehabilitation
+35,MALE,1993-05-20,Medication Reconciliation
+35,MALE,1995-04-13,Pulmonary rehabilitation
+35,MALE,1990-01-18,Pulmonary rehabilitation
+35,MALE,1989-12-28,Medication Reconciliation
+35,MALE,1997-01-30,Pulmonary rehabilitation
+35,MALE,1990-05-24,Pulmonary rehabilitation
+35,MALE,1988-10-27,Pulmonary rehabilitation
+35,MALE,1988-10-06,Pulmonary rehabilitation
+35,MALE,1990-05-24,Medication Reconciliation
+35,MALE,1988-10-27,Medication Reconciliation
+35,MALE,1990-10-25,Pulmonary rehabilitation
+35,MALE,1987-09-10,Pulmonary rehabilitation
+35,MALE,1989-05-25,Pulmonary rehabilitation
+35,MALE,1991-03-14,Pulmonary rehabilitation
+35,MALE,1989-08-03,Pulmonary rehabilitation
+35,MALE,1989-05-25,Medication Reconciliation
+35,MALE,1989-09-21,Pulmonary rehabilitation
+35,MALE,1992-01-30,Medication Reconciliation
+35,MALE,1989-12-28,Pulmonary rehabilitation
+35,MALE,1992-01-30,Pulmonary rehabilitation
+35,MALE,1992-10-22,Pulmonary rehabilitation
+35,MALE,1989-08-03,Medication Reconciliation
+35,MALE,1993-04-15,Pulmonary rehabilitation
+35,MALE,1991-03-14,Medication Reconciliation
+35,MALE,1996-06-06,Pulmonary rehabilitation
+35,MALE,1988-10-06,Medication Reconciliation
+35,MALE,1987-09-10,Medication Reconciliation
+35,MALE,1993-04-15,Medication Reconciliation
+35,MALE,1997-04-24,Pulmonary rehabilitation
+35,MALE,1989-06-22,Pulmonary rehabilitation
+35,MALE,1997-02-27,Pulmonary rehabilitation
+35,MALE,1994-09-15,Pulmonary rehabilitation
+35,MALE,1990-08-02,Pulmonary rehabilitation
+35,MALE,1987-07-09,Pulmonary rehabilitation
+35,MALE,1990-08-02,Medication Reconciliation
+35,MALE,1989-03-23,Pulmonary rehabilitation
+35,MALE,1989-06-22,Medication Reconciliation
+35,MALE,1991-10-10,Pulmonary rehabilitation
+35,MALE,1987-05-07,Pulmonary rehabilitation
+35,MALE,1990-07-23,Injection of tetanus antitoxin
+35,MALE,1990-07-23,Suture open wound
+35,MALE,1989-02-02,Pulmonary rehabilitation
+35,MALE,1991-01-24,Pulmonary rehabilitation
+35,MALE,1987-05-07,Medication Reconciliation
+35,MALE,1987-06-04,Pulmonary rehabilitation
+35,MALE,1987-06-04,Medication Reconciliation
+35,MALE,1989-04-27,Medication Reconciliation
+35,MALE,1989-02-23,Pulmonary rehabilitation
+35,MALE,1989-04-27,Pulmonary rehabilitation
+35,MALE,1995-11-02,Medication Reconciliation
+35,MALE,1995-11-02,Pulmonary rehabilitation
+35,MALE,1992-03-12,Pulmonary rehabilitation
+35,MALE,1996-10-31,Pulmonary rehabilitation
+35,MALE,1990-03-22,Pulmonary rehabilitation
+35,MALE,1991-10-10,Medication Reconciliation
+35,MALE,1989-05-31,Colonoscopy
+35,MALE,1995-05-11,Medication Reconciliation
+35,MALE,1995-05-11,Pulmonary rehabilitation
+35,MALE,1996-03-07,Pulmonary rehabilitation
+35,MALE,1996-03-07,Medication Reconciliation
+35,MALE,1994-02-17,Pulmonary rehabilitation
+35,MALE,1994-02-17,Medication Reconciliation
+35,MALE,1991-09-12,Pulmonary rehabilitation
+36,FEMALE,2018-08-23,Medication Reconciliation
+36,FEMALE,2017-08-17,Medication Reconciliation
+36,FEMALE,2013-07-25,Medication Reconciliation
+36,FEMALE,2012-07-19,Medication Reconciliation
+36,FEMALE,2011-07-14,Medication Reconciliation
+36,FEMALE,2016-08-11,Medication Reconciliation
+36,FEMALE,2020-03-14,Oxygen administration by mask
+36,FEMALE,2020-03-06,Plain chest X-ray
+36,FEMALE,2020-03-06,Oxygen administration by mask
+36,FEMALE,2020-03-06,Placing subject in prone position
+36,FEMALE,2020-03-07,Oxygen administration by mask
+36,FEMALE,2020-03-07,Placing subject in prone position
+36,FEMALE,2020-03-08,Oxygen administration by mask
+36,FEMALE,2020-03-13,Placing subject in prone position
+36,FEMALE,2020-03-13,Oxygen administration by mask
+36,FEMALE,2020-03-12,Placing subject in prone position
+36,FEMALE,2020-03-08,Placing subject in prone position
+36,FEMALE,2020-03-09,Oxygen administration by mask
+36,FEMALE,2020-03-09,Placing subject in prone position
+36,FEMALE,2020-03-10,Oxygen administration by mask
+36,FEMALE,2020-03-12,Oxygen administration by mask
+36,FEMALE,2020-03-11,Placing subject in prone position
+36,FEMALE,2020-03-10,Placing subject in prone position
+36,FEMALE,2020-03-11,Oxygen administration by mask
+36,FEMALE,2020-03-14,Placing subject in prone position
+37,FEMALE,2019-11-27,Medication Reconciliation
+37,FEMALE,2020-03-13,Oxygen administration by mask
+37,FEMALE,2020-03-14,Oxygen administration by mask
+37,FEMALE,2020-03-14,Placing subject in prone position
+37,FEMALE,2020-03-15,Oxygen administration by mask
+37,FEMALE,2020-03-15,Placing subject in prone position
+37,FEMALE,2020-03-16,Placing subject in prone position
+37,FEMALE,2020-03-16,Oxygen administration by mask
+37,FEMALE,2020-03-05,Plain chest X-ray
+37,FEMALE,2020-03-06,Oxygen administration by mask
+37,FEMALE,2020-03-06,Placing subject in prone position
+37,FEMALE,2020-03-07,Oxygen administration by mask
+37,FEMALE,2020-03-05,Placing subject in prone position
+37,FEMALE,2013-10-23,Medication Reconciliation
+37,FEMALE,2020-03-07,Placing subject in prone position
+37,FEMALE,2020-03-08,Oxygen administration by mask
+37,FEMALE,2020-03-05,Oxygen administration by mask
+37,FEMALE,2020-03-08,Placing subject in prone position
+37,FEMALE,2020-03-09,Oxygen administration by mask
+37,FEMALE,2020-03-09,Placing subject in prone position
+37,FEMALE,2020-03-10,Oxygen administration by mask
+37,FEMALE,2020-03-10,Placing subject in prone position
+37,FEMALE,2020-03-11,Oxygen administration by mask
+37,FEMALE,2020-03-11,Placing subject in prone position
+37,FEMALE,2020-03-12,Oxygen administration by mask
+37,FEMALE,2020-03-12,Placing subject in prone position
+37,FEMALE,2020-03-13,Placing subject in prone position
+37,FEMALE,2014-10-29,Medication Reconciliation
+37,FEMALE,2016-04-04,Colonoscopy
+37,FEMALE,2015-03-11,Rectal polypectomy
+37,FEMALE,2015-03-11,Screening for occult blood in feces
+37,FEMALE,2018-11-21,Medication Reconciliation
+37,FEMALE,2015-03-11,Colonoscopy
+38,MALE,2005-05-03,Combined chemotherapy and radiation therapy
+38,MALE,2005-08-12,Combined chemotherapy and radiation therapy
+38,MALE,2004-01-24,Combined chemotherapy and radiation therapy
+38,MALE,2005-06-06,Combined chemotherapy and radiation therapy
+38,MALE,2003-02-24,Combined chemotherapy and radiation therapy
+38,MALE,2003-11-21,Combined chemotherapy and radiation therapy
+38,MALE,2004-05-21,Combined chemotherapy and radiation therapy
+38,MALE,1999-11-08,Radiography of humerus
+38,MALE,1999-11-08,Bone immobilization
+38,MALE,2005-03-03,Combined chemotherapy and radiation therapy
+38,MALE,1997-11-18,Medication Reconciliation
+38,MALE,2002-12-25,Combined chemotherapy and radiation therapy
+38,MALE,1999-11-08,Bone density scan
+38,MALE,2002-02-09,Combined chemotherapy and radiation therapy
+38,MALE,2002-08-20,Combined chemotherapy and radiation therapy
+38,MALE,1997-01-28,Prostatectomy
+38,MALE,2003-09-22,Combined chemotherapy and radiation therapy
+38,MALE,2004-07-22,Combined chemotherapy and radiation therapy
+38,MALE,2003-03-25,Medication Reconciliation
+38,MALE,1997-03-25,Medication Reconciliation
+38,MALE,2004-12-29,Combined chemotherapy and radiation therapy
+38,MALE,2005-09-11,Combined chemotherapy and radiation therapy
+38,MALE,2002-09-19,Combined chemotherapy and radiation therapy
+38,MALE,1998-11-10,Medication Reconciliation
+38,MALE,2001-11-04,Magnetic resonance imaging for measurement of brain volume
+38,MALE,2002-02-05,Medication Reconciliation
+38,MALE,2004-03-23,Combined chemotherapy and radiation therapy
+38,MALE,2003-12-24,Combined chemotherapy and radiation therapy
+38,MALE,2003-02-18,Medication Reconciliation
+38,MALE,2005-10-10,Combined chemotherapy and radiation therapy
+38,MALE,2002-04-15,Combined chemotherapy and radiation therapy
+38,MALE,2003-07-23,Combined chemotherapy and radiation therapy
+38,MALE,2001-10-30,CT of chest and abdomen
+38,MALE,2004-09-27,Combined chemotherapy and radiation therapy
+38,MALE,2003-01-27,Combined chemotherapy and radiation therapy
+38,MALE,2001-12-05,Combined chemotherapy and radiation therapy
+38,MALE,2003-08-23,Combined chemotherapy and radiation therapy
+38,MALE,2002-10-21,Combined chemotherapy and radiation therapy
+38,MALE,2005-04-12,Medication Reconciliation
+38,MALE,2004-10-28,Combined chemotherapy and radiation therapy
+38,MALE,2003-10-24,Combined chemotherapy and radiation therapy
+38,MALE,2004-11-28,Combined chemotherapy and radiation therapy
+38,MALE,1997-01-28,Digital examination of rectum
+38,MALE,2001-05-29,Medication Reconciliation
+38,MALE,2002-11-23,Combined chemotherapy and radiation therapy
+38,MALE,1997-01-28,Biopsy of prostate
+38,MALE,2001-02-20,Medication Reconciliation
+38,MALE,2001-11-04,Combined chemotherapy and radiation therapy
+38,MALE,2001-10-25,Plain chest X-ray
+38,MALE,2003-04-26,Combined chemotherapy and radiation therapy
+38,MALE,2000-10-31,Medication Reconciliation
+38,MALE,1998-07-14,Medication Reconciliation
+38,MALE,2004-04-22,Combined chemotherapy and radiation therapy
+38,MALE,2005-04-02,Combined chemotherapy and radiation therapy
+38,MALE,2002-03-12,Combined chemotherapy and radiation therapy
+38,MALE,1996-01-17,Digital examination of rectum
+38,MALE,2003-01-21,Medication Reconciliation
+38,MALE,2005-01-29,Combined chemotherapy and radiation therapy
+38,MALE,2004-02-22,Combined chemotherapy and radiation therapy
+38,MALE,1999-08-13,Sputum examination
+38,MALE,2002-07-21,Combined chemotherapy and radiation therapy
+38,MALE,1998-09-15,Medication Reconciliation
+38,MALE,2005-07-10,Combined chemotherapy and radiation therapy
+38,MALE,2005-07-12,Medication Reconciliation
+38,MALE,1999-04-13,Medication Reconciliation
+38,MALE,1996-01-30,Medication Reconciliation
+38,MALE,1998-12-15,Medication Reconciliation
+38,MALE,2002-06-20,Combined chemotherapy and radiation therapy
+38,MALE,2004-08-24,Combined chemotherapy and radiation therapy
+38,MALE,2005-10-04,Medication Reconciliation
+38,MALE,2002-02-26,Medication Reconciliation
+38,MALE,1996-10-22,Medication Reconciliation
+38,MALE,2004-06-23,Combined chemotherapy and radiation therapy
+38,MALE,2001-08-28,Medication Reconciliation
+38,MALE,1999-05-11,Medication Reconciliation
+38,MALE,2002-08-27,Medication Reconciliation
+38,MALE,2002-05-18,Combined chemotherapy and radiation therapy
+38,MALE,1998-08-18,Medication Reconciliation
+38,MALE,2005-05-10,Medication Reconciliation
+38,MALE,2002-01-08,Combined chemotherapy and radiation therapy
+38,MALE,2003-03-28,Combined chemotherapy and radiation therapy
+38,MALE,2003-06-22,Combined chemotherapy and radiation therapy
+38,MALE,2003-05-25,Combined chemotherapy and radiation therapy
+38,MALE,2001-11-02,Diagnostic fiberoptic bronchoscopy
+39,FEMALE,2015-10-23,Medication Reconciliation
+39,FEMALE,2018-12-14,Catheter ablation of tissue of heart
+39,FEMALE,2018-12-14,Echocardiography
+39,FEMALE,2018-12-14,Insertion of biventricular implantable cardioverter defibrillator
+39,FEMALE,2013-10-11,Medication Reconciliation
+39,FEMALE,2018-11-09,Medication Reconciliation
+39,FEMALE,2019-11-15,Medication Reconciliation
+40,MALE,2011-07-11,Medication Reconciliation
+40,MALE,2013-07-22,Medication Reconciliation
+40,MALE,2016-08-08,Medication Reconciliation
+41,FEMALE,2019-05-23,Intramuscular injection
+41,FEMALE,2015-08-06,Medication Reconciliation
+41,FEMALE,2014-04-10,Physical examination
+41,FEMALE,2014-04-10,Rubella screening
+41,FEMALE,2014-06-05,Auscultation of the fetal heart
+41,FEMALE,2014-06-05,Evaluation of uterine fundal height
+41,FEMALE,2014-06-05,Fetal anatomy study
+41,FEMALE,2014-04-10,"Cytopathology procedure, preparation of smear, genital source"
+41,FEMALE,2014-04-10,Auscultation of the fetal heart
+41,FEMALE,2014-04-10,Evaluation of uterine fundal height
+41,FEMALE,2014-04-10,Ultrasound scan for fetal viability
+41,FEMALE,2014-10-23,Augmentation of labor
+41,FEMALE,2013-06-06,Auscultation of the fetal heart
+41,FEMALE,2013-06-06,Evaluation of uterine fundal height
+41,FEMALE,2020-05-21,Intramuscular injection
+41,FEMALE,2020-03-15,Oxygen administration by mask
+41,FEMALE,2014-12-04,Depression screening
+41,FEMALE,2014-12-04,Physical examination
+41,FEMALE,2019-11-21,Intramuscular injection
+41,FEMALE,2020-02-20,Intramuscular injection
+41,FEMALE,2011-01-20,Physical examination
+41,FEMALE,2011-01-20,Depression screening
+41,FEMALE,2013-08-29,Auscultation of the fetal heart
+41,FEMALE,2013-08-29,Evaluation of uterine fundal height
+41,FEMALE,2020-03-08,Plain chest X-ray
+41,FEMALE,2020-03-08,Oxygen administration by mask
+41,FEMALE,2018-08-23,Medication Reconciliation
+41,FEMALE,2020-03-08,Placing subject in prone position
+41,FEMALE,2020-03-09,Oxygen administration by mask
+41,FEMALE,2020-03-09,Placing subject in prone position
+41,FEMALE,2020-03-10,Oxygen administration by mask
+41,FEMALE,2013-08-01,Auscultation of the fetal heart
+41,FEMALE,2013-08-01,Evaluation of uterine fundal height
+41,FEMALE,2020-03-10,Placing subject in prone position
+41,FEMALE,2020-03-11,Oxygen administration by mask
+41,FEMALE,2020-03-11,Placing subject in prone position
+41,FEMALE,2020-03-12,Oxygen administration by mask
+41,FEMALE,2020-03-12,Placing subject in prone position
+41,FEMALE,2020-03-13,Oxygen administration by mask
+41,FEMALE,2020-03-13,Placing subject in prone position
+41,FEMALE,2020-03-20,Placing subject in prone position
+41,FEMALE,2020-03-20,Oxygen administration by mask
+41,FEMALE,2020-03-19,Placing subject in prone position
+41,FEMALE,2020-03-19,Oxygen administration by mask
+41,FEMALE,2020-03-18,Placing subject in prone position
+41,FEMALE,2020-03-18,Oxygen administration by mask
+41,FEMALE,2020-03-17,Placing subject in prone position
+41,FEMALE,2020-03-17,Oxygen administration by mask
+41,FEMALE,2020-03-16,Placing subject in prone position
+41,FEMALE,2020-03-16,Oxygen administration by mask
+41,FEMALE,2020-03-14,Oxygen administration by mask
+41,FEMALE,2020-03-14,Placing subject in prone position
+41,FEMALE,2020-03-15,Placing subject in prone position
+41,FEMALE,2013-03-14,Evaluation of uterine fundal height
+41,FEMALE,2014-08-28,Auscultation of the fetal heart
+41,FEMALE,2013-03-14,Auscultation of the fetal heart
+41,FEMALE,2013-03-14,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+41,FEMALE,2014-07-03,Auscultation of the fetal heart
+41,FEMALE,2014-07-31,Evaluation of uterine fundal height
+41,FEMALE,2014-07-31,Auscultation of the fetal heart
+41,FEMALE,2014-07-31,Medication Reconciliation
+41,FEMALE,2014-07-03,Evaluation of uterine fundal height
+41,FEMALE,2012-07-19,Medication Reconciliation
+41,FEMALE,2013-07-04,Auscultation of the fetal heart
+41,FEMALE,2014-08-28,Evaluation of uterine fundal height
+41,FEMALE,2013-07-04,Evaluation of uterine fundal height
+41,FEMALE,2013-07-04,"Vaccination for diphtheria, pertussis, and tetanus"
+41,FEMALE,2017-08-17,Medication Reconciliation
+41,FEMALE,2020-11-06,Insertion of intrauterine contraceptive device
+41,FEMALE,2014-08-28,"Vaccination for diphtheria, pertussis, and tetanus"
+41,FEMALE,2013-04-11,Evaluation of uterine fundal height
+41,FEMALE,2020-08-20,Intramuscular injection
+41,FEMALE,2013-04-11,Fetal anatomy study
+41,FEMALE,2013-09-12,Auscultation of the fetal heart
+41,FEMALE,2013-04-11,Auscultation of the fetal heart
+41,FEMALE,2014-09-25,Auscultation of the fetal heart
+41,FEMALE,2013-09-19,Evaluation of uterine fundal height
+41,FEMALE,2020-11-19,Intramuscular injection
+41,FEMALE,2014-09-25,Evaluation of uterine fundal height
+41,FEMALE,2013-09-26,Auscultation of the fetal heart
+41,FEMALE,2013-09-26,Evaluation of uterine fundal height
+41,FEMALE,2013-09-19,Auscultation of the fetal heart
+41,FEMALE,2013-09-12,Evaluation of uterine fundal height
+41,FEMALE,2019-08-22,Intramuscular injection
+41,FEMALE,2013-02-14,Ultrasound scan for fetal viability
+41,FEMALE,2014-05-08,Auscultation of the fetal heart
+41,FEMALE,2020-09-10,Medication Reconciliation
+41,FEMALE,2014-05-08,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+41,FEMALE,2013-02-14,Physical examination
+41,FEMALE,2013-02-14,Rubella screening
+41,FEMALE,2013-02-14,"Cytopathology procedure, preparation of smear, genital source"
+41,FEMALE,2013-02-14,Auscultation of the fetal heart
+41,FEMALE,2013-02-14,Evaluation of uterine fundal height
+41,FEMALE,2013-05-09,Auscultation of the fetal heart
+41,FEMALE,2013-05-09,Evaluation of uterine fundal height
+41,FEMALE,2013-11-14,Physical examination
+41,FEMALE,2013-11-14,Depression screening
+41,FEMALE,2014-05-08,Evaluation of uterine fundal height
+41,FEMALE,2019-02-21,Intramuscular injection
+41,FEMALE,2018-11-13,Intramuscular injection
+42,MALE,2016-01-19,Medication Reconciliation
+42,MALE,2014-01-07,Medication Reconciliation
+42,MALE,2018-01-30,Medication Reconciliation
+42,MALE,2015-01-13,Medication Reconciliation
+42,MALE,2016-05-24,Medication Reconciliation
+42,MALE,2011-12-27,Medication Reconciliation
+42,MALE,2017-01-24,Medication Reconciliation
+42,MALE,2019-02-05,Medication Reconciliation
+43,MALE,2017-06-11,Medication Reconciliation
+43,MALE,2020-03-05,Placing subject in prone position
+43,MALE,2020-03-05,Oxygen administration by mask
+43,MALE,2020-03-04,Placing subject in prone position
+43,MALE,2020-03-04,Oxygen administration by mask
+43,MALE,2020-03-03,Placing subject in prone position
+43,MALE,2020-03-03,Oxygen administration by mask
+43,MALE,2020-03-02,Placing subject in prone position
+43,MALE,2020-03-02,Oxygen administration by mask
+43,MALE,2020-03-01,Placing subject in prone position
+43,MALE,2020-03-01,Oxygen administration by mask
+43,MALE,2020-03-01,Plain chest X-ray
+43,MALE,2012-05-13,Medication Reconciliation
+43,MALE,2019-06-23,Medication Reconciliation
+44,MALE,2020-06-22,Medication Reconciliation
+44,MALE,2016-06-13,Medication Reconciliation
+44,MALE,2013-08-26,Medication Reconciliation
+45,FEMALE,2018-04-18,Auscultation of the fetal heart
+45,FEMALE,2017-12-27,Evaluation of uterine fundal height
+45,FEMALE,2019-10-09,Physical examination
+45,FEMALE,2013-01-09,Intramuscular injection
+45,FEMALE,2019-10-09,Rubella screening
+45,FEMALE,2012-10-10,Intramuscular injection
+45,FEMALE,2018-04-18,Evaluation of uterine fundal height
+45,FEMALE,2017-12-27,Auscultation of the fetal heart
+45,FEMALE,2019-10-09,Evaluation of uterine fundal height
+45,FEMALE,2019-10-09,Auscultation of the fetal heart
+45,FEMALE,2017-11-01,Evaluation of uterine fundal height
+45,FEMALE,2017-11-01,Auscultation of the fetal heart
+45,FEMALE,2017-11-01,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+45,FEMALE,2020-06-24,Medication Reconciliation
+45,FEMALE,2019-10-09,"Cytopathology procedure, preparation of smear, genital source"
+45,FEMALE,2016-01-06,Intramuscular injection
+45,FEMALE,2020-06-24,Depression screening
+45,FEMALE,2020-06-24,Physical examination
+45,FEMALE,2017-06-21,Medication Reconciliation
+45,FEMALE,2011-04-05,Intramuscular injection
+45,FEMALE,2020-05-06,Evaluation of uterine fundal height
+45,FEMALE,2017-01-04,Intramuscular injection
+45,FEMALE,2020-05-06,Auscultation of the fetal heart
+45,FEMALE,2015-04-08,Intramuscular injection
+45,FEMALE,2019-10-09,Ultrasound scan for fetal viability
+45,FEMALE,2011-07-13,Intramuscular injection
+45,FEMALE,2020-11-25,Ultrasound scan for fetal viability
+45,FEMALE,2016-10-05,Intramuscular injection
+45,FEMALE,2017-10-04,Ultrasound scan for fetal viability
+45,FEMALE,2016-07-06,Intramuscular injection
+45,FEMALE,2012-06-06,Medication Reconciliation
+45,FEMALE,2014-01-08,Intramuscular injection
+45,FEMALE,2020-11-25,Auscultation of the fetal heart
+45,FEMALE,2020-11-25,Evaluation of uterine fundal height
+45,FEMALE,2017-11-29,Fetal anatomy study
+45,FEMALE,2017-11-29,Evaluation of uterine fundal height
+45,FEMALE,2017-10-04,Auscultation of the fetal heart
+45,FEMALE,2014-04-09,Intramuscular injection
+45,FEMALE,2017-07-05,Intramuscular injection
+45,FEMALE,2017-10-04,"Cytopathology procedure, preparation of smear, genital source"
+45,FEMALE,2017-10-04,Rubella screening
+45,FEMALE,2018-01-24,Auscultation of the fetal heart
+45,FEMALE,2017-10-04,Physical examination
+45,FEMALE,2017-10-04,Evaluation of uterine fundal height
+45,FEMALE,2017-11-29,Auscultation of the fetal heart
+45,FEMALE,2020-11-25,"Cytopathology procedure, preparation of smear, genital source"
+45,FEMALE,2013-10-09,Intramuscular injection
+45,FEMALE,2016-04-06,Intramuscular injection
+45,FEMALE,2020-11-25,Rubella screening
+45,FEMALE,2018-06-20,Physical examination
+45,FEMALE,2020-11-25,Physical examination
+45,FEMALE,2018-06-20,Depression screening
+45,FEMALE,2013-07-10,Intramuscular injection
+45,FEMALE,2018-01-24,Evaluation of uterine fundal height
+45,FEMALE,2020-01-29,Auscultation of the fetal heart
+45,FEMALE,2015-07-08,Intramuscular injection
+45,FEMALE,2018-02-21,"Vaccination for diphtheria, pertussis, and tetanus"
+45,FEMALE,2018-02-21,Evaluation of uterine fundal height
+45,FEMALE,2020-02-26,Auscultation of the fetal heart
+45,FEMALE,2020-02-26,Evaluation of uterine fundal height
+45,FEMALE,2020-02-26,"Vaccination for diphtheria, pertussis, and tetanus"
+45,FEMALE,2019-11-06,Auscultation of the fetal heart
+45,FEMALE,2020-03-25,Evaluation of uterine fundal height
+45,FEMALE,2011-06-01,Medication Reconciliation
+45,FEMALE,2020-03-25,Auscultation of the fetal heart
+45,FEMALE,2019-11-06,Evaluation of uterine fundal height
+45,FEMALE,2020-01-29,Evaluation of uterine fundal height
+45,FEMALE,2014-10-08,Intramuscular injection
+45,FEMALE,2011-10-12,Intramuscular injection
+45,FEMALE,2018-02-21,Auscultation of the fetal heart
+45,FEMALE,2019-11-06,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+45,FEMALE,2014-07-09,Intramuscular injection
+45,FEMALE,2015-10-07,Intramuscular injection
+45,FEMALE,2012-07-11,Intramuscular injection
+45,FEMALE,2012-04-11,Intramuscular injection
+45,FEMALE,2015-01-07,Intramuscular injection
+45,FEMALE,2017-04-05,Intramuscular injection
+45,FEMALE,2013-04-10,Intramuscular injection
+45,FEMALE,2020-04-22,Evaluation of uterine fundal height
+45,FEMALE,2020-01-01,Auscultation of the fetal heart
+45,FEMALE,2019-12-04,Auscultation of the fetal heart
+45,FEMALE,2020-01-01,Evaluation of uterine fundal height
+45,FEMALE,2018-05-02,Auscultation of the fetal heart
+45,FEMALE,2018-05-02,Evaluation of uterine fundal height
+45,FEMALE,2020-04-22,Auscultation of the fetal heart
+45,FEMALE,2011-07-06,Medication Reconciliation
+45,FEMALE,2019-12-04,Evaluation of uterine fundal height
+45,FEMALE,2019-12-04,Fetal anatomy study
+45,FEMALE,2012-01-11,Intramuscular injection
+45,FEMALE,2014-06-18,Medication Reconciliation
+45,FEMALE,2018-03-21,Auscultation of the fetal heart
+45,FEMALE,2018-03-21,Evaluation of uterine fundal height
+46,FEMALE,2011-04-25,Echocardiography
+46,FEMALE,2011-04-25,Medication Reconciliation
+46,FEMALE,2010-04-30,Echocardiography
+46,FEMALE,2010-04-30,Medication Reconciliation
+46,FEMALE,2003-05-31,Medication Reconciliation
+46,FEMALE,2009-05-09,Medication Reconciliation
+46,FEMALE,2013-01-31,Placing subject in prone position
+46,FEMALE,2009-05-09,Direct current cardioversion
+46,FEMALE,2013-02-01,Heart failure education
+46,FEMALE,2013-01-31,Placing subject in prone position
+46,FEMALE,2013-01-31,Oxygen administration by mask
+46,FEMALE,2013-01-31,Electrocardiographic procedure
+46,FEMALE,2013-01-31,Medication Reconciliation
+46,FEMALE,2010-05-15,Direct current cardioversion
+46,FEMALE,2010-05-15,Medication Reconciliation
+46,FEMALE,2013-01-31,Plain chest X-ray
+46,FEMALE,2013-01-31,Oxygen administration by mask
+46,FEMALE,2012-05-26,Medication Reconciliation
+46,FEMALE,2012-05-26,Direct current cardioversion
+46,FEMALE,2007-04-28,Catheter ablation of tissue of heart
+46,FEMALE,2007-04-28,Medication Reconciliation
+46,FEMALE,2012-04-19,Oxygen administration by mask
+46,FEMALE,2012-08-04,Medication Reconciliation
+46,FEMALE,2012-04-19,Electrocardiographic procedure
+46,FEMALE,2012-04-19,Medication Reconciliation
+46,FEMALE,2012-08-04,Echocardiography
+46,FEMALE,2011-10-22,Echocardiography
+46,FEMALE,2008-05-03,Direct current cardioversion
+46,FEMALE,2009-11-01,Echocardiography
+46,FEMALE,2009-11-01,Medication Reconciliation
+46,FEMALE,2011-10-22,Medication Reconciliation
+46,FEMALE,2012-04-19,Placing subject in prone position
+46,FEMALE,2012-04-20,Heart failure education
+46,FEMALE,2011-05-21,Direct current cardioversion
+46,FEMALE,2011-05-21,Medication Reconciliation
+46,FEMALE,2009-10-18,Assessment using New York Heart Association Classification
+46,FEMALE,2012-04-19,Plain chest X-ray
+46,FEMALE,2012-04-19,Oxygen administration by mask
+46,FEMALE,2009-10-18,Electrocardiographic procedure
+46,FEMALE,2010-10-27,Echocardiography
+46,FEMALE,2010-10-27,Medication Reconciliation
+46,FEMALE,2012-04-19,Placing subject in prone position
+47,MALE,2020-07-24,Medication Reconciliation
+47,MALE,2015-06-26,Medication Reconciliation
+47,MALE,2014-06-20,Medication Reconciliation
+48,MALE,2015-01-27,Medication Reconciliation
+48,MALE,2018-05-04,Suture open wound
+48,MALE,2020-02-25,Direct current cardioversion
+48,MALE,2018-02-13,Direct current cardioversion
+48,MALE,2017-02-07,Direct current cardioversion
+48,MALE,2017-02-07,Medication Reconciliation
+48,MALE,2018-02-13,Medication Reconciliation
+48,MALE,2019-02-19,Direct current cardioversion
+48,MALE,2019-02-19,Medication Reconciliation
+48,MALE,2018-02-13,Review of systems
+48,MALE,2013-11-03,Sputum examination
+48,MALE,2018-02-13,Medication Reconciliation
+48,MALE,2018-02-13,Brief general examination
+48,MALE,2016-02-02,Medication Reconciliation
+49,MALE,2018-03-27,Medication Reconciliation
+49,MALE,2018-04-03,Medication Reconciliation
+49,MALE,2020-04-07,Medication Reconciliation
+49,MALE,2013-09-03,Medication Reconciliation
+49,MALE,2013-03-05,Medication Reconciliation
+49,MALE,2015-03-10,Medication Reconciliation
+49,MALE,2019-04-02,Medication Reconciliation
+50,FEMALE,2013-10-01,Renal dialysis
+50,FEMALE,2016-10-04,Renal dialysis
+50,FEMALE,2013-06-12,Renal dialysis
+50,FEMALE,2015-02-19,Renal dialysis
+50,FEMALE,2012-12-23,Renal dialysis
+50,FEMALE,2019-05-24,Renal dialysis
+50,FEMALE,2018-03-22,Renal dialysis
+50,FEMALE,2012-09-17,Renal dialysis
+50,FEMALE,2012-01-29,Renal dialysis
+50,FEMALE,2014-10-12,Renal dialysis
+50,FEMALE,2018-03-19,Renal dialysis
+50,FEMALE,2013-07-22,Renal dialysis
+50,FEMALE,2015-02-10,Renal dialysis
+50,FEMALE,2015-01-22,Renal dialysis
+50,FEMALE,2017-04-30,Renal dialysis
+50,FEMALE,2020-09-23,Renal dialysis
+50,FEMALE,2015-11-13,Renal dialysis
+50,FEMALE,2019-02-11,Renal dialysis
+50,FEMALE,2012-12-10,Renal dialysis
+50,FEMALE,2014-12-09,Medication Reconciliation
+50,FEMALE,2014-12-07,Renal dialysis
+50,FEMALE,2015-04-25,Renal dialysis
+50,FEMALE,2012-10-09,Renal dialysis
+50,FEMALE,2014-06-04,Renal dialysis
+50,FEMALE,2020-06-19,Renal dialysis
+50,FEMALE,2014-10-18,Renal dialysis
+50,FEMALE,2020-12-09,Renal dialysis
+50,FEMALE,2014-01-02,Renal dialysis
+50,FEMALE,2020-04-05,Renal dialysis
+50,FEMALE,2017-05-25,Renal dialysis
+50,FEMALE,2016-10-10,Renal dialysis
+50,FEMALE,2020-04-17,Renal dialysis
+50,FEMALE,2020-01-09,Renal dialysis
+50,FEMALE,2017-02-12,Renal dialysis
+50,FEMALE,2013-03-26,Renal dialysis
+50,FEMALE,2012-10-15,Renal dialysis
+50,FEMALE,2019-07-26,Renal dialysis
+50,FEMALE,2019-09-10,Renal dialysis
+50,FEMALE,2020-04-08,Renal dialysis
+50,FEMALE,2017-11-27,Renal dialysis
+50,FEMALE,2011-04-28,Renal dialysis
+50,FEMALE,2014-03-30,Renal dialysis
+50,FEMALE,2014-09-29,Renal dialysis
+50,FEMALE,2014-02-18,Renal dialysis
+50,FEMALE,2017-08-22,Medication Reconciliation
+50,FEMALE,2015-10-23,Renal dialysis
+50,FEMALE,2019-04-02,Renal dialysis
+50,FEMALE,2019-03-30,Renal dialysis
+50,FEMALE,2013-09-03,Renal dialysis
+50,FEMALE,2016-10-23,Renal dialysis
+50,FEMALE,2011-08-08,Renal dialysis
+50,FEMALE,2016-07-03,Renal dialysis
+50,FEMALE,2012-04-06,Renal dialysis
+50,FEMALE,2020-06-03,Renal dialysis
+50,FEMALE,2013-06-27,Renal dialysis
+50,FEMALE,2016-06-21,Renal dialysis
+50,FEMALE,2020-07-17,Renal dialysis
+50,FEMALE,2014-04-02,Renal dialysis
+50,FEMALE,2015-02-25,Renal dialysis
+50,FEMALE,2013-10-17,Renal dialysis
+50,FEMALE,2017-12-19,Renal dialysis
+50,FEMALE,2017-11-12,Renal dialysis
+50,FEMALE,2014-05-13,Renal dialysis
+50,FEMALE,2017-09-14,Renal dialysis
+50,FEMALE,2016-04-20,Renal dialysis
+50,FEMALE,2013-12-02,Renal dialysis
+50,FEMALE,2017-12-13,Renal dialysis
+50,FEMALE,2017-03-08,Renal dialysis
+50,FEMALE,2011-07-05,Renal dialysis
+50,FEMALE,2014-03-12,Renal dialysis
+50,FEMALE,2016-08-12,Renal dialysis
+50,FEMALE,2018-08-21,Renal dialysis
+50,FEMALE,2015-06-02,Renal dialysis
+50,FEMALE,2012-09-30,Renal dialysis
+50,FEMALE,2020-04-11,Renal dialysis
+50,FEMALE,2013-02-10,Renal dialysis
+50,FEMALE,2016-03-08,Medication Reconciliation
+50,FEMALE,2014-12-13,Renal dialysis
+50,FEMALE,2019-01-11,Renal dialysis
+50,FEMALE,2020-11-18,Renal dialysis
+50,FEMALE,2020-10-18,Renal dialysis
+50,FEMALE,2017-11-24,Renal dialysis
+50,FEMALE,2020-07-26,Renal dialysis
+50,FEMALE,2011-12-22,Renal dialysis
+50,FEMALE,2019-01-14,Renal dialysis
+50,FEMALE,2014-03-15,Renal dialysis
+50,FEMALE,2019-10-08,Renal dialysis
+50,FEMALE,2013-01-23,Renal dialysis
+50,FEMALE,2012-08-14,Renal dialysis
+50,FEMALE,2015-10-01,Renal dialysis
+50,FEMALE,2017-07-01,Renal dialysis
+50,FEMALE,2016-05-27,Renal dialysis
+50,FEMALE,2011-08-11,Renal dialysis
+50,FEMALE,2019-09-29,Renal dialysis
+50,FEMALE,2018-03-25,Renal dialysis
+50,FEMALE,2012-04-25,Renal dialysis
+50,FEMALE,2020-02-03,Renal dialysis
+50,FEMALE,2019-11-11,Renal dialysis
+50,FEMALE,2012-01-16,Renal dialysis
+50,FEMALE,2014-10-31,Renal dialysis
+50,FEMALE,2013-11-07,Renal dialysis
+50,FEMALE,2017-04-15,Renal dialysis
+50,FEMALE,2011-10-25,Renal dialysis
+50,FEMALE,2018-04-01,Renal dialysis
+50,FEMALE,2019-04-20,Renal dialysis
+50,FEMALE,2011-09-14,Renal dialysis
+50,FEMALE,2018-06-23,Renal dialysis
+50,FEMALE,2011-06-10,Renal dialysis
+50,FEMALE,2020-08-23,Renal dialysis
+50,FEMALE,2012-05-19,Renal dialysis
+50,FEMALE,2012-11-19,Renal dialysis
+50,FEMALE,2019-06-09,Renal dialysis
+50,FEMALE,2011-06-28,Medication Reconciliation
+50,FEMALE,2011-06-26,Renal dialysis
+50,FEMALE,2020-10-02,Renal dialysis
+50,FEMALE,2015-03-01,Renal dialysis
+50,FEMALE,2018-08-24,Renal dialysis
+50,FEMALE,2017-07-26,Renal dialysis
+50,FEMALE,2016-08-09,Renal dialysis
+50,FEMALE,2020-06-12,Renal dialysis
+50,FEMALE,2012-10-03,Renal dialysis
+50,FEMALE,2017-03-12,Renal dialysis
+50,FEMALE,2020-03-20,Renal dialysis
+50,FEMALE,2018-05-23,Renal dialysis
+50,FEMALE,2012-02-04,Renal dialysis
+50,FEMALE,2015-06-17,Renal dialysis
+50,FEMALE,2011-10-28,Renal dialysis
+50,FEMALE,2011-04-22,Renal dialysis
+50,FEMALE,2014-10-15,Renal dialysis
+50,FEMALE,2018-09-12,Renal dialysis
+50,FEMALE,2018-03-07,Renal dialysis
+50,FEMALE,2017-08-20,Renal dialysis
+50,FEMALE,2016-04-23,Renal dialysis
+50,FEMALE,2019-12-28,Renal dialysis
+50,FEMALE,2016-05-14,Renal dialysis
+50,FEMALE,2015-01-29,Renal dialysis
+50,FEMALE,2014-01-18,Renal dialysis
+50,FEMALE,2011-11-15,Renal dialysis
+50,FEMALE,2015-09-06,Renal dialysis
+50,FEMALE,2012-08-08,Renal dialysis
+50,FEMALE,2020-12-03,Renal dialysis
+50,FEMALE,2014-05-03,Renal dialysis
+50,FEMALE,2011-04-25,Renal dialysis
+50,FEMALE,2018-04-16,Renal dialysis
+50,FEMALE,2019-11-18,Renal dialysis
+50,FEMALE,2019-04-11,Renal dialysis
+50,FEMALE,2015-04-01,Renal dialysis
+50,FEMALE,2014-05-25,Renal dialysis
+50,FEMALE,2014-07-08,Renal dialysis
+50,FEMALE,2012-09-08,Renal dialysis
+50,FEMALE,2018-01-25,Renal dialysis
+50,FEMALE,2015-06-20,Renal dialysis
+50,FEMALE,2020-02-15,Renal dialysis
+50,FEMALE,2018-08-09,Renal dialysis
+50,FEMALE,2013-09-16,Renal dialysis
+50,FEMALE,2011-01-25,Renal dialysis
+50,FEMALE,2013-06-18,Medication Reconciliation
+50,FEMALE,2013-06-15,Renal dialysis
+50,FEMALE,2018-06-14,Renal dialysis
+50,FEMALE,2020-04-02,Renal dialysis
+50,FEMALE,2015-01-04,Renal dialysis
+50,FEMALE,2012-06-04,Renal dialysis
+50,FEMALE,2014-07-14,Renal dialysis
+50,FEMALE,2014-01-15,Renal dialysis
+50,FEMALE,2014-04-05,Renal dialysis
+50,FEMALE,2015-08-24,Renal dialysis
+50,FEMALE,2011-08-30,Renal dialysis
+50,FEMALE,2014-12-16,Renal dialysis
+50,FEMALE,2019-07-16,Medication Reconciliation
+50,FEMALE,2019-07-13,Renal dialysis
+50,FEMALE,2017-02-27,Renal dialysis
+50,FEMALE,2018-02-07,Renal dialysis
+50,FEMALE,2018-01-28,Renal dialysis
+50,FEMALE,2019-09-16,Renal dialysis
+50,FEMALE,2016-05-18,Renal dialysis
+50,FEMALE,2011-07-17,Renal dialysis
+50,FEMALE,2020-01-15,Renal dialysis
+50,FEMALE,2016-02-11,Renal dialysis
+50,FEMALE,2018-12-14,Renal dialysis
+50,FEMALE,2020-08-10,Renal dialysis
+50,FEMALE,2019-05-12,Renal dialysis
+50,FEMALE,2017-08-26,Renal dialysis
+50,FEMALE,2015-06-26,Renal dialysis
+50,FEMALE,2017-08-11,Renal dialysis
+50,FEMALE,2011-01-12,Renal dialysis
+50,FEMALE,2018-02-25,Renal dialysis
+50,FEMALE,2013-08-31,Renal dialysis
+50,FEMALE,2012-08-05,Renal dialysis
+50,FEMALE,2016-03-17,Renal dialysis
+50,FEMALE,2020-01-31,Renal dialysis
+50,FEMALE,2016-04-01,Renal dialysis
+50,FEMALE,2015-09-15,Renal dialysis
+50,FEMALE,2014-11-12,Renal dialysis
+50,FEMALE,2018-07-18,Renal dialysis
+50,FEMALE,2014-10-24,Renal dialysis
+50,FEMALE,2011-05-01,Renal dialysis
+50,FEMALE,2013-03-13,Renal dialysis
+50,FEMALE,2014-03-27,Renal dialysis
+50,FEMALE,2013-07-13,Renal dialysis
+50,FEMALE,2012-09-27,Renal dialysis
+50,FEMALE,2020-05-19,Renal dialysis
+50,FEMALE,2011-07-24,Renal dialysis
+50,FEMALE,2016-07-19,Renal dialysis
+50,FEMALE,2019-08-10,Renal dialysis
+50,FEMALE,2013-08-13,Renal dialysis
+50,FEMALE,2018-06-17,Renal dialysis
+50,FEMALE,2020-11-24,Renal dialysis
+50,FEMALE,2015-02-13,Renal dialysis
+50,FEMALE,2016-04-04,Renal dialysis
+50,FEMALE,2016-04-05,Medication Reconciliation
+50,FEMALE,2020-04-21,Renal dialysis
+50,FEMALE,2017-07-08,Renal dialysis
+50,FEMALE,2014-03-18,Renal dialysis
+50,FEMALE,2011-10-06,Renal dialysis
+50,FEMALE,2019-11-05,Renal dialysis
+50,FEMALE,2011-01-03,Renal dialysis
+50,FEMALE,2017-10-27,Renal dialysis
+50,FEMALE,2016-09-09,Renal dialysis
+50,FEMALE,2015-03-13,Renal dialysis
+50,FEMALE,2013-04-13,Renal dialysis
+50,FEMALE,2016-11-26,Renal dialysis
+50,FEMALE,2020-10-21,Renal dialysis
+50,FEMALE,2017-02-09,Renal dialysis
+50,FEMALE,2018-01-04,Renal dialysis
+50,FEMALE,2017-06-13,Renal dialysis
+50,FEMALE,2016-03-20,Renal dialysis
+50,FEMALE,2012-12-07,Renal dialysis
+50,FEMALE,2015-10-04,Renal dialysis
+50,FEMALE,2017-09-05,Renal dialysis
+50,FEMALE,2017-09-05,Medication Reconciliation
+50,FEMALE,2012-06-07,Renal dialysis
+50,FEMALE,2020-10-27,Renal dialysis
+50,FEMALE,2020-02-25,Medication Reconciliation
+50,FEMALE,2020-02-25,Renal dialysis
+50,FEMALE,2015-11-04,Renal dialysis
+50,FEMALE,2010-12-25,Renal dialysis
+50,FEMALE,2020-07-01,Renal dialysis
+50,FEMALE,2018-05-22,Medication Reconciliation
+50,FEMALE,2018-05-20,Renal dialysis
+50,FEMALE,2019-08-04,Renal dialysis
+50,FEMALE,2011-03-28,Renal dialysis
+50,FEMALE,2014-07-05,Renal dialysis
+50,FEMALE,2019-12-06,Renal dialysis
+50,FEMALE,2017-07-20,Renal dialysis
+50,FEMALE,2011-07-27,Renal dialysis
+50,FEMALE,2018-09-21,Renal dialysis
+50,FEMALE,2017-12-10,Renal dialysis
+50,FEMALE,2013-07-06,Renal dialysis
+50,FEMALE,2011-09-05,Renal dialysis
+50,FEMALE,2017-09-02,Renal dialysis
+50,FEMALE,2018-07-21,Renal dialysis
+50,FEMALE,2012-03-15,Renal dialysis
+50,FEMALE,2020-03-05,Renal dialysis
+50,FEMALE,2018-12-23,Renal dialysis
+50,FEMALE,2018-12-05,Renal dialysis
+50,FEMALE,2014-01-12,Renal dialysis
+50,FEMALE,2019-02-23,Renal dialysis
+50,FEMALE,2014-01-30,Renal dialysis
+50,FEMALE,2019-03-02,Renal dialysis
+50,FEMALE,2015-03-16,Renal dialysis
+50,FEMALE,2011-09-27,Renal dialysis
+50,FEMALE,2018-07-12,Renal dialysis
+50,FEMALE,2017-07-11,Renal dialysis
+50,FEMALE,2014-11-18,Renal dialysis
+50,FEMALE,2012-09-02,Renal dialysis
+50,FEMALE,2015-05-19,Medication Reconciliation
+50,FEMALE,2015-05-17,Renal dialysis
+50,FEMALE,2019-09-26,Renal dialysis
+50,FEMALE,2019-03-20,Renal dialysis
+50,FEMALE,2014-05-19,Renal dialysis
+50,FEMALE,2011-10-22,Renal dialysis
+50,FEMALE,2013-08-22,Renal dialysis
+50,FEMALE,2016-02-02,Renal dialysis
+50,FEMALE,2013-01-16,Renal dialysis
+50,FEMALE,2017-04-12,Renal dialysis
+50,FEMALE,2017-05-31,Renal dialysis
+50,FEMALE,2013-05-08,Renal dialysis
+50,FEMALE,2017-07-17,Renal dialysis
+50,FEMALE,2015-01-13,Renal dialysis
+50,FEMALE,2011-11-12,Renal dialysis
+50,FEMALE,2014-12-19,Renal dialysis
+50,FEMALE,2014-02-09,Renal dialysis
+50,FEMALE,2013-01-01,Renal dialysis
+50,FEMALE,2019-08-23,Renal dialysis
+50,FEMALE,2015-11-26,Renal dialysis
+50,FEMALE,2013-03-10,Renal dialysis
+50,FEMALE,2012-06-19,Renal dialysis
+50,FEMALE,2015-11-23,Renal dialysis
+50,FEMALE,2017-04-08,Renal dialysis
+50,FEMALE,2011-01-09,Renal dialysis
+50,FEMALE,2020-12-06,Renal dialysis
+50,FEMALE,2012-03-28,Renal dialysis
+50,FEMALE,2012-01-01,Renal dialysis
+50,FEMALE,2012-04-18,Renal dialysis
+50,FEMALE,2017-05-28,Renal dialysis
+50,FEMALE,2012-07-02,Renal dialysis
+50,FEMALE,2019-05-21,Renal dialysis
+50,FEMALE,2012-01-19,Renal dialysis
+50,FEMALE,2013-05-21,Renal dialysis
+50,FEMALE,2014-05-31,Renal dialysis
+50,FEMALE,2013-01-29,Renal dialysis
+50,FEMALE,2013-06-24,Renal dialysis
+50,FEMALE,2020-01-19,Renal dialysis
+50,FEMALE,2019-05-03,Renal dialysis
+50,FEMALE,2020-09-29,Renal dialysis
+50,FEMALE,2015-01-10,Renal dialysis
+50,FEMALE,2014-02-27,Renal dialysis
+50,FEMALE,2018-03-01,Renal dialysis
+50,FEMALE,2011-10-03,Renal dialysis
+50,FEMALE,2013-04-07,Renal dialysis
+50,FEMALE,2018-10-07,Renal dialysis
+50,FEMALE,2019-06-21,Renal dialysis
+50,FEMALE,2017-09-26,Renal dialysis
+50,FEMALE,2018-07-15,Renal dialysis
+50,FEMALE,2020-01-25,Renal dialysis
+50,FEMALE,2017-08-29,Renal dialysis
+50,FEMALE,2016-11-29,Renal dialysis
+50,FEMALE,2016-04-13,Renal dialysis
+50,FEMALE,2013-06-18,Renal dialysis
+50,FEMALE,2016-03-04,Renal dialysis
+50,FEMALE,2014-04-24,Renal dialysis
+50,FEMALE,2013-09-06,Renal dialysis
+50,FEMALE,2019-05-18,Renal dialysis
+50,FEMALE,2012-01-07,Renal dialysis
+50,FEMALE,2018-11-07,Renal dialysis
+50,FEMALE,2016-06-30,Renal dialysis
+50,FEMALE,2016-07-16,Renal dialysis
+50,FEMALE,2011-09-21,Renal dialysis
+50,FEMALE,2018-01-07,Renal dialysis
+50,FEMALE,2011-12-13,Renal dialysis
+50,FEMALE,2019-03-23,Renal dialysis
+50,FEMALE,2017-06-28,Renal dialysis
+50,FEMALE,2017-11-03,Renal dialysis
+50,FEMALE,2014-09-08,Renal dialysis
+50,FEMALE,2020-07-13,Renal dialysis
+50,FEMALE,2020-05-09,Renal dialysis
+50,FEMALE,2019-06-18,Renal dialysis
+50,FEMALE,2013-05-05,Renal dialysis
+50,FEMALE,2016-03-23,Renal dialysis
+50,FEMALE,2013-02-23,Renal dialysis
+50,FEMALE,2018-02-13,Renal dialysis
+50,FEMALE,2012-07-27,Renal dialysis
+50,FEMALE,2018-10-16,Renal dialysis
+50,FEMALE,2013-10-14,Renal dialysis
+50,FEMALE,2012-10-31,Renal dialysis
+50,FEMALE,2019-11-08,Renal dialysis
+50,FEMALE,2015-06-11,Renal dialysis
+50,FEMALE,2019-12-12,Renal dialysis
+50,FEMALE,2015-10-19,Renal dialysis
+50,FEMALE,2013-11-20,Renal dialysis
+50,FEMALE,2014-03-02,Renal dialysis
+50,FEMALE,2017-06-22,Renal dialysis
+50,FEMALE,2020-10-15,Renal dialysis
+50,FEMALE,2013-12-15,Renal dialysis
+50,FEMALE,2018-07-27,Renal dialysis
+50,FEMALE,2013-02-01,Renal dialysis
+50,FEMALE,2015-02-16,Renal dialysis
+50,FEMALE,2017-06-25,Renal dialysis
+50,FEMALE,2016-04-17,Renal dialysis
+50,FEMALE,2011-01-31,Renal dialysis
+50,FEMALE,2020-07-10,Renal dialysis
+50,FEMALE,2011-04-16,Renal dialysis
+50,FEMALE,2019-07-04,Renal dialysis
+50,FEMALE,2015-05-14,Renal dialysis
+50,FEMALE,2011-09-08,Renal dialysis
+50,FEMALE,2016-02-27,Renal dialysis
+50,FEMALE,2020-08-01,Renal dialysis
+50,FEMALE,2012-03-18,Renal dialysis
+50,FEMALE,2011-11-18,Renal dialysis
+50,FEMALE,2020-01-12,Renal dialysis
+50,FEMALE,2011-05-04,Renal dialysis
+50,FEMALE,2011-03-12,Renal dialysis
+50,FEMALE,2013-03-20,Renal dialysis
+50,FEMALE,2014-09-20,Renal dialysis
+50,FEMALE,2012-08-11,Renal dialysis
+50,FEMALE,2013-02-17,Renal dialysis
+50,FEMALE,2018-10-10,Renal dialysis
+50,FEMALE,2013-09-19,Renal dialysis
+50,FEMALE,2018-09-03,Renal dialysis
+50,FEMALE,2013-06-30,Renal dialysis
+50,FEMALE,2018-02-22,Renal dialysis
+50,FEMALE,2012-02-22,Renal dialysis
+50,FEMALE,2019-07-10,Renal dialysis
+50,FEMALE,2018-02-01,Renal dialysis
+50,FEMALE,2017-10-24,Renal dialysis
+50,FEMALE,2014-01-24,Renal dialysis
+50,FEMALE,2012-04-12,Renal dialysis
+50,FEMALE,2015-08-09,Renal dialysis
+50,FEMALE,2012-02-07,Renal dialysis
+50,FEMALE,2019-05-28,Renal dialysis
+50,FEMALE,2016-12-24,Renal dialysis
+50,FEMALE,2011-04-19,Renal dialysis
+50,FEMALE,2018-10-13,Renal dialysis
+50,FEMALE,2017-06-10,Renal dialysis
+50,FEMALE,2018-11-29,Renal dialysis
+50,FEMALE,2012-11-15,Renal dialysis
+50,FEMALE,2012-01-26,Renal dialysis
+50,FEMALE,2013-04-26,Renal dialysis
+50,FEMALE,2012-09-24,Renal dialysis
+50,FEMALE,2013-11-11,Renal dialysis
+50,FEMALE,2012-01-10,Renal dialysis
+50,FEMALE,2014-04-18,Renal dialysis
+50,FEMALE,2017-08-01,Renal dialysis
+50,FEMALE,2011-03-22,Renal dialysis
+50,FEMALE,2019-01-30,Renal dialysis
+50,FEMALE,2013-08-16,Renal dialysis
+50,FEMALE,2011-10-31,Renal dialysis
+50,FEMALE,2014-02-15,Renal dialysis
+50,FEMALE,2016-03-13,Renal dialysis
+50,FEMALE,2020-11-30,Renal dialysis
+50,FEMALE,2013-07-16,Renal dialysis
+50,FEMALE,2011-02-16,Renal dialysis
+50,FEMALE,2017-06-19,Renal dialysis
+50,FEMALE,2017-10-09,Renal dialysis
+50,FEMALE,2012-11-09,Renal dialysis
+50,FEMALE,2016-05-08,Renal dialysis
+50,FEMALE,2011-03-06,Renal dialysis
+50,FEMALE,2014-10-21,Renal dialysis
+50,FEMALE,2015-05-08,Renal dialysis
+50,FEMALE,2018-03-29,Renal dialysis
+50,FEMALE,2011-06-29,Renal dialysis
+50,FEMALE,2014-04-30,Renal dialysis
+50,FEMALE,2018-05-17,Renal dialysis
+50,FEMALE,2015-06-05,Renal dialysis
+50,FEMALE,2011-08-24,Renal dialysis
+50,FEMALE,2012-02-16,Renal dialysis
+50,FEMALE,2016-06-27,Renal dialysis
+50,FEMALE,2013-08-03,Renal dialysis
+50,FEMALE,2018-05-08,Renal dialysis
+50,FEMALE,2012-02-26,Renal dialysis
+50,FEMALE,2011-12-07,Renal dialysis
+50,FEMALE,2019-04-30,Renal dialysis
+50,FEMALE,2020-04-14,Renal dialysis
+50,FEMALE,2018-09-18,Renal dialysis
+50,FEMALE,2011-07-21,Renal dialysis
+50,FEMALE,2014-12-25,Renal dialysis
+50,FEMALE,2016-09-22,Renal dialysis
+50,FEMALE,2011-12-29,Renal dialysis
+50,FEMALE,2015-12-02,Renal dialysis
+50,FEMALE,2019-12-16,Renal dialysis
+50,FEMALE,2014-02-02,Renal dialysis
+50,FEMALE,2015-06-23,Renal dialysis
+50,FEMALE,2016-07-22,Renal dialysis
+50,FEMALE,2013-09-10,Renal dialysis
+50,FEMALE,2017-01-24,Renal dialysis
+50,FEMALE,2015-02-22,Renal dialysis
+50,FEMALE,2019-03-26,Renal dialysis
+50,FEMALE,2018-04-19,Renal dialysis
+50,FEMALE,2014-08-08,Renal dialysis
+50,FEMALE,2015-05-11,Renal dialysis
+50,FEMALE,2011-04-05,Medication Reconciliation
+50,FEMALE,2011-03-09,Renal dialysis
+50,FEMALE,2017-11-21,Renal dialysis
+50,FEMALE,2012-09-05,Renal dialysis
+50,FEMALE,2018-02-10,Renal dialysis
+50,FEMALE,2018-05-02,Renal dialysis
+50,FEMALE,2012-05-10,Renal dialysis
+50,FEMALE,2014-08-14,Renal dialysis
+50,FEMALE,2016-06-14,Renal dialysis
+50,FEMALE,2013-01-07,Renal dialysis
+50,FEMALE,2011-09-24,Renal dialysis
+50,FEMALE,2012-01-04,Renal dialysis
+50,FEMALE,2019-11-27,Renal dialysis
+50,FEMALE,2011-01-19,Renal dialysis
+50,FEMALE,2017-12-22,Renal dialysis
+50,FEMALE,2015-01-01,Renal dialysis
+50,FEMALE,2012-10-12,Renal dialysis
+50,FEMALE,2011-05-23,Renal dialysis
+50,FEMALE,2012-11-25,Renal dialysis
+50,FEMALE,2016-08-19,Renal dialysis
+50,FEMALE,2018-07-06,Renal dialysis
+50,FEMALE,2017-02-24,Renal dialysis
+50,FEMALE,2013-12-12,Renal dialysis
+50,FEMALE,2019-08-29,Renal dialysis
+50,FEMALE,2015-11-01,Renal dialysis
+50,FEMALE,2016-07-31,Renal dialysis
+50,FEMALE,2011-04-06,Renal dialysis
+50,FEMALE,2020-09-07,Renal dialysis
+50,FEMALE,2015-06-30,Renal dialysis
+50,FEMALE,2015-12-05,Renal dialysis
+50,FEMALE,2017-08-08,Renal dialysis
+50,FEMALE,2014-05-10,Renal dialysis
+50,FEMALE,2011-08-30,Medication Reconciliation
+50,FEMALE,2011-08-27,Renal dialysis
+50,FEMALE,2015-12-11,Renal dialysis
+50,FEMALE,2018-08-31,Renal dialysis
+50,FEMALE,2018-02-04,Renal dialysis
+50,FEMALE,2019-10-11,Renal dialysis
+50,FEMALE,2015-07-15,Renal dialysis
+50,FEMALE,2015-11-07,Renal dialysis
+50,FEMALE,2016-01-08,Renal dialysis
+50,FEMALE,2019-02-20,Renal dialysis
+50,FEMALE,2018-11-22,Renal dialysis
+50,FEMALE,2017-05-13,Renal dialysis
+50,FEMALE,2016-01-14,Renal dialysis
+50,FEMALE,2012-05-01,Renal dialysis
+50,FEMALE,2011-06-07,Renal dialysis
+50,FEMALE,2017-08-05,Renal dialysis
+50,FEMALE,2017-07-14,Renal dialysis
+50,FEMALE,2016-07-09,Renal dialysis
+50,FEMALE,2014-07-17,Renal dialysis
+50,FEMALE,2014-08-29,Renal dialysis
+50,FEMALE,2018-03-13,Renal dialysis
+50,FEMALE,2014-09-14,Renal dialysis
+50,FEMALE,2018-03-10,Renal dialysis
+50,FEMALE,2017-06-16,Renal dialysis
+50,FEMALE,2019-09-07,Renal dialysis
+50,FEMALE,2016-02-21,Renal dialysis
+50,FEMALE,2011-02-03,Renal dialysis
+50,FEMALE,2013-05-18,Renal dialysis
+50,FEMALE,2016-12-15,Renal dialysis
+50,FEMALE,2015-11-10,Renal dialysis
+50,FEMALE,2014-08-20,Renal dialysis
+50,FEMALE,2012-10-06,Renal dialysis
+50,FEMALE,2019-07-23,Renal dialysis
+50,FEMALE,2018-11-25,Renal dialysis
+50,FEMALE,2020-11-27,Renal dialysis
+50,FEMALE,2019-12-31,Renal dialysis
+50,FEMALE,2018-07-24,Renal dialysis
+50,FEMALE,2014-04-09,Renal dialysis
+50,FEMALE,2012-06-16,Renal dialysis
+50,FEMALE,2014-10-03,Renal dialysis
+50,FEMALE,2013-12-09,Renal dialysis
+50,FEMALE,2013-12-10,Medication Reconciliation
+50,FEMALE,2017-12-26,Medication Reconciliation
+50,FEMALE,2017-12-25,Renal dialysis
+50,FEMALE,2015-03-25,Renal dialysis
+50,FEMALE,2020-02-22,Renal dialysis
+50,FEMALE,2014-06-16,Renal dialysis
+50,FEMALE,2014-07-20,Renal dialysis
+50,FEMALE,2019-04-05,Renal dialysis
+50,FEMALE,2015-07-03,Renal dialysis
+50,FEMALE,2012-08-30,Renal dialysis
+50,FEMALE,2016-10-07,Renal dialysis
+50,FEMALE,2018-05-30,Renal dialysis
+50,FEMALE,2020-03-11,Renal dialysis
+50,FEMALE,2011-11-03,Renal dialysis
+50,FEMALE,2015-07-27,Renal dialysis
+50,FEMALE,2019-10-02,Renal dialysis
+50,FEMALE,2011-09-11,Renal dialysis
+50,FEMALE,2020-02-09,Renal dialysis
+50,FEMALE,2013-10-23,Renal dialysis
+50,FEMALE,2014-09-05,Renal dialysis
+50,FEMALE,2019-12-19,Renal dialysis
+50,FEMALE,2013-08-19,Renal dialysis
+50,FEMALE,2016-09-28,Renal dialysis
+50,FEMALE,2013-02-20,Renal dialysis
+50,FEMALE,2019-11-21,Renal dialysis
+50,FEMALE,2017-05-19,Renal dialysis
+50,FEMALE,2015-06-14,Renal dialysis
+50,FEMALE,2016-09-03,Renal dialysis
+50,FEMALE,2011-10-09,Renal dialysis
+50,FEMALE,2016-12-05,Renal dialysis
+50,FEMALE,2016-11-23,Renal dialysis
+50,FEMALE,2013-01-10,Renal dialysis
+50,FEMALE,2018-09-09,Renal dialysis
+50,FEMALE,2011-09-02,Renal dialysis
+50,FEMALE,2018-09-15,Renal dialysis
+50,FEMALE,2012-05-07,Renal dialysis
+50,FEMALE,2018-10-29,Renal dialysis
+50,FEMALE,2012-10-22,Renal dialysis
+50,FEMALE,2016-01-24,Renal dialysis
+50,FEMALE,2015-05-26,Renal dialysis
+50,FEMALE,2020-01-28,Renal dialysis
+50,FEMALE,2015-10-26,Renal dialysis
+50,FEMALE,2015-09-21,Renal dialysis
+50,FEMALE,2013-07-28,Renal dialysis
+50,FEMALE,2013-07-30,Medication Reconciliation
+50,FEMALE,2011-05-17,Renal dialysis
+50,FEMALE,2014-11-06,Renal dialysis
+50,FEMALE,2014-05-22,Renal dialysis
+50,FEMALE,2013-01-13,Renal dialysis
+50,FEMALE,2014-04-27,Renal dialysis
+50,FEMALE,2019-08-26,Renal dialysis
+50,FEMALE,2011-01-16,Renal dialysis
+50,FEMALE,2012-06-23,Renal dialysis
+50,FEMALE,2016-06-08,Renal dialysis
+50,FEMALE,2015-11-16,Renal dialysis
+50,FEMALE,2017-01-18,Renal dialysis
+50,FEMALE,2011-10-18,Renal dialysis
+50,FEMALE,2020-10-30,Renal dialysis
+50,FEMALE,2018-07-05,Colonoscopy
+50,FEMALE,2011-08-05,Renal dialysis
+50,FEMALE,2020-09-20,Renal dialysis
+50,FEMALE,2019-12-09,Renal dialysis
+50,FEMALE,2019-02-05,Renal dialysis
+50,FEMALE,2020-09-14,Renal dialysis
+50,FEMALE,2015-12-14,Renal dialysis
+50,FEMALE,2018-09-28,Renal dialysis
+50,FEMALE,2012-12-20,Renal dialysis
+50,FEMALE,2018-08-06,Renal dialysis
+50,FEMALE,2016-06-11,Renal dialysis
+50,FEMALE,2016-06-14,Medication Reconciliation
+50,FEMALE,2017-12-07,Renal dialysis
+50,FEMALE,2016-12-08,Renal dialysis
+50,FEMALE,2018-11-19,Renal dialysis
+50,FEMALE,2011-06-20,Renal dialysis
+50,FEMALE,2013-09-13,Renal dialysis
+50,FEMALE,2018-02-19,Renal dialysis
+50,FEMALE,2020-11-02,Renal dialysis
+50,FEMALE,2011-02-25,Renal dialysis
+50,FEMALE,2020-09-01,Renal dialysis
+50,FEMALE,2012-07-23,Renal dialysis
+50,FEMALE,2015-07-09,Renal dialysis
+50,FEMALE,2018-12-26,Renal dialysis
+50,FEMALE,2019-02-17,Renal dialysis
+50,FEMALE,2012-03-06,Renal dialysis
+50,FEMALE,2013-04-29,Renal dialysis
+50,FEMALE,2011-06-13,Renal dialysis
+50,FEMALE,2019-10-21,Renal dialysis
+50,FEMALE,2016-07-12,Renal dialysis
+50,FEMALE,2016-10-14,Renal dialysis
+50,FEMALE,2012-11-03,Renal dialysis
+50,FEMALE,2017-03-05,Renal dialysis
+50,FEMALE,2013-01-01,Medication Reconciliation
+50,FEMALE,2012-12-29,Renal dialysis
+50,FEMALE,2020-03-14,Renal dialysis
+50,FEMALE,2011-10-15,Renal dialysis
+50,FEMALE,2013-07-03,Renal dialysis
+50,FEMALE,2017-10-03,Renal dialysis
+50,FEMALE,2016-11-20,Renal dialysis
+50,FEMALE,2012-12-13,Renal dialysis
+50,FEMALE,2016-10-04,Medication Reconciliation
+50,FEMALE,2016-10-01,Renal dialysis
+50,FEMALE,2014-11-27,Renal dialysis
+50,FEMALE,2012-06-13,Renal dialysis
+50,FEMALE,2013-12-30,Renal dialysis
+50,FEMALE,2014-07-23,Renal dialysis
+50,FEMALE,2015-03-22,Renal dialysis
+50,FEMALE,2014-07-02,Renal dialysis
+50,FEMALE,2018-10-04,Renal dialysis
+50,FEMALE,2015-04-19,Renal dialysis
+50,FEMALE,2015-04-16,Renal dialysis
+50,FEMALE,2019-10-14,Renal dialysis
+50,FEMALE,2016-08-31,Renal dialysis
+50,FEMALE,2020-08-26,Renal dialysis
+50,FEMALE,2011-08-02,Medication Reconciliation
+50,FEMALE,2011-07-30,Renal dialysis
+50,FEMALE,2014-05-16,Renal dialysis
+50,FEMALE,2013-10-04,Renal dialysis
+50,FEMALE,2014-08-23,Renal dialysis
+50,FEMALE,2012-06-01,Renal dialysis
+50,FEMALE,2017-11-09,Renal dialysis
+50,FEMALE,2015-02-01,Renal dialysis
+50,FEMALE,2014-03-21,Renal dialysis
+50,FEMALE,2011-05-10,Renal dialysis
+50,FEMALE,2020-06-22,Renal dialysis
+50,FEMALE,2020-04-30,Renal dialysis
+50,FEMALE,2019-01-08,Renal dialysis
+50,FEMALE,2017-01-12,Renal dialysis
+50,FEMALE,2014-03-08,Renal dialysis
+50,FEMALE,2017-10-15,Renal dialysis
+50,FEMALE,2018-01-13,Renal dialysis
+50,FEMALE,2013-08-09,Renal dialysis
+50,FEMALE,2020-03-27,Renal dialysis
+50,FEMALE,2017-09-29,Renal dialysis
+50,FEMALE,2016-01-05,Renal dialysis
+50,FEMALE,2011-08-21,Renal dialysis
+50,FEMALE,2020-02-04,Medication Reconciliation
+50,FEMALE,2012-05-13,Renal dialysis
+50,FEMALE,2020-10-12,Renal dialysis
+50,FEMALE,2019-12-25,Renal dialysis
+50,FEMALE,2014-11-21,Renal dialysis
+50,FEMALE,2019-04-14,Renal dialysis
+50,FEMALE,2019-04-16,Medication Reconciliation
+50,FEMALE,2012-12-26,Renal dialysis
+50,FEMALE,2016-02-08,Renal dialysis
+50,FEMALE,2012-04-28,Renal dialysis
+50,FEMALE,2012-08-02,Renal dialysis
+50,FEMALE,2013-09-28,Renal dialysis
+50,FEMALE,2020-05-06,Renal dialysis
+50,FEMALE,2017-01-02,Renal dialysis
+50,FEMALE,2019-11-30,Renal dialysis
+50,FEMALE,2017-01-30,Renal dialysis
+50,FEMALE,2016-03-07,Renal dialysis
+50,FEMALE,2017-03-27,Renal dialysis
+50,FEMALE,2017-09-20,Renal dialysis
+50,FEMALE,2016-03-10,Renal dialysis
+50,FEMALE,2013-10-07,Renal dialysis
+50,FEMALE,2012-11-06,Renal dialysis
+50,FEMALE,2013-12-18,Renal dialysis
+50,FEMALE,2013-10-29,Renal dialysis
+50,FEMALE,2012-05-16,Renal dialysis
+50,FEMALE,2020-07-23,Renal dialysis
+50,FEMALE,2018-01-22,Renal dialysis
+50,FEMALE,2018-01-23,Medication Reconciliation
+50,FEMALE,2015-03-07,Renal dialysis
+50,FEMALE,2011-06-01,Renal dialysis
+50,FEMALE,2012-09-20,Renal dialysis
+50,FEMALE,2013-04-04,Renal dialysis
+50,FEMALE,2014-02-21,Renal dialysis
+50,FEMALE,2011-02-19,Renal dialysis
+50,FEMALE,2013-05-15,Renal dialysis
+50,FEMALE,2017-08-14,Renal dialysis
+50,FEMALE,2015-04-07,Renal dialysis
+50,FEMALE,2017-11-06,Renal dialysis
+50,FEMALE,2013-03-01,Renal dialysis
+50,FEMALE,2018-06-11,Renal dialysis
+50,FEMALE,2018-12-20,Renal dialysis
+50,FEMALE,2012-08-27,Renal dialysis
+50,FEMALE,2017-07-04,Renal dialysis
+50,FEMALE,2018-08-12,Renal dialysis
+50,FEMALE,2011-02-22,Renal dialysis
+50,FEMALE,2014-09-11,Renal dialysis
+50,FEMALE,2011-09-17,Renal dialysis
+50,FEMALE,2013-01-04,Renal dialysis
+50,FEMALE,2013-05-02,Renal dialysis
+50,FEMALE,2020-05-12,Renal dialysis
+50,FEMALE,2015-06-08,Renal dialysis
+50,FEMALE,2017-01-08,Renal dialysis
+50,FEMALE,2020-03-17,Renal dialysis
+50,FEMALE,2019-02-27,Renal dialysis
+50,FEMALE,2012-08-20,Renal dialysis
+50,FEMALE,2013-11-19,Medication Reconciliation
+50,FEMALE,2013-11-17,Renal dialysis
+50,FEMALE,2016-12-30,Renal dialysis
+50,FEMALE,2018-11-13,Renal dialysis
+50,FEMALE,2017-03-02,Renal dialysis
+50,FEMALE,2012-07-11,Renal dialysis
+50,FEMALE,2012-01-22,Renal dialysis
+50,FEMALE,2017-04-24,Renal dialysis
+50,FEMALE,2020-07-20,Renal dialysis
+50,FEMALE,2015-12-24,Renal dialysis
+50,FEMALE,2016-10-26,Renal dialysis
+50,FEMALE,2011-11-28,Renal dialysis
+50,FEMALE,2010-12-28,Renal dialysis
+50,FEMALE,2011-01-22,Renal dialysis
+50,FEMALE,2019-02-02,Renal dialysis
+50,FEMALE,2020-08-07,Renal dialysis
+50,FEMALE,2016-03-26,Renal dialysis
+50,FEMALE,2013-12-27,Renal dialysis
+50,FEMALE,2016-09-19,Renal dialysis
+50,FEMALE,2013-04-23,Renal dialysis
+50,FEMALE,2012-03-24,Renal dialysis
+50,FEMALE,2012-07-14,Renal dialysis
+50,FEMALE,2017-03-21,Renal dialysis
+50,FEMALE,2019-07-29,Renal dialysis
+50,FEMALE,2015-12-27,Renal dialysis
+50,FEMALE,2019-10-24,Renal dialysis
+50,FEMALE,2017-10-18,Renal dialysis
+50,FEMALE,2014-05-28,Renal dialysis
+50,FEMALE,2013-08-06,Renal dialysis
+50,FEMALE,2020-01-03,Renal dialysis
+50,FEMALE,2014-12-01,Renal dialysis
+50,FEMALE,2017-09-17,Renal dialysis
+50,FEMALE,2011-02-13,Renal dialysis
+50,FEMALE,2016-10-17,Renal dialysis
+50,FEMALE,2012-02-13,Renal dialysis
+50,FEMALE,2019-08-16,Renal dialysis
+50,FEMALE,2011-02-01,Medication Reconciliation
+50,FEMALE,2017-03-24,Renal dialysis
+50,FEMALE,2019-09-23,Renal dialysis
+50,FEMALE,2018-03-16,Renal dialysis
+50,FEMALE,2018-07-09,Renal dialysis
+50,FEMALE,2014-10-07,Medication Reconciliation
+50,FEMALE,2014-10-06,Renal dialysis
+50,FEMALE,2016-10-20,Renal dialysis
+50,FEMALE,2020-10-05,Renal dialysis
+50,FEMALE,2018-07-31,Renal dialysis
+50,FEMALE,2015-07-31,Renal dialysis
+50,FEMALE,2014-02-24,Renal dialysis
+50,FEMALE,2020-02-12,Renal dialysis
+50,FEMALE,2013-11-01,Renal dialysis
+50,FEMALE,2013-10-11,Renal dialysis
+50,FEMALE,2016-05-24,Renal dialysis
+50,FEMALE,2014-09-23,Renal dialysis
+50,FEMALE,2019-09-04,Renal dialysis
+50,FEMALE,2016-01-27,Renal dialysis
+50,FEMALE,2011-12-16,Renal dialysis
+50,FEMALE,2012-08-23,Renal dialysis
+50,FEMALE,2014-11-24,Renal dialysis
+50,FEMALE,2020-08-29,Renal dialysis
+50,FEMALE,2017-09-08,Renal dialysis
+50,FEMALE,2020-01-06,Renal dialysis
+50,FEMALE,2014-04-15,Renal dialysis
+50,FEMALE,2018-06-02,Renal dialysis
+50,FEMALE,2014-06-10,Medication Reconciliation
+50,FEMALE,2014-06-07,Renal dialysis
+50,FEMALE,2018-06-30,Renal dialysis
+50,FEMALE,2020-11-15,Renal dialysis
+50,FEMALE,2016-01-02,Renal dialysis
+50,FEMALE,2013-11-29,Renal dialysis
+50,FEMALE,2012-12-16,Renal dialysis
+50,FEMALE,2013-08-20,Medication Reconciliation
+50,FEMALE,2017-10-21,Renal dialysis
+50,FEMALE,2017-05-16,Renal dialysis
+50,FEMALE,2017-01-15,Renal dialysis
+50,FEMALE,2012-05-22,Renal dialysis
+50,FEMALE,2018-04-04,Renal dialysis
+50,FEMALE,2017-11-18,Renal dialysis
+50,FEMALE,2011-06-23,Renal dialysis
+50,FEMALE,2020-08-14,Renal dialysis
+50,FEMALE,2013-03-29,Renal dialysis
+50,FEMALE,2012-10-18,Renal dialysis
+50,FEMALE,2020-10-24,Renal dialysis
+50,FEMALE,2017-07-23,Renal dialysis
+50,FEMALE,2012-03-09,Renal dialysis
+50,FEMALE,2011-11-09,Renal dialysis
+50,FEMALE,2011-05-20,Renal dialysis
+50,FEMALE,2018-04-26,Renal dialysis
+50,FEMALE,2017-02-05,Renal dialysis
+50,FEMALE,2012-04-15,Renal dialysis
+50,FEMALE,2014-12-04,Renal dialysis
+50,FEMALE,2013-04-10,Renal dialysis
+50,FEMALE,2013-11-14,Renal dialysis
+50,FEMALE,2011-06-04,Renal dialysis
+50,FEMALE,2014-08-17,Renal dialysis
+50,FEMALE,2018-06-05,Renal dialysis
+50,FEMALE,2015-04-13,Renal dialysis
+50,FEMALE,2016-09-06,Renal dialysis
+50,FEMALE,2011-11-25,Renal dialysis
+50,FEMALE,2018-11-10,Renal dialysis
+50,FEMALE,2014-03-24,Renal dialysis
+50,FEMALE,2017-04-05,Renal dialysis
+50,FEMALE,2017-09-11,Renal dialysis
+50,FEMALE,2015-08-31,Renal dialysis
+50,FEMALE,2016-06-05,Renal dialysis
+50,FEMALE,2014-09-17,Renal dialysis
+50,FEMALE,2012-06-10,Renal dialysis
+50,FEMALE,2018-06-08,Renal dialysis
+50,FEMALE,2018-04-07,Renal dialysis
+50,FEMALE,2014-02-12,Renal dialysis
+50,FEMALE,2015-08-21,Renal dialysis
+50,FEMALE,2015-03-10,Renal dialysis
+50,FEMALE,2014-01-21,Renal dialysis
+50,FEMALE,2015-04-29,Renal dialysis
+50,FEMALE,2014-06-25,Renal dialysis
+50,FEMALE,2019-01-22,Medication Reconciliation
+50,FEMALE,2019-01-20,Renal dialysis
+50,FEMALE,2013-10-26,Renal dialysis
+50,FEMALE,2017-10-12,Renal dialysis
+50,FEMALE,2016-11-17,Renal dialysis
+50,FEMALE,2018-12-11,Renal dialysis
+50,FEMALE,2017-02-02,Renal dialysis
+50,FEMALE,2020-05-15,Renal dialysis
+50,FEMALE,2019-10-30,Renal dialysis
+50,FEMALE,2015-09-24,Renal dialysis
+50,FEMALE,2015-04-04,Renal dialysis
+50,FEMALE,2016-05-30,Renal dialysis
+50,FEMALE,2019-06-24,Renal dialysis
+50,FEMALE,2016-01-30,Renal dialysis
+50,FEMALE,2014-04-21,Renal dialysis
+50,FEMALE,2014-12-10,Renal dialysis
+50,FEMALE,2015-01-07,Renal dialysis
+50,FEMALE,2017-01-27,Renal dialysis
+50,FEMALE,2016-12-27,Renal dialysis
+50,FEMALE,2019-05-06,Renal dialysis
+50,FEMALE,2016-09-13,Renal dialysis
+50,FEMALE,2018-04-13,Renal dialysis
+50,FEMALE,2015-09-18,Renal dialysis
+50,FEMALE,2017-03-30,Renal dialysis
+50,FEMALE,2015-03-29,Renal dialysis
+50,FEMALE,2017-06-06,Medication Reconciliation
+50,FEMALE,2017-06-03,Renal dialysis
+50,FEMALE,2013-06-21,Renal dialysis
+50,FEMALE,2020-06-25,Renal dialysis
+50,FEMALE,2019-02-14,Renal dialysis
+50,FEMALE,2011-06-17,Renal dialysis
+50,FEMALE,2018-04-10,Renal dialysis
+50,FEMALE,2015-05-23,Renal dialysis
+50,FEMALE,2020-01-22,Renal dialysis
+50,FEMALE,2012-10-28,Renal dialysis
+50,FEMALE,2015-08-18,Renal dialysis
+50,FEMALE,2018-11-16,Renal dialysis
+50,FEMALE,2016-02-24,Renal dialysis
+50,FEMALE,2016-12-12,Renal dialysis
+50,FEMALE,2011-02-28,Renal dialysis
+50,FEMALE,2016-03-01,Renal dialysis
+50,FEMALE,2015-07-06,Renal dialysis
+50,FEMALE,2019-11-24,Renal dialysis
+50,FEMALE,2016-12-02,Renal dialysis
+50,FEMALE,2015-02-04,Renal dialysis
+50,FEMALE,2013-10-20,Renal dialysis
+50,FEMALE,2013-02-04,Renal dialysis
+50,FEMALE,2011-01-06,Renal dialysis
+50,FEMALE,2019-01-23,Renal dialysis
+50,FEMALE,2017-12-01,Renal dialysis
+50,FEMALE,2020-08-20,Renal dialysis
+50,FEMALE,2017-06-07,Renal dialysis
+50,FEMALE,2017-10-30,Renal dialysis
+50,FEMALE,2012-06-29,Renal dialysis
+50,FEMALE,2016-06-02,Renal dialysis
+50,FEMALE,2016-01-17,Renal dialysis
+50,FEMALE,2017-04-27,Renal dialysis
+50,FEMALE,2016-05-03,Medication Reconciliation
+50,FEMALE,2016-05-02,Renal dialysis
+50,FEMALE,2018-05-05,Renal dialysis
+50,FEMALE,2018-05-08,Medication Reconciliation
+50,FEMALE,2011-03-03,Renal dialysis
+50,FEMALE,2017-10-06,Renal dialysis
+50,FEMALE,2013-06-05,Renal dialysis
+50,FEMALE,2016-07-28,Renal dialysis
+50,FEMALE,2018-08-18,Renal dialysis
+50,FEMALE,2020-06-09,Renal dialysis
+50,FEMALE,2016-12-18,Renal dialysis
+50,FEMALE,2019-01-26,Renal dialysis
+50,FEMALE,2011-12-01,Renal dialysis
+50,FEMALE,2018-12-02,Renal dialysis
+50,FEMALE,2016-11-04,Renal dialysis
+50,FEMALE,2019-05-09,Renal dialysis
+50,FEMALE,2020-07-29,Renal dialysis
+50,FEMALE,2019-06-12,Renal dialysis
+50,FEMALE,2013-07-06,Colonoscopy
+50,FEMALE,2016-08-22,Renal dialysis
+50,FEMALE,2015-07-21,Renal dialysis
+50,FEMALE,2020-07-04,Renal dialysis
+50,FEMALE,2014-06-28,Renal dialysis
+50,FEMALE,2014-04-12,Renal dialysis
+50,FEMALE,2012-09-14,Renal dialysis
+50,FEMALE,2016-02-18,Renal dialysis
+50,FEMALE,2016-02-14,Renal dialysis
+50,FEMALE,2014-09-26,Renal dialysis
+50,FEMALE,2013-02-07,Renal dialysis
+50,FEMALE,2020-05-22,Renal dialysis
+50,FEMALE,2017-12-31,Renal dialysis
+50,FEMALE,2016-12-21,Renal dialysis
+50,FEMALE,2012-10-25,Renal dialysis
+50,FEMALE,2016-11-01,Medication Reconciliation
+50,FEMALE,2016-10-29,Renal dialysis
+50,FEMALE,2020-05-31,Renal dialysis
+50,FEMALE,2016-01-11,Renal dialysis
+50,FEMALE,2020-11-08,Renal dialysis
+50,FEMALE,2018-09-06,Renal dialysis
+50,FEMALE,2013-11-26,Renal dialysis
+50,FEMALE,2015-07-12,Renal dialysis
+50,FEMALE,2014-06-13,Renal dialysis
+50,FEMALE,2011-03-25,Renal dialysis
+50,FEMALE,2013-06-02,Renal dialysis
+50,FEMALE,2015-03-04,Renal dialysis
+50,FEMALE,2020-11-05,Renal dialysis
+50,FEMALE,2020-09-26,Renal dialysis
+50,FEMALE,2019-09-13,Renal dialysis
+50,FEMALE,2014-06-22,Renal dialysis
+50,FEMALE,2013-07-09,Renal dialysis
+50,FEMALE,2013-06-08,Renal dialysis
+50,FEMALE,2011-03-31,Renal dialysis
+50,FEMALE,2020-04-24,Renal dialysis
+50,FEMALE,2015-10-16,Renal dialysis
+50,FEMALE,2016-04-26,Renal dialysis
+50,FEMALE,2016-03-29,Renal dialysis
+50,FEMALE,2012-11-13,Medication Reconciliation
+50,FEMALE,2011-04-09,Renal dialysis
+50,FEMALE,2015-05-05,Renal dialysis
+50,FEMALE,2015-09-15,Medication Reconciliation
+50,FEMALE,2015-09-12,Renal dialysis
+50,FEMALE,2017-12-16,Renal dialysis
+50,FEMALE,2017-07-29,Renal dialysis
+50,FEMALE,2015-08-12,Renal dialysis
+50,FEMALE,2015-07-24,Renal dialysis
+50,FEMALE,2011-10-12,Renal dialysis
+50,FEMALE,2011-09-30,Renal dialysis
+50,FEMALE,2018-10-01,Renal dialysis
+50,FEMALE,2015-04-22,Renal dialysis
+50,FEMALE,2013-01-26,Renal dialysis
+50,FEMALE,2016-11-07,Renal dialysis
+50,FEMALE,2019-07-16,Renal dialysis
+50,FEMALE,2014-08-11,Renal dialysis
+50,FEMALE,2016-01-21,Renal dialysis
+50,FEMALE,2019-06-06,Renal dialysis
+50,FEMALE,2015-12-08,Renal dialysis
+50,FEMALE,2012-09-11,Renal dialysis
+50,FEMALE,2018-12-08,Renal dialysis
+50,FEMALE,2013-05-27,Renal dialysis
+50,FEMALE,2015-01-25,Renal dialysis
+50,FEMALE,2013-03-16,Renal dialysis
+50,FEMALE,2019-03-05,Renal dialysis
+50,FEMALE,2013-12-21,Renal dialysis
+50,FEMALE,2019-01-17,Renal dialysis
+50,FEMALE,2016-11-14,Renal dialysis
+50,FEMALE,2013-03-07,Renal dialysis
+50,FEMALE,2019-08-13,Renal dialysis
+50,FEMALE,2019-10-18,Renal dialysis
+50,FEMALE,2013-05-12,Renal dialysis
+50,FEMALE,2019-04-08,Renal dialysis
+50,FEMALE,2011-05-13,Renal dialysis
+50,FEMALE,2012-07-20,Renal dialysis
+50,FEMALE,2018-11-04,Renal dialysis
+50,FEMALE,2019-03-08,Renal dialysis
+50,FEMALE,2011-03-16,Renal dialysis
+50,FEMALE,2018-06-20,Renal dialysis
+50,FEMALE,2012-03-12,Renal dialysis
+50,FEMALE,2015-02-07,Renal dialysis
+50,FEMALE,2014-03-05,Renal dialysis
+50,FEMALE,2015-10-10,Renal dialysis
+50,FEMALE,2017-12-05,Medication Reconciliation
+50,FEMALE,2017-12-04,Renal dialysis
+50,FEMALE,2019-04-27,Renal dialysis
+50,FEMALE,2019-07-19,Renal dialysis
+50,FEMALE,2013-05-30,Renal dialysis
+50,FEMALE,2013-04-17,Renal dialysis
+50,FEMALE,2013-04-20,Renal dialysis
+50,FEMALE,2018-08-15,Renal dialysis
+50,FEMALE,2015-08-03,Renal dialysis
+50,FEMALE,2012-12-01,Renal dialysis
+50,FEMALE,2020-06-06,Renal dialysis
+50,FEMALE,2012-12-04,Renal dialysis
+50,FEMALE,2020-11-12,Renal dialysis
+50,FEMALE,2014-05-07,Renal dialysis
+50,FEMALE,2019-11-15,Renal dialysis
+50,FEMALE,2011-05-26,Renal dialysis
+50,FEMALE,2011-05-31,Medication Reconciliation
+50,FEMALE,2020-03-30,Renal dialysis
+50,FEMALE,2011-05-29,Renal dialysis
+50,FEMALE,2011-12-04,Renal dialysis
+50,FEMALE,2019-01-05,Renal dialysis
+50,FEMALE,2011-08-14,Renal dialysis
+50,FEMALE,2019-05-15,Renal dialysis
+50,FEMALE,2020-04-27,Renal dialysis
+50,FEMALE,2011-05-07,Renal dialysis
+50,FEMALE,2015-12-17,Renal dialysis
+50,FEMALE,2018-02-16,Renal dialysis
+50,FEMALE,2019-03-11,Renal dialysis
+50,FEMALE,2015-05-30,Renal dialysis
+50,FEMALE,2014-11-03,Renal dialysis
+50,FEMALE,2018-12-17,Renal dialysis
+50,FEMALE,2011-12-26,Renal dialysis
+50,FEMALE,2016-08-03,Renal dialysis
+50,FEMALE,2017-02-15,Renal dialysis
+50,FEMALE,2012-06-26,Renal dialysis
+50,FEMALE,2020-06-28,Renal dialysis
+50,FEMALE,2012-08-17,Renal dialysis
+50,FEMALE,2020-06-15,Renal dialysis
+50,FEMALE,2012-02-29,Renal dialysis
+50,FEMALE,2014-11-09,Renal dialysis
+50,FEMALE,2015-03-19,Renal dialysis
+50,FEMALE,2019-08-19,Renal dialysis
+50,FEMALE,2020-09-17,Renal dialysis
+50,FEMALE,2012-07-05,Renal dialysis
+50,FEMALE,2011-07-08,Renal dialysis
+50,FEMALE,2016-11-01,Renal dialysis
+50,FEMALE,2020-03-24,Renal dialysis
+50,FEMALE,2020-09-04,Renal dialysis
+50,FEMALE,2016-08-06,Renal dialysis
+50,FEMALE,2016-08-09,Medication Reconciliation
+50,FEMALE,2012-02-10,Renal dialysis
+50,FEMALE,2014-07-29,Renal dialysis
+50,FEMALE,2012-03-21,Renal dialysis
+50,FEMALE,2019-02-08,Renal dialysis
+50,FEMALE,2015-01-16,Renal dialysis
+50,FEMALE,2020-02-19,Renal dialysis
+50,FEMALE,2013-07-19,Renal dialysis
+50,FEMALE,2012-05-26,Renal dialysis
+50,FEMALE,2020-12-13,Renal dialysis
+50,FEMALE,2011-12-10,Renal dialysis
+50,FEMALE,2016-08-25,Renal dialysis
+50,FEMALE,2015-09-09,Renal dialysis
+50,FEMALE,2015-05-20,Renal dialysis
+50,FEMALE,2020-08-17,Renal dialysis
+50,FEMALE,2019-06-03,Renal dialysis
+50,FEMALE,2011-07-02,Renal dialysis
+50,FEMALE,2016-05-21,Renal dialysis
+50,FEMALE,2019-09-01,Renal dialysis
+50,FEMALE,2020-03-17,Medication Reconciliation
+50,FEMALE,2020-05-03,Renal dialysis
+50,FEMALE,2015-10-29,Renal dialysis
+50,FEMALE,2013-05-24,Renal dialysis
+50,FEMALE,2014-10-09,Renal dialysis
+50,FEMALE,2020-02-28,Renal dialysis
+50,FEMALE,2017-01-05,Renal dialysis
+50,FEMALE,2019-08-07,Renal dialysis
+50,FEMALE,2014-02-05,Renal dialysis
+50,FEMALE,2018-05-14,Renal dialysis
+50,FEMALE,2011-01-28,Renal dialysis
+50,FEMALE,2019-05-31,Renal dialysis
+50,FEMALE,2020-02-06,Renal dialysis
+50,FEMALE,2019-04-17,Renal dialysis
+50,FEMALE,2015-07-18,Renal dialysis
+50,FEMALE,2014-01-05,Renal dialysis
+50,FEMALE,2015-09-28,Renal dialysis
+50,FEMALE,2018-07-03,Renal dialysis
+50,FEMALE,2015-11-29,Renal dialysis
+50,FEMALE,2012-04-09,Renal dialysis
+50,FEMALE,2018-11-01,Renal dialysis
+50,FEMALE,2011-04-03,Renal dialysis
+50,FEMALE,2012-11-28,Renal dialysis
+50,FEMALE,2016-04-07,Renal dialysis
+50,FEMALE,2017-11-15,Renal dialysis
+50,FEMALE,2015-08-27,Renal dialysis
+50,FEMALE,2015-12-30,Renal dialysis
+50,FEMALE,2019-06-18,Medication Reconciliation
+50,FEMALE,2019-06-15,Renal dialysis
+50,FEMALE,2018-08-28,Medication Reconciliation
+50,FEMALE,2017-02-21,Renal dialysis
+50,FEMALE,2012-07-08,Renal dialysis
+50,FEMALE,2018-08-28,Renal dialysis
+50,FEMALE,2013-11-26,Medication Reconciliation
+50,FEMALE,2013-11-23,Renal dialysis
+50,FEMALE,2012-02-01,Renal dialysis
+50,FEMALE,2019-09-20,Renal dialysis
+50,FEMALE,2013-12-24,Renal dialysis
+50,FEMALE,2011-08-18,Renal dialysis
+50,FEMALE,2011-03-19,Renal dialysis
+50,FEMALE,2017-08-23,Renal dialysis
+50,FEMALE,2011-11-06,Renal dialysis
+50,FEMALE,2014-12-22,Renal dialysis
+50,FEMALE,2017-02-18,Renal dialysis
+50,FEMALE,2017-01-21,Renal dialysis
+50,FEMALE,2018-10-22,Renal dialysis
+50,FEMALE,2016-04-10,Renal dialysis
+50,FEMALE,2014-08-26,Renal dialysis
+50,FEMALE,2014-08-01,Renal dialysis
+50,FEMALE,2013-07-25,Renal dialysis
+50,FEMALE,2016-07-25,Renal dialysis
+50,FEMALE,2016-09-25,Renal dialysis
+50,FEMALE,2013-12-05,Renal dialysis
+50,FEMALE,2017-03-15,Renal dialysis
+50,FEMALE,2013-01-20,Renal dialysis
+50,FEMALE,2015-09-03,Renal dialysis
+50,FEMALE,2012-03-31,Renal dialysis
+50,FEMALE,2018-04-29,Renal dialysis
+50,FEMALE,2014-12-28,Renal dialysis
+50,FEMALE,2012-03-03,Renal dialysis
+50,FEMALE,2015-10-13,Renal dialysis
+50,FEMALE,2016-08-16,Renal dialysis
+50,FEMALE,2018-01-10,Renal dialysis
+50,FEMALE,2013-08-25,Renal dialysis
+50,FEMALE,2011-02-06,Renal dialysis
+50,FEMALE,2014-07-26,Renal dialysis
+50,FEMALE,2014-06-19,Renal dialysis
+50,FEMALE,2015-12-20,Renal dialysis
+50,FEMALE,2011-08-02,Renal dialysis
+50,FEMALE,2019-07-01,Renal dialysis
+50,FEMALE,2019-07-07,Renal dialysis
+50,FEMALE,2011-11-21,Renal dialysis
+50,FEMALE,2016-07-06,Renal dialysis
+50,FEMALE,2012-01-13,Renal dialysis
+50,FEMALE,2017-04-21,Renal dialysis
+50,FEMALE,2020-09-11,Renal dialysis
+50,FEMALE,2015-10-07,Renal dialysis
+50,FEMALE,2020-10-08,Renal dialysis
+50,FEMALE,2017-04-02,Renal dialysis
+50,FEMALE,2014-01-27,Renal dialysis
+50,FEMALE,2013-09-22,Renal dialysis
+50,FEMALE,2020-08-04,Renal dialysis
+50,FEMALE,2019-11-02,Renal dialysis
+50,FEMALE,2019-03-17,Renal dialysis
+50,FEMALE,2020-03-08,Renal dialysis
+50,FEMALE,2015-01-19,Renal dialysis
+50,FEMALE,2014-09-01,Renal dialysis
+50,FEMALE,2015-05-02,Renal dialysis
+50,FEMALE,2014-01-09,Renal dialysis
+50,FEMALE,2015-08-15,Renal dialysis
+50,FEMALE,2020-11-21,Renal dialysis
+50,FEMALE,2016-05-05,Renal dialysis
+50,FEMALE,2012-01-10,Medication Reconciliation
+50,FEMALE,2013-07-31,Renal dialysis
+50,FEMALE,2017-05-10,Renal dialysis
+50,FEMALE,2013-02-26,Renal dialysis
+50,FEMALE,2019-08-01,Renal dialysis
+50,FEMALE,2019-10-27,Renal dialysis
+50,FEMALE,2018-09-24,Renal dialysis
+50,FEMALE,2011-07-11,Renal dialysis
+50,FEMALE,2011-07-14,Renal dialysis
+50,FEMALE,2019-12-22,Renal dialysis
+50,FEMALE,2017-03-16,Bone density scan
+50,FEMALE,2017-03-16,Bone immobilization
+50,FEMALE,2017-03-16,Radiography of ankle
+50,FEMALE,2018-10-26,Renal dialysis
+50,FEMALE,2019-04-23,Renal dialysis
+50,FEMALE,2017-12-28,Renal dialysis
+50,FEMALE,2014-08-05,Renal dialysis
+50,FEMALE,2017-05-22,Renal dialysis
+50,FEMALE,2012-05-29,Renal dialysis
+50,FEMALE,2016-04-29,Renal dialysis
+50,FEMALE,2013-09-25,Renal dialysis
+50,FEMALE,2012-05-29,Medication Reconciliation
+50,FEMALE,2011-02-09,Renal dialysis
+50,FEMALE,2017-08-17,Renal dialysis
+50,FEMALE,2018-06-27,Renal dialysis
+50,FEMALE,2018-05-11,Renal dialysis
+50,FEMALE,2015-08-06,Renal dialysis
+50,FEMALE,2013-03-04,Renal dialysis
+50,FEMALE,2012-11-22,Renal dialysis
+50,FEMALE,2018-10-19,Renal dialysis
+50,FEMALE,2020-05-25,Renal dialysis
+50,FEMALE,2019-06-28,Renal dialysis
+50,FEMALE,2010-12-31,Renal dialysis
+50,FEMALE,2018-04-22,Renal dialysis
+50,FEMALE,2016-09-16,Renal dialysis
+50,FEMALE,2017-05-06,Renal dialysis
+50,FEMALE,2013-08-28,Renal dialysis
+50,FEMALE,2014-07-11,Renal dialysis
+50,FEMALE,2019-12-03,Renal dialysis
+50,FEMALE,2012-11-12,Renal dialysis
+50,FEMALE,2019-01-02,Renal dialysis
+50,FEMALE,2011-12-19,Renal dialysis
+50,FEMALE,2017-04-18,Renal dialysis
+50,FEMALE,2018-03-04,Renal dialysis
+50,FEMALE,2019-03-14,Renal dialysis
+50,FEMALE,2020-05-28,Renal dialysis
+50,FEMALE,2017-03-18,Renal dialysis
+50,FEMALE,2011-04-13,Renal dialysis
+50,FEMALE,2016-08-28,Renal dialysis
+50,FEMALE,2012-04-03,Renal dialysis
+50,FEMALE,2013-04-01,Renal dialysis
+50,FEMALE,2014-11-15,Renal dialysis
+50,FEMALE,2014-10-27,Renal dialysis
+50,FEMALE,2018-05-27,Renal dialysis
+50,FEMALE,2016-05-11,Renal dialysis
+50,FEMALE,2012-04-21,Renal dialysis
+50,FEMALE,2012-07-30,Renal dialysis
+50,FEMALE,2017-09-23,Renal dialysis
+50,FEMALE,2014-06-10,Renal dialysis
+50,FEMALE,2018-01-16,Renal dialysis
+50,FEMALE,2019-10-05,Renal dialysis
+50,FEMALE,2012-07-17,Renal dialysis
+50,FEMALE,2012-02-19,Renal dialysis
+50,FEMALE,2013-02-13,Renal dialysis
+50,FEMALE,2016-02-05,Renal dialysis
+50,FEMALE,2020-03-02,Renal dialysis
+50,FEMALE,2018-01-19,Renal dialysis
+50,FEMALE,2012-05-04,Renal dialysis
+50,FEMALE,2018-08-03,Renal dialysis
+50,FEMALE,2013-03-23,Renal dialysis
+50,FEMALE,2013-11-04,Renal dialysis
+50,FEMALE,2016-06-24,Renal dialysis
+50,FEMALE,2016-06-17,Renal dialysis
+50,FEMALE,2018-12-30,Renal dialysis
+50,FEMALE,2017-05-03,Renal dialysis
+50,FEMALE,2015-11-19,Renal dialysis
+50,FEMALE,2020-07-07,Renal dialysis
+50,FEMALE,2016-11-11,Renal dialysis
+50,FEMALE,2015-04-10,Renal dialysis
+51,MALE,2019-02-11,Medication Reconciliation
+51,MALE,2020-03-19,Placing subject in prone position
+51,MALE,2020-03-16,Oxygen administration by mask
+51,MALE,2020-03-16,Placing subject in prone position
+51,MALE,2020-03-17,Oxygen administration by mask
+51,MALE,2020-03-23,Oxygen administration by mask
+51,MALE,2020-03-19,Oxygen administration by mask
+51,MALE,2020-03-20,Oxygen administration by mask
+51,MALE,2013-01-07,Medication Reconciliation
+51,MALE,2020-03-17,Placing subject in prone position
+51,MALE,2020-03-18,Placing subject in prone position
+51,MALE,2020-03-18,Oxygen administration by mask
+51,MALE,2020-03-22,Placing subject in prone position
+51,MALE,2020-03-14,Oxygen administration by mask
+51,MALE,2020-03-22,Oxygen administration by mask
+51,MALE,2020-03-21,Placing subject in prone position
+51,MALE,2020-03-21,Oxygen administration by mask
+51,MALE,2020-03-25,Oxygen administration by mask
+51,MALE,2020-03-24,Placing subject in prone position
+51,MALE,2020-03-13,Oxygen administration by mask
+51,MALE,2020-03-24,Oxygen administration by mask
+51,MALE,2020-08-18,Colonoscopy
+51,MALE,2020-03-25,Placing subject in prone position
+51,MALE,2020-03-20,Placing subject in prone position
+51,MALE,2020-03-13,Placing subject in prone position
+51,MALE,2020-03-13,Plain chest X-ray
+51,MALE,2020-03-14,Placing subject in prone position
+51,MALE,2020-03-15,Oxygen administration by mask
+51,MALE,2020-03-15,Placing subject in prone position
+51,MALE,2020-03-23,Placing subject in prone position
+51,MALE,2014-05-26,Colonoscopy
+51,MALE,2015-01-19,Medication Reconciliation
+51,MALE,2020-02-17,Medication Reconciliation
+51,MALE,2019-05-26,Rectal polypectomy
+51,MALE,2019-05-26,Screening for occult blood in feces
+51,MALE,2019-05-25,Colonoscopy
+52,MALE,2011-01-23,Medication Reconciliation
+53,MALE,2018-06-30,Medication Reconciliation
+53,MALE,2014-06-07,Medication Reconciliation
+53,MALE,2012-05-26,Medication Reconciliation
+53,MALE,2016-06-18,Medication Reconciliation
+53,MALE,2020-07-11,Medication Reconciliation
+55,FEMALE,2019-12-04,Medication Reconciliation
+55,FEMALE,2011-10-19,Medication Reconciliation
+55,FEMALE,2012-10-24,Medication Reconciliation
+55,FEMALE,2016-01-27,Removal of intrauterine device
+55,FEMALE,2020-03-16,Colonoscopy
+55,FEMALE,2016-11-16,Medication Reconciliation
+55,FEMALE,2011-02-05,Insertion of intrauterine contraceptive device
+55,FEMALE,2020-03-08,Plain chest X-ray
+55,FEMALE,2020-03-08,Oxygen administration by mask
+55,FEMALE,2020-03-13,Placing subject in prone position
+55,FEMALE,2014-11-05,Medication Reconciliation
+55,FEMALE,2020-03-14,Placing subject in prone position
+55,FEMALE,2020-03-14,Oxygen administration by mask
+55,FEMALE,2015-03-18,Colonoscopy
+55,FEMALE,2020-03-13,Oxygen administration by mask
+55,FEMALE,2020-03-08,Placing subject in prone position
+55,FEMALE,2020-03-09,Oxygen administration by mask
+55,FEMALE,2020-03-09,Placing subject in prone position
+55,FEMALE,2020-03-10,Oxygen administration by mask
+55,FEMALE,2020-03-10,Placing subject in prone position
+55,FEMALE,2020-03-11,Oxygen administration by mask
+55,FEMALE,2017-11-22,Medication Reconciliation
+55,FEMALE,2020-03-11,Placing subject in prone position
+55,FEMALE,2020-03-12,Oxygen administration by mask
+55,FEMALE,2020-03-16,Placing subject in prone position
+55,FEMALE,2020-03-12,Placing subject in prone position
+55,FEMALE,2020-03-16,Oxygen administration by mask
+55,FEMALE,2020-03-15,Placing subject in prone position
+55,FEMALE,2020-03-15,Oxygen administration by mask
+55,FEMALE,2020-12-09,Medication Reconciliation
+55,FEMALE,2013-10-30,Medication Reconciliation
+56,MALE,2011-05-22,Medication Reconciliation
+56,MALE,2018-07-29,Medication Reconciliation
+56,MALE,2011-08-07,Medication Reconciliation
+56,MALE,2017-07-23,Colonoscopy
+56,MALE,2019-06-30,Medication Reconciliation
+57,MALE,2020-02-11,Medication Reconciliation
+57,MALE,2015-08-22,Suture open wound
+57,MALE,2016-02-02,Medication Reconciliation
+58,FEMALE,2013-07-06,Evaluation of uterine fundal height
+58,FEMALE,2013-01-05,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+58,FEMALE,2013-01-05,Evaluation of uterine fundal height
+58,FEMALE,2013-03-02,Evaluation of uterine fundal height
+58,FEMALE,2013-07-06,Auscultation of the fetal heart
+58,FEMALE,2013-03-02,Auscultation of the fetal heart
+58,FEMALE,2013-01-05,Auscultation of the fetal heart
+58,FEMALE,2011-04-16,Ultrasound scan for fetal viability
+58,FEMALE,2018-10-20,Medication Reconciliation
+58,FEMALE,2017-10-14,Medication Reconciliation
+58,FEMALE,2011-01-15,Physical examination
+58,FEMALE,2011-01-15,Depression screening
+58,FEMALE,2012-10-13,Medication Reconciliation
+58,FEMALE,2012-12-08,Physical examination
+58,FEMALE,2012-12-08,Rubella screening
+58,FEMALE,2012-12-08,"Cytopathology procedure, preparation of smear, genital source"
+58,FEMALE,2012-12-08,Auscultation of the fetal heart
+58,FEMALE,2012-12-08,Evaluation of uterine fundal height
+58,FEMALE,2012-12-08,Ultrasound scan for fetal viability
+58,FEMALE,2013-02-02,Auscultation of the fetal heart
+58,FEMALE,2013-02-02,Evaluation of uterine fundal height
+58,FEMALE,2013-02-02,Fetal anatomy study
+58,FEMALE,2011-05-14,Depression screening
+58,FEMALE,2011-05-14,Physical examination
+58,FEMALE,2013-08-24,Depression screening
+58,FEMALE,2013-08-24,Physical examination
+58,FEMALE,2013-05-25,Evaluation of uterine fundal height
+58,FEMALE,2013-05-25,Auscultation of the fetal heart
+58,FEMALE,2013-07-13,Medical induction of labor
+58,FEMALE,2016-08-15,Bilateral tubal ligation
+58,FEMALE,2011-04-30,Induced termination of pregnancy
+58,FEMALE,2013-04-27,Auscultation of the fetal heart
+58,FEMALE,2013-04-27,Evaluation of uterine fundal height
+58,FEMALE,2013-04-27,"Vaccination for diphtheria, pertussis, and tetanus"
+58,FEMALE,2011-04-30,Counseling for termination of pregnancy
+58,FEMALE,2020-09-19,Medication Reconciliation
+58,FEMALE,2013-03-30,Evaluation of uterine fundal height
+58,FEMALE,2013-03-30,Auscultation of the fetal heart
+58,FEMALE,2013-06-22,Auscultation of the fetal heart
+58,FEMALE,2013-06-22,Evaluation of uterine fundal height
+59,MALE,2012-10-29,Suture open wound
+59,MALE,2019-03-19,Medication Reconciliation
+59,MALE,2017-03-07,Medication Reconciliation
+60,FEMALE,2016-09-03,Intramuscular injection
+60,FEMALE,2012-02-18,Evaluation of uterine fundal height
+60,FEMALE,2012-02-18,Fetal anatomy study
+60,FEMALE,2012-02-18,Auscultation of the fetal heart
+60,FEMALE,2012-04-14,Evaluation of uterine fundal height
+60,FEMALE,2012-04-14,Auscultation of the fetal heart
+60,FEMALE,2020-11-28,Intramuscular injection
+60,FEMALE,2012-07-21,Episiotomy
+60,FEMALE,2015-06-06,Intramuscular injection
+60,FEMALE,2013-06-08,Intramuscular injection
+60,FEMALE,2012-09-01,Depression screening
+60,FEMALE,2012-09-01,Physical examination
+60,FEMALE,2014-06-07,Intramuscular injection
+60,FEMALE,2012-01-21,Evaluation of uterine fundal height
+60,FEMALE,2012-01-21,Auscultation of the fetal heart
+60,FEMALE,2013-09-07,Intramuscular injection
+60,FEMALE,2012-01-21,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+60,FEMALE,2012-09-01,Intramuscular injection
+60,FEMALE,2011-12-24,Rubella screening
+60,FEMALE,2019-11-30,Intramuscular injection
+60,FEMALE,2012-06-09,Evaluation of uterine fundal height
+60,FEMALE,2012-06-09,Auscultation of the fetal heart
+60,FEMALE,2011-12-24,"Cytopathology procedure, preparation of smear, genital source"
+60,FEMALE,2011-12-24,Ultrasound scan for fetal viability
+60,FEMALE,2017-09-02,Intramuscular injection
+60,FEMALE,2013-03-09,Intramuscular injection
+60,FEMALE,2011-12-24,Evaluation of uterine fundal height
+60,FEMALE,2018-06-02,Intramuscular injection
+60,FEMALE,2020-08-29,Intramuscular injection
+60,FEMALE,2014-12-06,Intramuscular injection
+60,FEMALE,2018-09-01,Intramuscular injection
+60,FEMALE,2011-12-24,Physical examination
+60,FEMALE,2016-03-05,Intramuscular injection
+60,FEMALE,2016-06-04,Intramuscular injection
+60,FEMALE,2011-12-24,Auscultation of the fetal heart
+60,FEMALE,2017-03-04,Intramuscular injection
+60,FEMALE,2012-03-17,Auscultation of the fetal heart
+60,FEMALE,2012-03-17,Evaluation of uterine fundal height
+60,FEMALE,2012-05-12,Auscultation of the fetal heart
+60,FEMALE,2019-03-02,Intramuscular injection
+60,FEMALE,2015-12-05,Intramuscular injection
+60,FEMALE,2017-12-02,Intramuscular injection
+60,FEMALE,2019-08-31,Intramuscular injection
+60,FEMALE,2018-12-29,Medication Reconciliation
+60,FEMALE,2018-12-01,Intramuscular injection
+60,FEMALE,2020-02-29,Intramuscular injection
+60,FEMALE,2012-07-07,Auscultation of the fetal heart
+60,FEMALE,2012-07-07,Evaluation of uterine fundal height
+60,FEMALE,2018-03-03,Intramuscular injection
+60,FEMALE,2014-09-06,Intramuscular injection
+60,FEMALE,2012-05-12,"Vaccination for diphtheria, pertussis, and tetanus"
+60,FEMALE,2014-03-08,Intramuscular injection
+60,FEMALE,2015-09-05,Intramuscular injection
+60,FEMALE,2012-05-12,Evaluation of uterine fundal height
+60,FEMALE,2013-12-07,Intramuscular injection
+60,FEMALE,2015-03-07,Intramuscular injection
+60,FEMALE,2020-05-30,Intramuscular injection
+60,FEMALE,2019-06-01,Intramuscular injection
+60,FEMALE,2016-12-03,Intramuscular injection
+60,FEMALE,2012-12-08,Intramuscular injection
+60,FEMALE,2016-08-18,Intramuscular injection
+60,FEMALE,2017-06-03,Intramuscular injection
+61,FEMALE,2017-03-25,Extraction of wisdom tooth
+61,FEMALE,2011-03-15,Auscultation of the fetal heart
+61,FEMALE,2011-03-15,Evaluation of uterine fundal height
+61,FEMALE,2011-04-26,Auscultation of the fetal heart
+61,FEMALE,2011-04-12,Evaluation of uterine fundal height
+61,FEMALE,2011-04-26,Evaluation of uterine fundal height
+61,FEMALE,2016-05-22,Colonoscopy
+61,FEMALE,2011-04-12,Auscultation of the fetal heart
+61,FEMALE,2011-06-14,Physical examination
+61,FEMALE,2011-05-24,Colonoscopy
+61,FEMALE,2011-06-14,Passive immunization
+61,FEMALE,2011-06-14,Depression screening
+61,FEMALE,2020-07-14,Medication Reconciliation
+61,FEMALE,2011-02-15,Evaluation of uterine fundal height
+61,FEMALE,2015-06-16,Medication Reconciliation
+61,FEMALE,2011-02-15,"Vaccination for diphtheria, pertussis, and tetanus"
+61,FEMALE,2019-07-09,Medication Reconciliation
+61,FEMALE,2019-04-15,Suture open wound
+61,FEMALE,2011-01-18,Auscultation of the fetal heart
+61,FEMALE,2011-01-18,Evaluation of uterine fundal height
+61,FEMALE,2011-02-15,Passive immunization
+61,FEMALE,2011-02-15,Auscultation of the fetal heart
+62,FEMALE,2017-06-08,Medication Reconciliation
+62,FEMALE,2018-06-14,Medication Reconciliation
+62,FEMALE,2019-06-20,Medication Reconciliation
+62,FEMALE,2013-05-16,Medication Reconciliation
+62,FEMALE,2016-06-02,Medication Reconciliation
+62,FEMALE,2011-05-05,Medication Reconciliation
+62,FEMALE,2020-06-08,Colonoscopy
+62,FEMALE,2015-06-10,Colonoscopy
+62,FEMALE,2020-06-08,Screening for occult blood in feces
+62,FEMALE,2020-06-08,Rectal polypectomy
+63,MALE,2020-11-19,Medication Reconciliation
+63,MALE,2014-05-15,Medication Reconciliation
+63,MALE,2017-05-18,Medication Reconciliation
+63,MALE,2020-05-21,Medication Reconciliation
+64,MALE,2012-11-10,Medication Reconciliation
+64,MALE,2019-12-21,Medication Reconciliation
+65,FEMALE,2017-01-17,Medication Reconciliation
+65,FEMALE,2013-12-31,Medication Reconciliation
+65,FEMALE,2016-02-02,Medication Reconciliation
+65,FEMALE,2020-02-04,Medication Reconciliation
+65,FEMALE,2015-01-06,Medication Reconciliation
+66,MALE,2016-03-06,Medication Reconciliation
+66,MALE,2011-02-06,Medication Reconciliation
+66,MALE,2014-12-31,Colonoscopy
+66,MALE,2014-01-26,Percutaneous mechanical thrombectomy of portal vein using fluoroscopic guidance
+66,MALE,2014-01-26,Echocardiography
+66,MALE,2019-12-30,Colonoscopy
+66,MALE,2017-03-12,Medication Reconciliation
+66,MALE,2012-02-12,Medication Reconciliation
+67,MALE,2016-07-08,Colonoscopy
+67,MALE,2016-08-18,Medication Reconciliation
+67,MALE,2015-06-14,Rectal polypectomy
+67,MALE,2014-08-07,Medication Reconciliation
+67,MALE,2015-06-14,Screening for occult blood in feces
+67,MALE,2018-08-30,Medication Reconciliation
+67,MALE,2015-06-14,Colonoscopy
+67,MALE,2020-03-13,Placing subject in prone position
+67,MALE,2020-03-13,Oxygen administration by mask
+67,MALE,2020-03-12,Placing subject in prone position
+67,MALE,2020-03-12,Oxygen administration by mask
+67,MALE,2020-03-11,Placing subject in prone position
+67,MALE,2020-03-11,Oxygen administration by mask
+67,MALE,2020-03-10,Placing subject in prone position
+67,MALE,2020-03-10,Oxygen administration by mask
+67,MALE,2020-03-10,Plain chest X-ray
+67,MALE,2017-08-24,Medication Reconciliation
+67,MALE,2020-03-19,Placing subject in prone position
+67,MALE,2020-03-19,Oxygen administration by mask
+67,MALE,2020-03-18,Placing subject in prone position
+67,MALE,2020-03-18,Oxygen administration by mask
+67,MALE,2020-03-17,Placing subject in prone position
+67,MALE,2020-03-17,Oxygen administration by mask
+67,MALE,2020-03-16,Placing subject in prone position
+67,MALE,2020-03-16,Oxygen administration by mask
+67,MALE,2020-03-15,Placing subject in prone position
+67,MALE,2020-03-15,Oxygen administration by mask
+67,MALE,2020-03-14,Placing subject in prone position
+67,MALE,2020-03-14,Oxygen administration by mask
+68,FEMALE,2010-04-13,Medication Reconciliation
+68,FEMALE,2020-03-19,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2019-04-30,Medication Reconciliation
+68,FEMALE,2020-03-17,Hemodialysis
+68,FEMALE,2020-03-23,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2020-03-17,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2014-05-06,Medication Reconciliation
+68,FEMALE,2020-03-16,Hemodialysis
+68,FEMALE,2020-03-16,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2020-03-16,Plain chest X-ray
+68,FEMALE,2020-03-16,Insertion of endotracheal tube
+68,FEMALE,2013-08-04,Colonoscopy
+68,FEMALE,2020-03-23,Hemodialysis
+68,FEMALE,2020-03-24,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2020-03-24,Hemodialysis
+68,FEMALE,2020-03-25,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2018-08-03,Colonoscopy
+68,FEMALE,2020-03-21,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2020-03-25,Hemodialysis
+68,FEMALE,2016-03-04,Suture open wound
+68,FEMALE,2020-03-20,Hemodialysis
+68,FEMALE,2015-05-12,Medication Reconciliation
+68,FEMALE,2020-03-20,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2016-03-04,Injection of tetanus antitoxin
+68,FEMALE,2020-03-19,Hemodialysis
+68,FEMALE,2020-03-21,Hemodialysis
+68,FEMALE,2020-03-22,"Controlled ventilation procedure and therapy, initiation and management"
+68,FEMALE,2020-03-22,Hemodialysis
+68,FEMALE,2016-05-17,Medication Reconciliation
+68,FEMALE,2011-02-08,Replacement of intrauterine contraceptive device
+68,FEMALE,2019-06-04,Medication Reconciliation
+68,FEMALE,2016-02-09,Replacement of intrauterine contraceptive device
+68,FEMALE,2020-03-15,Placing subject in prone position
+68,FEMALE,2020-03-14,Placing subject in prone position
+68,FEMALE,2020-03-14,Oxygen administration by mask
+68,FEMALE,2020-03-13,Placing subject in prone position
+68,FEMALE,2020-03-13,Oxygen administration by mask
+68,FEMALE,2020-03-12,Placing subject in prone position
+68,FEMALE,2020-03-12,Oxygen administration by mask
+68,FEMALE,2020-03-12,Plain chest X-ray
+68,FEMALE,2020-03-16,Placing subject in prone position
+68,FEMALE,2020-03-16,Oxygen administration by mask
+68,FEMALE,2020-03-15,Oxygen administration by mask
+69,MALE,2016-07-08,Colonoscopy
+69,MALE,2018-07-07,Medication Reconciliation
+69,MALE,2017-07-01,Medication Reconciliation
+69,MALE,2011-12-03,Medication Reconciliation
+69,MALE,2011-07-10,Colonoscopy
+69,MALE,2011-05-28,Medication Reconciliation
+69,MALE,2017-11-11,Medication Reconciliation
+69,MALE,2016-06-25,Medication Reconciliation
+69,MALE,2020-07-18,Medication Reconciliation
+69,MALE,2012-06-02,Medication Reconciliation
+70,FEMALE,2014-04-04,Medication Reconciliation
+70,FEMALE,2019-01-11,Medication Reconciliation
+70,FEMALE,2015-07-03,Medication Reconciliation
+70,FEMALE,2014-07-04,Medication Reconciliation
+70,FEMALE,2013-07-05,Medication Reconciliation
+70,FEMALE,2018-01-05,Medication Reconciliation
+70,FEMALE,2015-01-02,Medication Reconciliation
+70,FEMALE,2013-05-03,Medication Reconciliation
+71,FEMALE,2017-09-22,Intramuscular injection
+71,FEMALE,2018-03-23,Intramuscular injection
+71,FEMALE,2020-04-29,Suture open wound
+71,FEMALE,2018-10-12,Physical examination
+71,FEMALE,2018-10-12,Depression screening
+71,FEMALE,2018-09-21,Ultrasound scan for fetal viability
+71,FEMALE,2017-03-10,Medication Reconciliation
+71,FEMALE,2014-01-10,Removal of subcutaneous contraceptive
+71,FEMALE,2011-12-31,Insertion of intrauterine contraceptive device
+71,FEMALE,2014-03-21,Depression screening
+71,FEMALE,2019-03-22,Medication Reconciliation
+71,FEMALE,2014-03-21,Physical examination
+71,FEMALE,2011-02-04,Medication Reconciliation
+71,FEMALE,2017-03-24,Intramuscular injection
+71,FEMALE,2017-06-23,Intramuscular injection
+71,FEMALE,2016-12-10,Intramuscular injection
+71,FEMALE,2018-03-16,Medication Reconciliation
+71,FEMALE,2017-12-22,Intramuscular injection
+71,FEMALE,2014-03-07,Ultrasound scan for fetal viability
+71,FEMALE,2018-06-22,Intramuscular injection
+71,FEMALE,2013-01-18,Insertion of subcutaneous contraceptive
+71,FEMALE,2013-01-18,Removal of subcutaneous contraceptive
+71,FEMALE,2020-03-27,Medication Reconciliation
+71,FEMALE,2018-10-05,Methotrexate injection into tubal pregnancy
+72,FEMALE,2015-02-13,Medication Reconciliation
+72,FEMALE,2013-02-01,Medication Reconciliation
+72,FEMALE,2020-03-13,Medication Reconciliation
+72,FEMALE,2013-10-11,Medication Reconciliation
+72,FEMALE,2014-02-07,Medication Reconciliation
+73,MALE,2013-11-20,Medication Reconciliation
+73,MALE,2012-11-14,Medication Reconciliation
+73,MALE,2019-12-25,Medication Reconciliation
+73,MALE,2016-12-07,Medication Reconciliation
+74,MALE,2019-02-16,Medication Reconciliation
+74,MALE,2017-02-04,Medication Reconciliation
+74,MALE,2018-02-10,Medication Reconciliation
+75,FEMALE,2014-02-10,Cognitive and behavioral therapy
+75,FEMALE,2012-08-05,Colonoscopy
+75,FEMALE,2014-02-04,Cognitive and behavioral therapy
+75,FEMALE,2014-02-25,Cognitive and behavioral therapy
+75,FEMALE,2014-02-16,Cognitive and behavioral therapy
+75,FEMALE,2011-12-08,Medication Reconciliation
+75,FEMALE,2014-02-13,Cognitive and behavioral therapy
+75,FEMALE,2014-02-22,Cognitive and behavioral therapy
+75,FEMALE,2017-08-04,Colonoscopy
+75,FEMALE,2014-02-07,Cognitive and behavioral therapy
+75,FEMALE,2014-02-19,Cognitive and behavioral therapy
+75,FEMALE,2016-10-27,Medication Reconciliation
+75,FEMALE,2018-11-08,Medication Reconciliation
+76,FEMALE,2013-07-07,Medication Reconciliation
+76,FEMALE,2016-07-24,Medication Reconciliation
+76,FEMALE,2019-08-11,Medication Reconciliation
+76,FEMALE,2014-07-13,Medication Reconciliation
+76,FEMALE,2012-07-01,Medication Reconciliation
+76,FEMALE,2017-07-30,Medication Reconciliation
+77,FEMALE,2014-09-12,Appendectomy
+77,FEMALE,2013-02-17,Medication Reconciliation
+77,FEMALE,2011-08-21,Medication Reconciliation
+77,FEMALE,2013-08-18,Medication Reconciliation
+77,FEMALE,2016-08-28,Medication Reconciliation
+77,FEMALE,2016-10-28,Sputum examination
+77,FEMALE,2011-11-20,Medication Reconciliation
+77,FEMALE,2012-02-19,Medication Reconciliation
+77,FEMALE,2012-08-19,Medication Reconciliation
+78,FEMALE,2019-10-19,Medication Reconciliation
+78,FEMALE,2015-03-28,Medication Reconciliation
+78,FEMALE,2018-12-14,Suture open wound
+78,FEMALE,2011-10-22,Medication Reconciliation
+78,FEMALE,2014-09-27,Medication Reconciliation
+78,FEMALE,2018-10-13,Medication Reconciliation
+78,FEMALE,2013-03-30,Medication Reconciliation
+78,FEMALE,2012-09-29,Medication Reconciliation
+78,FEMALE,2014-03-29,Medication Reconciliation
+79,FEMALE,2015-09-18,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+79,FEMALE,2015-09-18,Auscultation of the fetal heart
+79,FEMALE,2015-09-18,Evaluation of uterine fundal height
+79,FEMALE,2016-01-08,"Vaccination for diphtheria, pertussis, and tetanus"
+79,FEMALE,2016-04-29,Depression screening
+79,FEMALE,2016-04-29,Physical examination
+79,FEMALE,2015-12-11,Evaluation of uterine fundal height
+79,FEMALE,2016-01-08,Auscultation of the fetal heart
+79,FEMALE,2015-12-11,Auscultation of the fetal heart
+79,FEMALE,2016-01-08,Evaluation of uterine fundal height
+79,FEMALE,2015-11-13,Evaluation of uterine fundal height
+79,FEMALE,2016-03-18,Augmentation of labor
+79,FEMALE,2015-11-13,Auscultation of the fetal heart
+79,FEMALE,2015-08-21,Physical examination
+79,FEMALE,2015-10-16,Evaluation of uterine fundal height
+79,FEMALE,2015-10-16,Fetal anatomy study
+79,FEMALE,2016-03-04,Auscultation of the fetal heart
+79,FEMALE,2016-03-04,Evaluation of uterine fundal height
+79,FEMALE,2011-10-14,Medication Reconciliation
+79,FEMALE,2015-10-16,Auscultation of the fetal heart
+79,FEMALE,2016-02-05,Evaluation of uterine fundal height
+79,FEMALE,2016-02-05,Auscultation of the fetal heart
+79,FEMALE,2011-01-28,Medication Reconciliation
+79,FEMALE,2018-04-23,Insertion of intrauterine contraceptive device
+79,FEMALE,2015-08-21,Ultrasound scan for fetal viability
+79,FEMALE,2015-08-21,Evaluation of uterine fundal height
+79,FEMALE,2015-08-21,Auscultation of the fetal heart
+79,FEMALE,2015-08-21,"Cytopathology procedure, preparation of smear, genital source"
+79,FEMALE,2015-08-21,Rubella screening
+80,FEMALE,2014-02-22,Medication Reconciliation
+80,FEMALE,2015-02-28,Medication Reconciliation
+80,FEMALE,2012-11-19,Suture open wound
+80,FEMALE,2020-03-17,Colonoscopy
+80,FEMALE,2014-01-23,Rectal polypectomy
+80,FEMALE,2014-01-23,Screening for occult blood in feces
+80,FEMALE,2014-01-23,Colonoscopy
+80,FEMALE,2012-02-11,Medication Reconciliation
+80,FEMALE,2015-03-19,Colonoscopy
+80,FEMALE,2020-05-02,Medication Reconciliation
+81,FEMALE,2015-04-01,Auscultation of the fetal heart
+81,FEMALE,2012-01-04,Medication Reconciliation
+81,FEMALE,2015-09-02,Auscultation of the fetal heart
+81,FEMALE,2015-09-02,Evaluation of uterine fundal height
+81,FEMALE,2015-02-04,Ultrasound scan for fetal viability
+81,FEMALE,2015-02-04,Evaluation of uterine fundal height
+81,FEMALE,2015-02-04,Auscultation of the fetal heart
+81,FEMALE,2015-02-04,"Cytopathology procedure, preparation of smear, genital source"
+81,FEMALE,2018-06-20,Depression screening
+81,FEMALE,2015-02-04,Rubella screening
+81,FEMALE,2015-02-04,Physical examination
+81,FEMALE,2018-05-23,Ultrasound scan for fetal viability
+81,FEMALE,2015-09-09,Evaluation of uterine fundal height
+81,FEMALE,2015-03-04,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+81,FEMALE,2015-03-04,Auscultation of the fetal heart
+81,FEMALE,2015-03-04,Evaluation of uterine fundal height
+81,FEMALE,2018-06-20,Physical examination
+81,FEMALE,2015-09-09,Auscultation of the fetal heart
+81,FEMALE,2015-04-01,Evaluation of uterine fundal height
+81,FEMALE,2015-04-01,Fetal anatomy study
+81,FEMALE,2019-02-13,Medication Reconciliation
+81,FEMALE,2015-05-27,Evaluation of uterine fundal height
+81,FEMALE,2016-01-27,Medication Reconciliation
+81,FEMALE,2013-01-09,Medication Reconciliation
+81,FEMALE,2015-10-28,Depression screening
+81,FEMALE,2015-05-27,Auscultation of the fetal heart
+81,FEMALE,2015-10-28,Physical examination
+81,FEMALE,2017-10-29,Intramuscular injection
+81,FEMALE,2018-02-07,Intramuscular injection
+81,FEMALE,2018-02-07,Medication Reconciliation
+81,FEMALE,2015-04-29,Evaluation of uterine fundal height
+81,FEMALE,2018-06-06,Induced termination of pregnancy
+81,FEMALE,2015-04-29,Auscultation of the fetal heart
+81,FEMALE,2015-06-24,"Vaccination for diphtheria, pertussis, and tetanus"
+81,FEMALE,2015-06-24,Auscultation of the fetal heart
+81,FEMALE,2018-06-06,Counseling for termination of pregnancy
+81,FEMALE,2015-09-16,Augmentation of labor
+81,FEMALE,2015-06-24,Evaluation of uterine fundal height
+81,FEMALE,2015-07-22,Evaluation of uterine fundal height
+81,FEMALE,2015-08-19,Auscultation of the fetal heart
+81,FEMALE,2010-12-29,Medication Reconciliation
+81,FEMALE,2015-08-19,Evaluation of uterine fundal height
+81,FEMALE,2015-07-22,Auscultation of the fetal heart
+82,MALE,1996-05-04,Catheter ablation of tissue of heart
+82,MALE,1993-07-10,Direct current cardioversion
+82,MALE,1999-05-08,Catheter ablation of tissue of heart
+82,MALE,1993-10-30,Catheter ablation of tissue of heart
+82,MALE,1998-08-08,Direct current cardioversion
+82,MALE,1995-03-25,Direct current cardioversion
+82,MALE,1999-03-06,Direct current cardioversion
+82,MALE,2002-02-16,Direct current cardioversion
+82,MALE,1998-07-11,Catheter ablation of tissue of heart
+82,MALE,1996-06-22,Direct current cardioversion
+82,MALE,2002-04-13,Direct current cardioversion
+82,MALE,1993-04-03,Direct current cardioversion
+82,MALE,1996-06-22,Medication Reconciliation
+82,MALE,1999-06-05,Direct current cardioversion
+82,MALE,2001-06-02,Direct current cardioversion
+82,MALE,1993-03-06,Direct current cardioversion
+82,MALE,1995-02-04,Direct current cardioversion
+82,MALE,1995-09-02,Direct current cardioversion
+82,MALE,1997-12-20,Direct current cardioversion
+82,MALE,1995-06-17,Catheter ablation of tissue of heart
+82,MALE,1993-05-08,Direct current cardioversion
+82,MALE,1999-10-09,Medication Reconciliation
+82,MALE,1993-01-09,Direct current cardioversion
+82,MALE,1995-06-24,Direct current cardioversion
+82,MALE,1996-12-14,Direct current cardioversion
+82,MALE,1992-12-05,Direct current cardioversion
+82,MALE,1999-10-09,Direct current cardioversion
+82,MALE,1999-04-10,Direct current cardioversion
+82,MALE,1992-10-10,Direct current cardioversion
+82,MALE,1999-02-06,Catheter ablation of tissue of heart
+82,MALE,1996-02-24,Direct current cardioversion
+82,MALE,1998-12-05,Direct current cardioversion
+82,MALE,1995-08-26,Direct current cardioversion
+82,MALE,1997-05-24,Catheter ablation of tissue of heart
+82,MALE,1996-07-20,Direct current cardioversion
+82,MALE,2001-10-20,Direct current cardioversion
+82,MALE,2001-07-21,Direct current cardioversion
+82,MALE,2002-04-27,Direct current cardioversion
+82,MALE,1999-08-07,Direct current cardioversion
+82,MALE,1997-12-13,Catheter ablation of tissue of heart
+82,MALE,2001-03-31,Catheter ablation of tissue of heart
+82,MALE,2001-06-02,Medication Reconciliation
+82,MALE,1996-11-23,Direct current cardioversion
+82,MALE,1998-08-15,Direct current cardioversion
+82,MALE,1997-02-15,Direct current cardioversion
+82,MALE,1997-10-18,Medication Reconciliation
+82,MALE,1993-06-12,Medication Reconciliation
+82,MALE,1995-12-30,Direct current cardioversion
+82,MALE,2001-05-26,Direct current cardioversion
+82,MALE,1996-08-17,Catheter ablation of tissue of heart
+82,MALE,1997-10-18,Direct current cardioversion
+82,MALE,1993-06-12,Direct current cardioversion
+82,MALE,1998-09-05,Direct current cardioversion
+82,MALE,1996-05-04,Medication Reconciliation
+82,MALE,1994-04-23,Medication Reconciliation
+82,MALE,1994-04-23,Direct current cardioversion
+82,MALE,2000-09-23,Catheter ablation of tissue of heart
+82,MALE,1995-09-30,Direct current cardioversion
+82,MALE,1998-05-16,Direct current cardioversion
+82,MALE,1998-01-10,Catheter ablation of tissue of heart
+82,MALE,1997-05-17,Direct current cardioversion
+82,MALE,1999-09-04,Direct current cardioversion
+82,MALE,1993-02-06,Direct current cardioversion
+82,MALE,1993-04-17,Direct current cardioversion
+82,MALE,1997-07-19,Catheter ablation of tissue of heart
+82,MALE,1995-12-23,Catheter ablation of tissue of heart
+82,MALE,2001-04-21,Direct current cardioversion
+82,MALE,1994-05-28,Direct current cardioversion
+82,MALE,2000-02-26,Direct current cardioversion
+82,MALE,2002-05-04,Direct current cardioversion
+82,MALE,1995-03-04,Direct current cardioversion
+82,MALE,1998-05-16,Medication Reconciliation
+82,MALE,2000-11-25,Direct current cardioversion
+82,MALE,1997-06-14,Direct current cardioversion
+82,MALE,1992-06-13,Direct current cardioversion
+82,MALE,2002-03-23,Direct current cardioversion
+82,MALE,2000-04-01,Direct current cardioversion
+82,MALE,1997-03-22,Medication Reconciliation
+82,MALE,2001-04-28,Medication Reconciliation
+82,MALE,1996-09-21,Direct current cardioversion
+82,MALE,1998-11-07,Direct current cardioversion
+82,MALE,1998-04-18,Direct current cardioversion
+82,MALE,1992-10-17,Catheter ablation of tissue of heart
+82,MALE,1993-06-05,Direct current cardioversion
+82,MALE,1995-04-29,Medication Reconciliation
+82,MALE,1993-03-13,Direct current cardioversion
+82,MALE,1998-03-14,Direct current cardioversion
+82,MALE,1999-12-11,Direct current cardioversion
+82,MALE,2001-04-28,Direct current cardioversion
+82,MALE,1996-01-27,Catheter ablation of tissue of heart
+82,MALE,1999-12-04,Direct current cardioversion
+82,MALE,2000-01-30,Plain chest X-ray
+82,MALE,2000-05-27,Direct current cardioversion
+82,MALE,1993-12-04,Direct current cardioversion
+82,MALE,2000-07-08,Medication Reconciliation
+82,MALE,1995-07-29,Catheter ablation of tissue of heart
+82,MALE,1999-12-11,Medication Reconciliation
+82,MALE,1998-06-13,Direct current cardioversion
+82,MALE,1998-02-07,Direct current cardioversion
+82,MALE,2002-04-06,Direct current cardioversion
+82,MALE,2000-01-30,Bone immobilization
+82,MALE,1997-01-25,Direct current cardioversion
+82,MALE,1997-04-19,Direct current cardioversion
+82,MALE,1997-03-22,Direct current cardioversion
+82,MALE,1993-03-13,Medication Reconciliation
+82,MALE,1995-07-22,Direct current cardioversion
+82,MALE,2002-01-26,Catheter ablation of tissue of heart
+82,MALE,1996-03-30,Catheter ablation of tissue of heart
+82,MALE,2000-01-30,Bone density scan
+82,MALE,1993-11-06,Medication Reconciliation
+82,MALE,1992-11-14,Direct current cardioversion
+82,MALE,1994-07-30,Direct current cardioversion
+82,MALE,1999-10-02,Direct current cardioversion
+82,MALE,2000-07-08,Direct current cardioversion
+82,MALE,1993-11-06,Catheter ablation of tissue of heart
+82,MALE,2000-01-29,Direct current cardioversion
+82,MALE,1999-05-22,Direct current cardioversion
+82,MALE,1995-07-29,Medication Reconciliation
+82,MALE,1997-08-23,Medication Reconciliation
+82,MALE,1992-07-11,Direct current cardioversion
+82,MALE,1999-11-06,Direct current cardioversion
+82,MALE,1997-08-23,Direct current cardioversion
+82,MALE,1999-03-13,Direct current cardioversion
+82,MALE,1996-02-03,Direct current cardioversion
+82,MALE,1994-09-03,Direct current cardioversion
+82,MALE,2000-01-01,Catheter ablation of tissue of heart
+82,MALE,1994-03-12,Medication Reconciliation
+82,MALE,1994-11-05,Direct current cardioversion
+82,MALE,1999-01-16,Direct current cardioversion
+82,MALE,1996-12-21,Medication Reconciliation
+82,MALE,1999-04-03,Direct current cardioversion
+82,MALE,1994-09-10,Medication Reconciliation
+82,MALE,1999-01-16,Medication Reconciliation
+82,MALE,2000-12-30,Medication Reconciliation
+82,MALE,2000-12-30,Direct current cardioversion
+82,MALE,1998-05-09,Medication Reconciliation
+82,MALE,1992-10-03,Direct current cardioversion
+82,MALE,2001-09-01,Direct current cardioversion
+82,MALE,2002-06-01,Direct current cardioversion
+82,MALE,1994-02-05,Direct current cardioversion
+82,MALE,2002-06-01,Echocardiography
+82,MALE,2002-06-01,Percutaneous coronary intervention
+82,MALE,2001-02-03,Direct current cardioversion
+82,MALE,1997-05-10,Medication Reconciliation
+82,MALE,1994-09-10,Catheter ablation of tissue of heart
+82,MALE,1997-05-10,Direct current cardioversion
+82,MALE,1993-02-13,Medication Reconciliation
+82,MALE,1999-10-30,Catheter ablation of tissue of heart
+82,MALE,1994-12-24,Direct current cardioversion
+82,MALE,1997-06-21,Direct current cardioversion
+82,MALE,1993-02-13,Direct current cardioversion
+82,MALE,2000-09-30,Direct current cardioversion
+82,MALE,2002-03-30,Medication Reconciliation
+82,MALE,1998-05-09,Direct current cardioversion
+82,MALE,2000-10-28,Catheter ablation of tissue of heart
+82,MALE,2000-05-06,Medication Reconciliation
+82,MALE,1999-06-12,Medication Reconciliation
+82,MALE,1995-01-28,Direct current cardioversion
+82,MALE,2001-10-27,Direct current cardioversion
+82,MALE,1998-11-14,Direct current cardioversion
+82,MALE,1997-09-13,Direct current cardioversion
+82,MALE,1993-09-04,Direct current cardioversion
+82,MALE,2001-10-27,Medication Reconciliation
+82,MALE,2000-01-15,Direct current cardioversion
+82,MALE,1998-01-17,Direct current cardioversion
+82,MALE,2002-03-30,Bone density scan
+82,MALE,1995-10-21,Medication Reconciliation
+82,MALE,1999-07-10,Catheter ablation of tissue of heart
+82,MALE,1995-10-21,Direct current cardioversion
+82,MALE,1999-07-31,Catheter ablation of tissue of heart
+82,MALE,1997-10-11,Direct current cardioversion
+82,MALE,1996-12-21,Direct current cardioversion
+82,MALE,1997-11-15,Catheter ablation of tissue of heart
+82,MALE,1995-02-25,Direct current cardioversion
+82,MALE,1996-10-19,Catheter ablation of tissue of heart
+82,MALE,1992-12-12,Catheter ablation of tissue of heart
+82,MALE,1994-12-03,Direct current cardioversion
+82,MALE,2000-06-03,Direct current cardioversion
+82,MALE,1994-04-09,Direct current cardioversion
+82,MALE,1993-10-02,Direct current cardioversion
+82,MALE,1995-07-01,Catheter ablation of tissue of heart
+82,MALE,2002-06-01,Coronary artery bypass graft
+82,MALE,2000-07-01,Direct current cardioversion
+82,MALE,1999-06-12,Catheter ablation of tissue of heart
+82,MALE,1994-04-30,Direct current cardioversion
+82,MALE,1995-11-25,Direct current cardioversion
+82,MALE,1996-02-17,Direct current cardioversion
+82,MALE,1994-02-05,Medication Reconciliation
+82,MALE,1993-07-03,Direct current cardioversion
+82,MALE,1993-09-11,Direct current cardioversion
+82,MALE,1998-04-11,Direct current cardioversion
+82,MALE,2001-06-30,Direct current cardioversion
+82,MALE,1995-09-23,Direct current cardioversion
+82,MALE,2000-05-06,Direct current cardioversion
+82,MALE,1999-01-02,Direct current cardioversion
+82,MALE,1992-09-05,Direct current cardioversion
+82,MALE,2002-04-20,Direct current cardioversion
+82,MALE,2001-06-23,Direct current cardioversion
+82,MALE,2002-03-30,Direct current cardioversion
+82,MALE,1995-11-25,Medication Reconciliation
+82,MALE,2000-07-29,Direct current cardioversion
+82,MALE,1996-05-18,Direct current cardioversion
+82,MALE,1994-10-29,Direct current cardioversion
+82,MALE,2001-01-27,Catheter ablation of tissue of heart
+82,MALE,1994-10-01,Medication Reconciliation
+82,MALE,1994-10-01,Catheter ablation of tissue of heart
+82,MALE,1995-05-27,Direct current cardioversion
+82,MALE,1999-07-03,Catheter ablation of tissue of heart
+82,MALE,1994-03-12,Direct current cardioversion
+82,MALE,1996-09-14,Direct current cardioversion
+82,MALE,2000-04-29,Catheter ablation of tissue of heart
+82,MALE,1993-08-07,Direct current cardioversion
+82,MALE,1997-11-22,Direct current cardioversion
+82,MALE,2002-05-18,Direct current cardioversion
+82,MALE,2000-08-26,Direct current cardioversion
+82,MALE,1998-06-06,Direct current cardioversion
+82,MALE,1997-01-18,Direct current cardioversion
+82,MALE,2000-04-08,Direct current cardioversion
+82,MALE,2001-03-24,Direct current cardioversion
+82,MALE,2001-12-22,Catheter ablation of tissue of heart
+82,MALE,1999-02-13,Direct current cardioversion
+82,MALE,2001-08-25,Catheter ablation of tissue of heart
+82,MALE,2000-01-08,Direct current cardioversion
+82,MALE,2001-12-29,Direct current cardioversion
+82,MALE,1996-04-20,Catheter ablation of tissue of heart
+82,MALE,1992-08-08,Catheter ablation of tissue of heart
+82,MALE,1998-10-17,Direct current cardioversion
+82,MALE,1994-01-29,Direct current cardioversion
+82,MALE,1996-03-23,Direct current cardioversion
+82,MALE,1995-05-06,Direct current cardioversion
+82,MALE,2001-09-22,Direct current cardioversion
+82,MALE,1997-09-20,Direct current cardioversion
+82,MALE,1998-10-10,Direct current cardioversion
+82,MALE,1994-12-31,Direct current cardioversion
+82,MALE,1996-05-25,Direct current cardioversion
+82,MALE,1994-04-02,Direct current cardioversion
+82,MALE,1999-01-09,Direct current cardioversion
+82,MALE,1997-07-12,Direct current cardioversion
+82,MALE,1994-03-05,Direct current cardioversion
+82,MALE,1992-11-07,Catheter ablation of tissue of heart
+82,MALE,1997-03-15,Direct current cardioversion
+82,MALE,1992-08-15,Direct current cardioversion
+82,MALE,1998-03-21,Catheter ablation of tissue of heart
+82,MALE,1996-11-16,Direct current cardioversion
+82,MALE,1994-01-01,Direct current cardioversion
+82,MALE,2001-11-17,Direct current cardioversion
+82,MALE,1994-07-02,Catheter ablation of tissue of heart
+82,MALE,1994-01-08,Catheter ablation of tissue of heart
+82,MALE,2001-02-24,Medication Reconciliation
+82,MALE,2001-02-24,Direct current cardioversion
+82,MALE,2002-05-25,Direct current cardioversion
+82,MALE,1997-11-08,Direct current cardioversion
+82,MALE,1994-11-26,Catheter ablation of tissue of heart
+82,MALE,1996-07-27,Direct current cardioversion
+82,MALE,1994-05-07,Direct current cardioversion
+82,MALE,1999-02-13,Medication Reconciliation
+82,MALE,1995-06-10,Direct current cardioversion
+82,MALE,1997-09-20,Medication Reconciliation
+82,MALE,2000-01-22,Direct current cardioversion
+82,MALE,1996-07-27,Medication Reconciliation
+82,MALE,1997-04-12,Catheter ablation of tissue of heart
+82,MALE,2000-06-10,Direct current cardioversion
+82,MALE,1994-01-08,Medication Reconciliation
+82,MALE,1993-05-15,Direct current cardioversion
+82,MALE,1997-08-16,Direct current cardioversion
+82,MALE,1995-04-29,Direct current cardioversion
+82,MALE,1993-05-15,Medication Reconciliation
+82,MALE,1998-10-17,Medication Reconciliation
+82,MALE,2000-12-23,Direct current cardioversion
+82,MALE,1994-08-27,Direct current cardioversion
+82,MALE,2001-09-22,Medication Reconciliation
+82,MALE,1996-01-20,Catheter ablation of tissue of heart
+82,MALE,2002-01-19,Direct current cardioversion
+82,MALE,2000-01-08,Medication Reconciliation
+82,MALE,2000-04-08,Medication Reconciliation
+82,MALE,1994-12-31,Medication Reconciliation
+83,FEMALE,2014-08-03,Evaluation of uterine fundal height
+83,FEMALE,2011-09-04,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+83,FEMALE,2020-06-07,Fetal anatomy study
+83,FEMALE,2014-12-21,Evaluation of uterine fundal height
+83,FEMALE,2014-08-03,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+83,FEMALE,2020-06-07,Auscultation of the fetal heart
+83,FEMALE,2011-09-04,Auscultation of the fetal heart
+83,FEMALE,2020-07-05,Auscultation of the fetal heart
+83,FEMALE,2014-08-03,Auscultation of the fetal heart
+83,FEMALE,2020-06-07,Evaluation of uterine fundal height
+83,FEMALE,2020-04-12,Rubella screening
+83,FEMALE,2020-04-12,Physical examination
+83,FEMALE,2020-04-12,Ultrasound scan for fetal viability
+83,FEMALE,2014-12-21,Auscultation of the fetal heart
+83,FEMALE,2020-04-12,Evaluation of uterine fundal height
+83,FEMALE,2011-09-04,Evaluation of uterine fundal height
+83,FEMALE,2020-04-12,Auscultation of the fetal heart
+83,FEMALE,2020-04-12,"Cytopathology procedure, preparation of smear, genital source"
+83,FEMALE,2020-07-05,Evaluation of uterine fundal height
+83,FEMALE,2018-03-11,Medication Reconciliation
+83,FEMALE,2011-12-25,Auscultation of the fetal heart
+83,FEMALE,2011-10-30,Auscultation of the fetal heart
+83,FEMALE,2011-11-27,Auscultation of the fetal heart
+83,FEMALE,2011-12-25,Passive immunization
+83,FEMALE,2012-02-19,Auscultation of the fetal heart
+83,FEMALE,2014-10-26,Auscultation of the fetal heart
+83,FEMALE,2020-11-08,Auscultation of the fetal heart
+83,FEMALE,2020-05-10,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+83,FEMALE,2012-04-22,Physical examination
+83,FEMALE,2014-08-31,Fetal anatomy study
+83,FEMALE,2014-10-26,Evaluation of uterine fundal height
+83,FEMALE,2014-08-31,Evaluation of uterine fundal height
+83,FEMALE,2020-05-10,Auscultation of the fetal heart
+83,FEMALE,2011-12-25,"Vaccination for diphtheria, pertussis, and tetanus"
+83,FEMALE,2012-02-19,Evaluation of uterine fundal height
+83,FEMALE,2011-11-27,Evaluation of uterine fundal height
+83,FEMALE,2020-05-10,Evaluation of uterine fundal height
+83,FEMALE,2014-08-31,Auscultation of the fetal heart
+83,FEMALE,2011-12-25,Evaluation of uterine fundal height
+83,FEMALE,2012-04-22,Passive immunization
+83,FEMALE,2020-11-08,Evaluation of uterine fundal height
+83,FEMALE,2011-10-30,Evaluation of uterine fundal height
+83,FEMALE,2012-04-22,Depression screening
+83,FEMALE,2014-09-28,Evaluation of uterine fundal height
+83,FEMALE,2020-10-25,Auscultation of the fetal heart
+83,FEMALE,2020-10-25,Evaluation of uterine fundal height
+83,FEMALE,2014-11-23,Passive immunization
+83,FEMALE,2014-11-23,"Vaccination for diphtheria, pertussis, and tetanus"
+83,FEMALE,2014-11-23,Evaluation of uterine fundal height
+83,FEMALE,2014-11-23,Auscultation of the fetal heart
+83,FEMALE,2015-02-01,Medical induction of labor
+83,FEMALE,2012-03-04,Auscultation of the fetal heart
+83,FEMALE,2012-03-04,Evaluation of uterine fundal height
+83,FEMALE,2014-07-06,Physical examination
+83,FEMALE,2020-09-27,Auscultation of the fetal heart
+83,FEMALE,2014-07-06,Ultrasound scan for fetal viability
+83,FEMALE,2014-07-06,Evaluation of uterine fundal height
+83,FEMALE,2016-02-28,Medication Reconciliation
+83,FEMALE,2014-07-06,Auscultation of the fetal heart
+83,FEMALE,2020-08-02,Auscultation of the fetal heart
+83,FEMALE,2020-08-02,Evaluation of uterine fundal height
+83,FEMALE,2014-09-28,Auscultation of the fetal heart
+83,FEMALE,2011-08-07,Ultrasound scan for fetal viability
+83,FEMALE,2014-07-06,"Cytopathology procedure, preparation of smear, genital source"
+83,FEMALE,2011-08-07,Evaluation of uterine fundal height
+83,FEMALE,2011-08-07,Auscultation of the fetal heart
+83,FEMALE,2011-08-07,"Cytopathology procedure, preparation of smear, genital source"
+83,FEMALE,2011-08-07,Rubella screening
+83,FEMALE,2011-08-07,Physical examination
+83,FEMALE,2020-09-27,Evaluation of uterine fundal height
+83,FEMALE,2014-07-06,Rubella screening
+83,FEMALE,2020-11-15,Instrumental delivery
+83,FEMALE,2020-03-22,Medication Reconciliation
+83,FEMALE,2015-04-12,Suture open wound
+83,FEMALE,2012-01-22,Evaluation of uterine fundal height
+83,FEMALE,2012-01-22,Auscultation of the fetal heart
+83,FEMALE,2011-10-02,Auscultation of the fetal heart
+83,FEMALE,2011-10-02,Evaluation of uterine fundal height
+83,FEMALE,2011-10-02,Fetal anatomy study
+83,FEMALE,2015-03-15,Physical examination
+83,FEMALE,2015-03-15,Passive immunization
+83,FEMALE,2015-03-15,Depression screening
+83,FEMALE,2011-02-02,Radiography of ankle
+83,FEMALE,2011-02-02,Bone immobilization
+83,FEMALE,2020-08-30,"Vaccination for diphtheria, pertussis, and tetanus"
+83,FEMALE,2020-08-30,Passive immunization
+83,FEMALE,2017-03-05,Medication Reconciliation
+83,FEMALE,2020-08-30,Evaluation of uterine fundal height
+83,FEMALE,2015-01-18,Auscultation of the fetal heart
+83,FEMALE,2020-08-30,Auscultation of the fetal heart
+83,FEMALE,2015-01-18,Evaluation of uterine fundal height
+84,MALE,2017-02-13,Medication Reconciliation
+84,MALE,2018-02-19,Medication Reconciliation
+84,MALE,2011-04-25,Medication Reconciliation
+85,MALE,2019-09-18,Medication Reconciliation
+85,MALE,2017-09-06,Medication Reconciliation
+85,MALE,2012-08-08,Medication Reconciliation
+85,MALE,2016-08-31,Medication Reconciliation
+86,MALE,2020-10-10,Medication Reconciliation
+86,MALE,2019-10-12,Medication Reconciliation
+86,MALE,2020-01-11,Medication Reconciliation
+86,MALE,2020-04-11,Medication Reconciliation
+86,MALE,2019-02-09,Medication Reconciliation
+86,MALE,2018-12-08,Medication Reconciliation
+87,MALE,2016-01-21,Bone immobilization
+87,MALE,2016-01-21,Radiography of ankle
+87,MALE,2014-09-23,Medication Reconciliation
+87,MALE,2011-01-25,Medication Reconciliation
+87,MALE,2016-10-04,Medication Reconciliation
+87,MALE,2020-02-21,Plain chest X-ray
+87,MALE,2020-02-26,Placing subject in prone position
+87,MALE,2020-02-26,Oxygen administration by mask
+87,MALE,2020-02-25,Placing subject in prone position
+87,MALE,2020-02-25,Oxygen administration by mask
+87,MALE,2020-02-24,Placing subject in prone position
+87,MALE,2020-02-24,Oxygen administration by mask
+87,MALE,2020-03-03,Placing subject in prone position
+87,MALE,2020-02-22,Placing subject in prone position
+87,MALE,2014-03-25,Medication Reconciliation
+87,MALE,2020-03-02,Oxygen administration by mask
+87,MALE,2020-03-01,Placing subject in prone position
+87,MALE,2020-03-03,Oxygen administration by mask
+87,MALE,2020-03-01,Oxygen administration by mask
+87,MALE,2020-03-05,Placing subject in prone position
+87,MALE,2020-03-02,Placing subject in prone position
+87,MALE,2020-02-29,Placing subject in prone position
+87,MALE,2020-02-27,Oxygen administration by mask
+87,MALE,2020-02-22,Oxygen administration by mask
+87,MALE,2020-02-27,Placing subject in prone position
+87,MALE,2020-02-21,Oxygen administration by mask
+87,MALE,2020-03-04,Oxygen administration by mask
+87,MALE,2020-02-29,Oxygen administration by mask
+87,MALE,2020-03-04,Placing subject in prone position
+87,MALE,2020-03-05,Oxygen administration by mask
+87,MALE,2020-02-23,Oxygen administration by mask
+87,MALE,2020-02-23,Placing subject in prone position
+87,MALE,2020-02-28,Placing subject in prone position
+87,MALE,2020-02-21,Placing subject in prone position
+87,MALE,2020-02-28,Oxygen administration by mask
+87,MALE,2011-06-28,Medication Reconciliation
+88,FEMALE,2019-08-24,Colonoscopy
+88,FEMALE,2013-12-17,Medication Reconciliation
+88,FEMALE,2014-12-23,Bone density scan
+88,FEMALE,2015-12-29,Medication Reconciliation
+88,FEMALE,2011-12-06,Medication Reconciliation
+88,FEMALE,2019-01-15,Medication Reconciliation
+88,FEMALE,2014-08-25,Colonoscopy
+89,FEMALE,2020-11-26,Auscultation of the fetal heart
+89,FEMALE,2014-05-01,Medication Reconciliation
+89,FEMALE,2014-05-01,Review of systems
+89,FEMALE,2019-03-14,Medication Reconciliation
+89,FEMALE,2018-09-06,Auscultation of the fetal heart
+89,FEMALE,2018-09-06,Evaluation of uterine fundal height
+89,FEMALE,2018-09-06,Fetal anatomy study
+89,FEMALE,2019-02-07,Evaluation of uterine fundal height
+89,FEMALE,2019-02-07,Auscultation of the fetal heart
+89,FEMALE,2015-02-19,Medication Reconciliation
+89,FEMALE,2014-05-01,Brief general examination
+89,FEMALE,2020-11-26,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+89,FEMALE,2020-11-26,Evaluation of uterine fundal height
+89,FEMALE,2020-10-29,Auscultation of the fetal heart
+89,FEMALE,2018-07-12,Rubella screening
+89,FEMALE,2014-11-20,Auscultation of the fetal heart
+89,FEMALE,2014-11-20,Evaluation of uterine fundal height
+89,FEMALE,2014-10-23,Auscultation of the fetal heart
+89,FEMALE,2018-07-12,Physical examination
+89,FEMALE,2015-01-22,Physical examination
+89,FEMALE,2018-07-12,Ultrasound scan for fetal viability
+89,FEMALE,2020-10-29,Ultrasound scan for fetal viability
+89,FEMALE,2020-10-29,Evaluation of uterine fundal height
+89,FEMALE,2018-07-12,Evaluation of uterine fundal height
+89,FEMALE,2018-03-29,Counseling for termination of pregnancy
+89,FEMALE,2018-07-12,Auscultation of the fetal heart
+89,FEMALE,2018-07-12,"Cytopathology procedure, preparation of smear, genital source"
+89,FEMALE,2015-01-22,Depression screening
+89,FEMALE,2020-10-29,"Cytopathology procedure, preparation of smear, genital source"
+89,FEMALE,2018-03-29,Induced termination of pregnancy
+89,FEMALE,2018-08-09,Evaluation of uterine fundal height
+89,FEMALE,2018-08-09,Auscultation of the fetal heart
+89,FEMALE,2018-08-09,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+89,FEMALE,2020-10-29,Physical examination
+89,FEMALE,2014-10-23,Evaluation of uterine fundal height
+89,FEMALE,2014-12-11,Epidural anesthesia
+89,FEMALE,2020-10-29,Rubella screening
+89,FEMALE,2014-06-05,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+89,FEMALE,2014-05-01,"Cytopathology procedure, preparation of smear, genital source"
+89,FEMALE,2018-12-27,Evaluation of uterine fundal height
+89,FEMALE,2020-09-03,Removal of intrauterine device
+89,FEMALE,2018-11-29,Auscultation of the fetal heart
+89,FEMALE,2014-05-01,Physical examination
+89,FEMALE,2018-11-29,"Vaccination for diphtheria, pertussis, and tetanus"
+89,FEMALE,2014-05-01,Ultrasound scan for fetal viability
+89,FEMALE,2020-03-19,Medication Reconciliation
+89,FEMALE,2014-06-05,Evaluation of uterine fundal height
+89,FEMALE,2018-12-27,Auscultation of the fetal heart
+89,FEMALE,2014-06-05,Auscultation of the fetal heart
+89,FEMALE,2014-05-01,Rubella screening
+89,FEMALE,2019-03-31,Insertion of intrauterine contraceptive device
+89,FEMALE,2014-05-01,Auscultation of the fetal heart
+89,FEMALE,2014-12-04,Evaluation of uterine fundal height
+89,FEMALE,2014-05-01,Evaluation of uterine fundal height
+89,FEMALE,2018-03-22,Ultrasound scan for fetal viability
+89,FEMALE,2018-11-29,Evaluation of uterine fundal height
+89,FEMALE,2014-12-04,Auscultation of the fetal heart
+89,FEMALE,2014-07-03,Fetal anatomy study
+89,FEMALE,2014-07-03,Evaluation of uterine fundal height
+89,FEMALE,2019-01-24,Evaluation of uterine fundal height
+89,FEMALE,2014-09-25,"Vaccination for diphtheria, pertussis, and tetanus"
+89,FEMALE,2014-07-03,Auscultation of the fetal heart
+89,FEMALE,2014-09-25,Evaluation of uterine fundal height
+89,FEMALE,2019-01-24,Auscultation of the fetal heart
+89,FEMALE,2014-09-25,Auscultation of the fetal heart
+89,FEMALE,2019-03-28,Physical examination
+89,FEMALE,2019-03-28,Depression screening
+89,FEMALE,2014-07-31,Auscultation of the fetal heart
+89,FEMALE,2018-11-01,Evaluation of uterine fundal height
+89,FEMALE,2018-04-05,Depression screening
+89,FEMALE,2018-04-05,Physical examination
+89,FEMALE,2014-08-28,Auscultation of the fetal heart
+89,FEMALE,2014-08-28,Evaluation of uterine fundal height
+89,FEMALE,2018-10-04,Evaluation of uterine fundal height
+89,FEMALE,2014-02-13,Medication Reconciliation
+89,FEMALE,2014-07-31,Evaluation of uterine fundal height
+89,FEMALE,2018-10-04,Auscultation of the fetal heart
+89,FEMALE,2018-11-01,Auscultation of the fetal heart
+90,FEMALE,2002-02-24,Suture open wound
+90,FEMALE,2003-02-13,Medication Reconciliation
+90,FEMALE,2009-05-14,Medication Reconciliation
+90,FEMALE,2004-04-15,Medication Reconciliation
+90,FEMALE,2002-04-04,Medication Reconciliation
+90,FEMALE,2006-08-10,Medication Reconciliation
+90,FEMALE,2010-05-20,Medication Reconciliation
+90,FEMALE,2000-12-31,Pelvis X-ray
+91,MALE,2020-03-15,Oxygen administration by mask
+91,MALE,2020-03-17,Placing subject in prone position
+91,MALE,2020-03-17,Oxygen administration by mask
+91,MALE,2020-03-16,Placing subject in prone position
+91,MALE,2020-03-16,Oxygen administration by mask
+91,MALE,2020-03-15,Placing subject in prone position
+91,MALE,2020-03-14,Placing subject in prone position
+91,MALE,2020-03-14,Oxygen administration by mask
+91,MALE,2020-03-13,Placing subject in prone position
+91,MALE,2020-03-13,Oxygen administration by mask
+91,MALE,2020-03-12,Placing subject in prone position
+91,MALE,2020-03-12,Oxygen administration by mask
+91,MALE,2020-03-11,Placing subject in prone position
+91,MALE,2020-03-11,Oxygen administration by mask
+91,MALE,2020-03-10,Placing subject in prone position
+91,MALE,2020-03-10,Oxygen administration by mask
+91,MALE,2020-03-09,Placing subject in prone position
+91,MALE,2020-03-09,Oxygen administration by mask
+91,MALE,2020-03-08,Placing subject in prone position
+91,MALE,2020-03-08,Oxygen administration by mask
+91,MALE,2020-03-07,Placing subject in prone position
+91,MALE,2020-03-07,Oxygen administration by mask
+91,MALE,2020-03-07,Plain chest X-ray
+91,MALE,2015-01-12,Sputum examination
+91,MALE,2019-10-11,Medication Reconciliation
+91,MALE,2020-10-16,Medication Reconciliation
+91,MALE,2020-12-11,Coronary artery bypass graft
+91,MALE,2020-12-11,Percutaneous coronary intervention
+91,MALE,2020-12-11,Echocardiography
+92,MALE,1951-12-22,Injection of tetanus antitoxin
+92,MALE,1951-12-22,Suture open wound
+92,MALE,1952-11-08,Echocardiography
+92,MALE,1952-11-08,Percutaneous coronary intervention
+92,MALE,1952-11-08,Coronary artery bypass graft
+92,MALE,1952-01-19,Medication Reconciliation
+92,MALE,1942-11-28,Medication Reconciliation
+92,MALE,1950-01-07,Medication Reconciliation
+92,MALE,1950-11-18,Medication Reconciliation
+92,MALE,1944-08-02,Appendectomy
+93,MALE,2017-06-05,Medication Reconciliation
+94,FEMALE,2012-11-03,Mammography
+94,FEMALE,2018-05-26,Manual pelvic examination
+94,FEMALE,2020-03-08,Placing subject in prone position
+94,FEMALE,2020-03-07,Oxygen administration by mask
+94,FEMALE,2013-11-16,Medication Reconciliation
+94,FEMALE,2018-05-26,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2020-03-06,Placing subject in prone position
+94,FEMALE,2020-03-09,Oxygen administration by mask
+94,FEMALE,2020-04-15,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2020-03-09,Placing subject in prone position
+94,FEMALE,2020-03-10,Oxygen administration by mask
+94,FEMALE,2020-03-10,Placing subject in prone position
+94,FEMALE,2016-06-05,Mammography
+94,FEMALE,2012-11-03,Manual pelvic examination
+94,FEMALE,2019-11-02,Colonoscopy
+94,FEMALE,2020-03-06,Oxygen administration by mask
+94,FEMALE,2020-03-11,Oxygen administration by mask
+94,FEMALE,2020-03-14,Placing subject in prone position
+94,FEMALE,2020-03-06,Plain chest X-ray
+94,FEMALE,2020-03-14,Oxygen administration by mask
+94,FEMALE,2020-03-11,Placing subject in prone position
+94,FEMALE,2020-03-12,Oxygen administration by mask
+94,FEMALE,2013-09-21,Mammography
+94,FEMALE,2017-05-31,Manual pelvic examination
+94,FEMALE,2020-03-12,Placing subject in prone position
+94,FEMALE,2012-11-03,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2020-03-13,Oxygen administration by mask
+94,FEMALE,2020-03-13,Placing subject in prone position
+94,FEMALE,2020-04-15,Manual pelvic examination
+94,FEMALE,2011-12-10,Mammography
+94,FEMALE,2020-03-15,Oxygen administration by mask
+94,FEMALE,2020-03-15,Placing subject in prone position
+94,FEMALE,2020-03-07,Placing subject in prone position
+94,FEMALE,2017-05-31,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2020-03-08,Oxygen administration by mask
+94,FEMALE,2011-12-10,Manual pelvic examination
+94,FEMALE,2011-12-10,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2019-04-21,Manual pelvic examination
+94,FEMALE,2017-05-31,Mammography
+94,FEMALE,2019-04-21,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2014-08-30,Manual pelvic examination
+94,FEMALE,2013-09-21,Manual pelvic examination
+94,FEMALE,2014-08-30,Mammography
+94,FEMALE,2014-08-30,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2013-09-21,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2015-07-11,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2015-07-11,Mammography
+94,FEMALE,2015-07-11,Manual pelvic examination
+94,FEMALE,2019-04-21,Mammography
+94,FEMALE,2018-05-26,Mammography
+94,FEMALE,2020-04-15,Mammography
+94,FEMALE,2016-06-05,"Cytopathology procedure, preparation of smear, genital source"
+94,FEMALE,2016-06-05,Manual pelvic examination
+95,FEMALE,2016-01-17,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2016-10-25,Medication Reconciliation
+95,FEMALE,2017-11-07,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2017-12-19,Medication Reconciliation
+95,FEMALE,2012-04-06,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2015-02-21,Manual pelvic examination
+95,FEMALE,2012-04-06,Manual pelvic examination
+95,FEMALE,2015-02-21,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2018-10-03,Mammography
+95,FEMALE,2016-01-17,Manual pelvic examination
+95,FEMALE,2017-11-07,Manual pelvic examination
+95,FEMALE,2015-02-20,Mammography
+95,FEMALE,2016-02-23,Medication Reconciliation
+95,FEMALE,2020-03-14,Placing subject in prone position
+95,FEMALE,2011-04-12,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2020-03-16,Oxygen administration by mask
+95,FEMALE,2020-03-15,Oxygen administration by mask
+95,FEMALE,2020-03-16,Placing subject in prone position
+95,FEMALE,2013-04-01,Mammography
+95,FEMALE,2019-03-27,Plain X-ray of clavicle
+95,FEMALE,2019-03-27,Bone density scan
+95,FEMALE,2020-03-13,Oxygen administration by mask
+95,FEMALE,2020-03-15,Placing subject in prone position
+95,FEMALE,2011-01-25,Medication Reconciliation
+95,FEMALE,2020-03-19,Oxygen administration by mask
+95,FEMALE,2020-03-19,Placing subject in prone position
+95,FEMALE,2020-03-20,Oxygen administration by mask
+95,FEMALE,2020-03-12,Placing subject in prone position
+95,FEMALE,2020-03-20,Placing subject in prone position
+95,FEMALE,2020-03-18,Placing subject in prone position
+95,FEMALE,2020-03-13,Placing subject in prone position
+95,FEMALE,2020-03-18,Oxygen administration by mask
+95,FEMALE,2020-03-17,Placing subject in prone position
+95,FEMALE,2020-03-17,Oxygen administration by mask
+95,FEMALE,2020-03-12,Oxygen administration by mask
+95,FEMALE,2013-04-01,Manual pelvic examination
+95,FEMALE,2013-04-01,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2011-04-12,Manual pelvic examination
+95,FEMALE,2020-03-11,Placing subject in prone position
+95,FEMALE,2020-03-14,Oxygen administration by mask
+95,FEMALE,2018-03-06,Medication Reconciliation
+95,FEMALE,2020-03-11,Oxygen administration by mask
+95,FEMALE,2020-03-11,Plain chest X-ray
+95,FEMALE,2019-02-22,Sputum examination
+95,FEMALE,2017-11-07,Mammography
+95,FEMALE,2014-02-25,Manual pelvic examination
+95,FEMALE,2014-01-31,Colonoscopy
+95,FEMALE,2014-02-25,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2016-12-12,Manual pelvic examination
+95,FEMALE,2016-12-12,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2019-09-28,Mammography
+95,FEMALE,2012-12-07,Colonoscopy
+95,FEMALE,2012-12-07,Screening for occult blood in feces
+95,FEMALE,2012-12-07,Rectal polypectomy
+95,FEMALE,2017-07-18,Medication Reconciliation
+95,FEMALE,2016-01-17,Mammography
+95,FEMALE,2018-10-03,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2018-10-03,Manual pelvic examination
+95,FEMALE,2020-08-23,Manual pelvic examination
+95,FEMALE,2020-08-23,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2017-03-16,Suture open wound
+95,FEMALE,2011-04-12,Mammography
+95,FEMALE,2012-04-06,Mammography
+95,FEMALE,2014-02-25,Mammography
+95,FEMALE,2019-01-30,Colonoscopy
+95,FEMALE,2019-06-11,Medication Reconciliation
+95,FEMALE,2016-12-12,Mammography
+95,FEMALE,2019-09-28,"Cytopathology procedure, preparation of smear, genital source"
+95,FEMALE,2019-09-28,Manual pelvic examination
+95,FEMALE,2020-08-23,Mammography
+96,MALE,2016-03-17,Medication Reconciliation
+96,MALE,2014-03-06,Medication Reconciliation
+96,MALE,2018-03-29,Medication Reconciliation
+97,FEMALE,2018-10-24,Medication Reconciliation
+97,FEMALE,2014-11-10,Bone immobilization
+97,FEMALE,2014-11-10,Radiography of ankle
+97,FEMALE,2012-04-18,Replacement of intrauterine contraceptive device
+97,FEMALE,2017-04-19,Replacement of intrauterine contraceptive device
+97,FEMALE,2015-11-11,Medication Reconciliation
+98,FEMALE,2018-02-06,Evaluation of uterine fundal height
+98,FEMALE,2018-11-20,Evaluation of uterine fundal height
+98,FEMALE,2018-11-20,Auscultation of the fetal heart
+98,FEMALE,2018-02-06,Auscultation of the fetal heart
+98,FEMALE,2018-11-20,Fetal anatomy study
+98,FEMALE,2018-01-09,Auscultation of the fetal heart
+98,FEMALE,2018-01-09,"Vaccination for diphtheria, pertussis, and tetanus"
+98,FEMALE,2018-01-09,Evaluation of uterine fundal height
+98,FEMALE,2016-11-22,Physical examination
+98,FEMALE,2017-11-14,Auscultation of the fetal heart
+98,FEMALE,2019-06-18,Depression screening
+98,FEMALE,2018-05-01,Physical examination
+98,FEMALE,2013-10-05,Suture open wound
+98,FEMALE,2017-11-14,Evaluation of uterine fundal height
+98,FEMALE,2019-06-18,Physical examination
+98,FEMALE,2019-03-12,Evaluation of uterine fundal height
+98,FEMALE,2019-03-12,Auscultation of the fetal heart
+98,FEMALE,2019-04-09,Evaluation of uterine fundal height
+98,FEMALE,2016-11-22,Depression screening
+98,FEMALE,2016-11-01,Ultrasound scan for fetal viability
+98,FEMALE,2019-04-09,Auscultation of the fetal heart
+98,FEMALE,2012-09-25,Medication Reconciliation
+98,FEMALE,2018-05-01,Depression screening
+98,FEMALE,2018-03-06,Auscultation of the fetal heart
+98,FEMALE,2014-10-07,Medication Reconciliation
+98,FEMALE,2011-09-20,Medication Reconciliation
+98,FEMALE,2018-10-30,Medication Reconciliation
+98,FEMALE,2017-10-17,Fetal anatomy study
+98,FEMALE,2017-08-22,Rubella screening
+98,FEMALE,2018-12-18,Auscultation of the fetal heart
+98,FEMALE,2018-12-18,Evaluation of uterine fundal height
+98,FEMALE,2019-01-15,Auscultation of the fetal heart
+98,FEMALE,2018-09-25,Evaluation of uterine fundal height
+98,FEMALE,2019-04-23,Evaluation of uterine fundal height
+98,FEMALE,2019-02-12,Auscultation of the fetal heart
+98,FEMALE,2017-10-17,Evaluation of uterine fundal height
+98,FEMALE,2019-04-23,Auscultation of the fetal heart
+98,FEMALE,2019-02-12,"Vaccination for diphtheria, pertussis, and tetanus"
+98,FEMALE,2019-01-15,Evaluation of uterine fundal height
+98,FEMALE,2018-09-25,Auscultation of the fetal heart
+98,FEMALE,2018-09-25,Ultrasound scan for fetal viability
+98,FEMALE,2017-10-17,Auscultation of the fetal heart
+98,FEMALE,2019-02-12,Evaluation of uterine fundal height
+98,FEMALE,2017-08-22,Ultrasound scan for fetal viability
+98,FEMALE,2017-08-22,Physical examination
+98,FEMALE,2018-03-06,Evaluation of uterine fundal height
+98,FEMALE,2018-09-25,Physical examination
+98,FEMALE,2017-08-22,Evaluation of uterine fundal height
+98,FEMALE,2018-09-25,Rubella screening
+98,FEMALE,2018-09-25,"Cytopathology procedure, preparation of smear, genital source"
+98,FEMALE,2018-10-23,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+98,FEMALE,2018-10-23,Auscultation of the fetal heart
+98,FEMALE,2018-10-23,Evaluation of uterine fundal height
+98,FEMALE,2017-08-22,"Cytopathology procedure, preparation of smear, genital source"
+98,FEMALE,2017-08-22,Auscultation of the fetal heart
+98,FEMALE,2017-09-19,Auscultation of the fetal heart
+98,FEMALE,2016-11-15,Counseling for termination of pregnancy
+98,FEMALE,2016-11-15,Induced termination of pregnancy
+98,FEMALE,2017-12-12,Auscultation of the fetal heart
+98,FEMALE,2017-09-19,Detection of chromosomal aneuploidy in prenatal amniotic fluid specimen using FISH screening technique
+98,FEMALE,2017-09-19,Evaluation of uterine fundal height
+98,FEMALE,2019-04-30,Auscultation of the fetal heart
+98,FEMALE,2019-05-07,Epidural anesthesia
+98,FEMALE,2019-04-30,Evaluation of uterine fundal height
+98,FEMALE,2017-12-12,Evaluation of uterine fundal height
+99,FEMALE,2013-03-04,Medication Reconciliation
+99,FEMALE,2019-04-08,Medication Reconciliation
+99,FEMALE,2017-03-27,Medication Reconciliation
+99,FEMALE,2014-03-10,Medication Reconciliation
+99,FEMALE,2011-02-21,Medication Reconciliation
+99,FEMALE,2012-07-09,Colonoscopy
+99,FEMALE,2016-03-21,Medication Reconciliation
+99,FEMALE,2017-07-08,Colonoscopy
+100,FEMALE,2019-06-06,Medication Reconciliation
+100,FEMALE,2017-05-25,Medication Reconciliation
+100,FEMALE,2020-06-11,Medication Reconciliation
+100,FEMALE,2016-05-19,Medication Reconciliation
