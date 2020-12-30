@@ -2623,6 +2623,116 @@ window.onload = function() {
     </style>
 
 
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    background-color: #ffffff;
+    color: #a0a0a0;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-left: 4px; }
+div.sourceCode
+  { color: #1f1c1b; background-color: #ffffff; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span. { color: #1f1c1b; } /* Normal */
+code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
+code span.an { color: #ca60ca; } /* Annotation */
+code span.at { color: #0057ae; } /* Attribute */
+code span.bn { color: #b08000; } /* BaseN */
+code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
+code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #924c9d; } /* Char */
+code span.cn { color: #aa5500; } /* Constant */
+code span.co { color: #898887; } /* Comment */
+code span.cv { color: #0095ff; } /* CommentVar */
+code span.do { color: #607880; } /* Documentation */
+code span.dt { color: #0057ae; } /* DataType */
+code span.dv { color: #b08000; } /* DecVal */
+code span.er { color: #bf0303; text-decoration: underline; } /* Error */
+code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
+code span.fl { color: #b08000; } /* Float */
+code span.fu { color: #644a9b; } /* Function */
+code span.im { color: #ff5500; } /* Import */
+code span.in { color: #b08000; } /* Information */
+code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code span.op { color: #1f1c1b; } /* Operator */
+code span.ot { color: #006e28; } /* Other */
+code span.pp { color: #006e28; } /* Preprocessor */
+code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
+code span.sc { color: #3daee9; } /* SpecialChar */
+code span.ss { color: #ff5500; } /* SpecialString */
+code span.st { color: #bf0303; } /* String */
+code span.va { color: #0057ae; } /* Variable */
+code span.vs { color: #bf0303; } /* VerbatimString */
+code span.wa { color: #bf0303; } /* Warning */
+
+.sourceCode .row {
+  width: 100%;
+}
+.sourceCode {
+  overflow-x: auto;
+}
+.code-folding-btn {
+  margin-right: -30px;
+}
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -2888,6 +2998,22 @@ hard_flag
 <tbody>
 <tr>
 <td style="text-align:left;">
+identifier
+</td>
+<td style="text-align:left;">
+factor
+</td>
+<td style="text-align:left;">
+value in established valueset
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+value not in valueset
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
 category
 </td>
 <td style="text-align:left;">
@@ -2897,7 +3023,7 @@ factor
 value in established constraints
 </td>
 <td style="text-align:left;">
-not found within control data
+value not in constraints
 </td>
 <td style="text-align:left;">
 </td>
@@ -2984,11 +3110,437 @@ times greater than or equal to 24:00
 </tbody>
 </table>
 <p><br></p>
-<p>The purpose of applying these fundamental rules is to confirm the data integrity before moving forward with more complex data quality rules. For example, a more complex rule may be one where the date of death must be preceded by a date of birth. However, it is the foundational rule on the datatype <em>date</em> that preliminarily confirms that all the date of death and date of birth data are in a parseable format, that those that fall within the 95% percentile in either direction have been reviewed and confirmed, and that particular attention has been paid to any data that indicates dates of death and birth that are occurring in the future from this moment in time.</p>
+<p>The purpose of applying these fundamental rules is to confirm the data integrity before moving forward with more complex data quality rules. For example, a more complex rule may be one where the <em>date of death</em> must be preceded by a <em>date of birth</em>. However, it is the foundational rule on the datatype <em>date</em> that preliminarily confirms that all of <em>the date of death</em> and <em>date of birth</em> data are in a parseable format, values that fall above the 95th percentile in either direction have been reviewed and confirmed, and particular attention is paid to any data that shows that <em>date of death</em> and <em>date of birth</em> occurring in the future.</p>
 </div>
 <div id="surveying-source-data" class="section level3">
 <h3><span class="header-section-number">0.1.2</span> Surveying Source Data</h3>
-<p>Following the matrix above, each field in the clinical dataset should be surveyed and assigned one of the datatypes. Using <strong>Polyester</strong>, a database of synthetic clinical data generated by <strong>Synthea</strong> and ETL’d into the <strong>OMOP Common Data Model</strong> (<a href="https://meerapatelmd.github.io/polyester2/">learn more</a>),</p>
+<p>Following the matrix above, each field in the clinical dataset should be surveyed and assigned one of the datatypes. Mapping a source data field to a datatype can be demonstrated using the 100 sample records from the <code>Condition Occurrence</code> table in <strong>Polyester</strong>, a database of synthetic clinical data generated by <strong>Synthea</strong> and ETL’d into the <strong>OMOP Common Data Model</strong> (<a href="https://meerapatelmd.github.io/polyester2/">learn more</a>).</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">str</span>(condition_occurrence)</a></code></pre></div>
+<pre><code>## tibble [1,205 × 5] (S3: spec_tbl_df/tbl_df/tbl/data.frame)
+##  $ person_id           : num [1:1205] 1 1 1 1 1 1 1 1 1 1 ...
+##  $ gender              : chr [1:1205] &quot;MALE&quot; &quot;MALE&quot; &quot;MALE&quot; &quot;MALE&quot; ...
+##  $ condition_start_date: Date[1:1205], format: &quot;2020-03-05&quot; &quot;2016-04-13&quot; ...
+##  $ condition_end_date  : Date[1:1205], format: &quot;2020-03-19&quot; &quot;2016-11-10&quot; ...
+##  $ condition_source    : chr [1:1205] &quot;Fatigue&quot; &quot;Otitis media&quot; &quot;Loss of taste&quot; &quot;Streptococcal sore throat&quot; ...
+##  - attr(*, &quot;spec&quot;)=
+##   .. cols(
+##   ..   person_id = col_double(),
+##   ..   gender = col_character(),
+##   ..   condition_start_date = col_date(format = &quot;&quot;),
+##   ..   condition_end_date = col_date(format = &quot;&quot;),
+##   ..   condition_source = col_character()
+##   .. )</code></pre>
+<p>The survey above serves a guide to assign the appropriate datatype to each column. A few notes representing the challenges faced when applying data quality rules to real world clinical data:</p>
+<ol style="list-style-type: decimal">
+<li>Though the <code>gender</code> field data was read into the R environment as a <code>character</code> class, the result of our survey indicates that it should be of the <code>factor</code> class and thus, be assigned the <code>category</code> datatype.<br />
+</li>
+<li>Another similar example that is debatable is whether or not to consider <code>condition_source</code> a <code>text</code> or <code>category</code> datatype. This would depend on whether this field came from an abstraction or from a structured EHR data capture. Here, I have chosen to treat it as a category.</li>
+</ol>
+<center>
+<table>
+<caption>
+Map between the fields in the sample of 100 records from the <code>Condition Occurrence</code> table in <strong>Polyester</strong> and the assigned datatype.
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+field
+</th>
+<th style="text-align:left;">
+datatype
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+person_id
+</td>
+<td style="text-align:left;">
+identifier
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+gender
+</td>
+<td style="text-align:left;">
+category
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+condition_start_date
+</td>
+<td style="text-align:left;">
+date
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+condition_end_date
+</td>
+<td style="text-align:left;">
+date
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+condition_source
+</td>
+<td style="text-align:left;">
+category
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<p><br></p>
+</div>
+<div id="applying-data-quality-rules" class="section level3">
+<h3><span class="header-section-number">0.1.3</span> Applying Data Quality Rules</h3>
+<p>To apply the data quality rules, the fields can be grouped by assigned datatype, and each grouping can be sent to its respective data quality pipeline as defined by the <code>rule</code> in the <code>datatype matrix</code>.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">condition_occurrence_datatypes &lt;-</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="st">  </span><span class="kw">split</span>(condition_occurrence_metadata, condition_occurrence_metadata<span class="op">$</span>datatype) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="st">  </span><span class="kw">map</span>(select, <span class="op">-</span>datatype) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="st">  </span><span class="kw">map</span>(unlist) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb3-5" data-line-number="5"><span class="st">  </span><span class="kw">map</span>(unname)</a>
+<a class="sourceLine" id="cb3-6" data-line-number="6">condition_occurrence_datatypes</a></code></pre></div>
+<pre><code>## $category
+## [1] &quot;gender&quot;           &quot;condition_source&quot;
+## 
+## $date
+## [1] &quot;condition_start_date&quot; &quot;condition_end_date&quot;  
+## 
+## $identifier
+## [1] &quot;person_id&quot;</code></pre>
+<div id="datatype-identifier" class="section level4">
+<h4><span class="header-section-number">0.1.3.1</span> Datatype: Identifier</h4>
+<div id="hard-flag" class="section level5">
+<h5><span class="header-section-number">0.1.3.1.1</span> Hard Flag</h5>
+<p>Fields of datatype <code>identifier</code> should have unique values that equivalent to the length that is expected sample size. The programmatic rule used is confirming that all the expected unique identifiers are found in the data. In this example the unique identifiers are the sequence from 1 to 100 (<code>1:100</code>).</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb5-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>identifier)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="st">  </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb5-5" data-line-number="5"><span class="st">  </span><span class="kw">map</span>(as.character) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb5-6" data-line-number="6"><span class="st">  </span><span class="kw">map</span>(<span class="cf">function</span>(x) <span class="kw">c</span>(x[<span class="op">!</span>(x <span class="op">%in%</span><span class="st"> </span><span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>))],</a>
+<a class="sourceLine" id="cb5-7" data-line-number="7">                    <span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>)[<span class="op">!</span>(<span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>) <span class="op">%in%</span><span class="st"> </span>x)])</a>
+<a class="sourceLine" id="cb5-8" data-line-number="8">      )</a></code></pre></div>
+<pre><code>## $person_id
+## [1] &quot;54&quot;</code></pre>
+</div>
+<div id="results" class="section level5">
+<h5><span class="header-section-number">0.1.3.1.2</span> Results</h5>
+<p><code>Condition Occurrence</code> failed the <code>hard flag</code> that dictates that all the values within the <code>identifier</code> datatype are to be found within a predefined valueset. In this case, the <code>person_id</code> <em>54</em> is missing from the data, triggering a hard flag to ensure that <em>54</em> is brought back into the source dataset.</p>
+</div>
+</div>
+<div id="datatype-date" class="section level4">
+<h4><span class="header-section-number">0.1.3.2</span> Datatype: Date</h4>
+<div id="hard-flag-1" class="section level5">
+<h5><span class="header-section-number">0.1.3.2.1</span> Hard Flag</h5>
+<p>Fields of datatype <code>date</code> should not have any dates that occur in the future.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb7-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>date)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="st">  </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-5" data-line-number="5"><span class="st">  </span><span class="kw">map</span>(as.Date) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb7-6" data-line-number="6"><span class="st">  </span><span class="kw">map</span>(<span class="op">~</span><span class="st"> </span>.[centipede<span class="op">::</span><span class="kw">no_na</span>(.) <span class="op">&gt;</span><span class="st"> </span><span class="kw">Sys.Date</span>()])</a></code></pre></div>
+<pre><code>## $condition_start_date
+## Date of length 0
+## 
+## $condition_end_date
+## Date of length 0</code></pre>
+</div>
+<div id="results-1" class="section level5">
+<h5><span class="header-section-number">0.1.3.2.2</span> Results</h5>
+<p><code>Condition Occurrence</code> did not fail the <code>hard flag</code> that dictates that all the values within the <code>date</code> datatype cannot contain any dates that occur in the future from today.</p>
+</div>
+<div id="soft-flag" class="section level5">
+<h5><span class="header-section-number">0.1.3.2.3</span> Soft Flag</h5>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb9-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>date)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb9-4" data-line-number="4"><span class="st">  </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb9-5" data-line-number="5"><span class="st">  </span><span class="kw">map</span>(as.Date) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb9-6" data-line-number="6"><span class="st">  </span><span class="kw">map</span>(<span class="op">~</span><span class="st"> </span><span class="kw">summary</span>(.))</a></code></pre></div>
+<pre><code>## $condition_start_date
+##         Min.      1st Qu.       Median         Mean      3rd Qu.         Max. 
+## &quot;1928-09-08&quot; &quot;2010-08-14&quot; &quot;2017-10-07&quot; &quot;2010-01-19&quot; &quot;2020-03-06&quot; &quot;2020-12-19&quot; 
+## 
+## $condition_end_date
+##         Min.      1st Qu.       Median         Mean      3rd Qu.         Max. 
+## &quot;1945-04-12&quot; &quot;2015-05-11&quot; &quot;2020-03-10&quot; &quot;2016-03-20&quot; &quot;2020-03-28&quot; &quot;2020-11-29&quot; 
+##         NA's 
+##        &quot;372&quot;</code></pre>
+</div>
+<div id="results-2" class="section level5">
+<h5><span class="header-section-number">0.1.3.2.4</span> Results</h5>
+<p><code>Condition Occurrence</code> did assed the <code>soft flag</code> that dictates that all the values outside the 95th percentile should be reviewed for accuracy.</p>
+</div>
+</div>
+<div id="datatype-category" class="section level4">
+<h4><span class="header-section-number">0.1.3.3</span> Datatype: Category</h4>
+<p>The <code>category</code> datatype requires the most user feedback for this framework since it requires a set of predetermined constraints that will ultimately determine the degree of flagging that will occur. In this sample data, there are 2 fields of this datatype: <code>gender</code> and <code>condition_source</code>. Each will require a vector of constraints for the QA process</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">constraints &lt;-<span class="st"> </span></a>
+<a class="sourceLine" id="cb11-2" data-line-number="2"><span class="st">  </span><span class="kw">list</span>(<span class="dt">gender =</span> <span class="kw">c</span>(<span class="st">&quot;FEMALE&quot;</span>, <span class="st">&quot;MALE&quot;</span>),</a>
+<a class="sourceLine" id="cb11-3" data-line-number="3">       <span class="dt">condition_source =</span> <span class="kw">c</span>(</a>
+<a class="sourceLine" id="cb11-4" data-line-number="4">                    <span class="st">'Fatigue'</span>, </a>
+<a class="sourceLine" id="cb11-5" data-line-number="5">                    <span class="st">'Otitis media'</span>, </a>
+<a class="sourceLine" id="cb11-6" data-line-number="6">                    <span class="st">'Loss of taste'</span>, </a>
+<a class="sourceLine" id="cb11-7" data-line-number="7">                    <span class="st">'Streptococcal sore throat'</span>, </a>
+<a class="sourceLine" id="cb11-8" data-line-number="8">                    <span class="st">'Acute bacterial sinusitis'</span>, </a>
+<a class="sourceLine" id="cb11-9" data-line-number="9">                    <span class="st">'Cough'</span>, </a>
+<a class="sourceLine" id="cb11-10" data-line-number="10">                    <span class="st">'Viral sinusitis'</span>, </a>
+<a class="sourceLine" id="cb11-11" data-line-number="11">                    <span class="st">'Fever'</span>, </a>
+<a class="sourceLine" id="cb11-12" data-line-number="12">                    <span class="st">'Acute bronchitis'</span>, </a>
+<a class="sourceLine" id="cb11-13" data-line-number="13">                    <span class="st">'Acute viral pharyngitis'</span>))</a></code></pre></div>
+<div id="hard-flag-2" class="section level5">
+<h5><span class="header-section-number">0.1.3.3.1</span> Hard Flag</h5>
+<p>Fields of datatype <code>category</code> should fall within their constraints.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb12-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb12-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>category)) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb12-4" data-line-number="4"><span class="st">  </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb12-5" data-line-number="5"><span class="st">  </span><span class="kw">map</span>(as.factor) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb12-6" data-line-number="6"><span class="st">  </span><span class="kw">map</span>(levels) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb12-7" data-line-number="7"><span class="st">  </span><span class="kw">map</span>(unique)</a></code></pre></div>
+<pre><code>## $gender
+## [1] &quot;FEMALE&quot; &quot;MALE&quot;  
+## 
+## $condition_source
+##   [1] &quot;Acute bacterial sinusitis&quot;                          
+##   [2] &quot;Acute bronchitis&quot;                                   
+##   [3] &quot;Acute deep venous thrombosis&quot;                       
+##   [4] &quot;Acute pulmonary embolism&quot;                           
+##   [5] &quot;Acute respiratory distress syndrome&quot;                
+##   [6] &quot;Acute respiratory failure&quot;                          
+##   [7] &quot;Acute viral pharyngitis&quot;                            
+##   [8] &quot;Alzheimer's disease&quot;                                
+##   [9] &quot;Anemia&quot;                                             
+##  [10] &quot;Appendicitis&quot;                                       
+##  [11] &quot;Atrial fibrillation&quot;                                
+##  [12] &quot;Blighted ovum&quot;                                      
+##  [13] &quot;Carcinoma in situ of prostate&quot;                      
+##  [14] &quot;Cardiac arrest&quot;                                     
+##  [15] &quot;Cerebrovascular accident&quot;                           
+##  [16] &quot;Childhood asthma&quot;                                   
+##  [17] &quot;Chill&quot;                                              
+##  [18] &quot;Chronic congestive heart failure&quot;                   
+##  [19] &quot;Chronic intractable migraine without aura&quot;          
+##  [20] &quot;Chronic kidney disease stage 1&quot;                     
+##  [21] &quot;Chronic low back pain&quot;                              
+##  [22] &quot;Chronic neck pain&quot;                                  
+##  [23] &quot;Chronic pain&quot;                                       
+##  [24] &quot;Chronic sinusitis&quot;                                  
+##  [25] &quot;Closed fracture of hip&quot;                             
+##  [26] &quot;Complete miscarriage&quot;                               
+##  [27] &quot;Concussion with loss of consciousness&quot;              
+##  [28] &quot;Concussion with no loss of consciousness&quot;           
+##  [29] &quot;Contact dermatitis&quot;                                 
+##  [30] &quot;Coronary arteriosclerosis&quot;                          
+##  [31] &quot;Cough&quot;                                              
+##  [32] &quot;Diarrhea symptom&quot;                                   
+##  [33] &quot;Disease caused by 2019-nCoV&quot;                        
+##  [34] &quot;Disorder of kidney due to diabetes mellitus&quot;        
+##  [35] &quot;Drug overdose&quot;                                      
+##  [36] &quot;Dyspnea&quot;                                            
+##  [37] &quot;Eclampsia in pregnancy&quot;                             
+##  [38] &quot;Emphysematous bronchitis&quot;                           
+##  [39] &quot;Epidermal burn of skin&quot;                             
+##  [40] &quot;Epilepsy&quot;                                           
+##  [41] &quot;Escherichia coli urinary tract infection&quot;           
+##  [42] &quot;Essential hypertension&quot;                             
+##  [43] &quot;Facial laceration&quot;                                  
+##  [44] &quot;Familial Alzheimer's disease of early onset&quot;        
+##  [45] &quot;Fatigue&quot;                                            
+##  [46] &quot;Fever&quot;                                              
+##  [47] &quot;Fibromyalgia&quot;                                       
+##  [48] &quot;Fracture of ankle&quot;                                  
+##  [49] &quot;Fracture of clavicle&quot;                               
+##  [50] &quot;Fracture of forearm&quot;                                
+##  [51] &quot;Fracture of rib&quot;                                    
+##  [52] &quot;Headache&quot;                                           
+##  [53] &quot;Heart failure&quot;                                      
+##  [54] &quot;Hemoptysis&quot;                                         
+##  [55] &quot;Hyperglycemia&quot;                                      
+##  [56] &quot;Hyperlipidemia&quot;                                     
+##  [57] &quot;Hypertriglyceridemia&quot;                               
+##  [58] &quot;Hypoxemia&quot;                                          
+##  [59] &quot;Idiopathic atrophic hypothyroidism&quot;                 
+##  [60] &quot;Impacted molars&quot;                                    
+##  [61] &quot;Injury of kidney&quot;                                   
+##  [62] &quot;Injury of tendon of the rotator cuff of shoulder&quot;   
+##  [63] &quot;Joint pain&quot;                                         
+##  [64] &quot;Laceration of foot&quot;                                 
+##  [65] &quot;Laceration of forearm&quot;                              
+##  [66] &quot;Laceration of hand&quot;                                 
+##  [67] &quot;Laceration of thigh&quot;                                
+##  [68] &quot;Localized, primary osteoarthritis of the hand&quot;      
+##  [69] &quot;Loss of taste&quot;                                      
+##  [70] &quot;Major depressive disorder&quot;                          
+##  [71] &quot;Malignant tumor of breast&quot;                          
+##  [72] &quot;Malignant tumor of colon&quot;                           
+##  [73] &quot;Metabolic syndrome X&quot;                               
+##  [74] &quot;Miscarriage in first trimester&quot;                     
+##  [75] &quot;Muscle pain&quot;                                        
+##  [76] &quot;Myocardial infarction&quot;                              
+##  [77] &quot;Nasal congestion&quot;                                   
+##  [78] &quot;Nausea&quot;                                             
+##  [79] &quot;Neoplasm of prostate&quot;                               
+##  [80] &quot;Neuropathy due to type 2 diabetes mellitus&quot;         
+##  [81] &quot;Non-small cell carcinoma of lung, TNM stage 1&quot;      
+##  [82] &quot;Non-small cell lung cancer&quot;                         
+##  [83] &quot;Normal pregnancy&quot;                                   
+##  [84] &quot;Opioid abuse&quot;                                       
+##  [85] &quot;Osteoarthritis of hip&quot;                              
+##  [86] &quot;Osteoarthritis of knee&quot;                             
+##  [87] &quot;Osteoporosis&quot;                                       
+##  [88] &quot;Otitis media&quot;                                       
+##  [89] &quot;Partial thickness burn&quot;                             
+##  [90] &quot;Pathological fracture due to osteoporosis&quot;          
+##  [91] &quot;Perennial allergic rhinitis&quot;                        
+##  [92] &quot;Perennial allergic rhinitis with seasonal variation&quot;
+##  [93] &quot;Pneumonia&quot;                                          
+##  [94] &quot;Polyp of colon&quot;                                     
+##  [95] &quot;Pre-eclampsia&quot;                                      
+##  [96] &quot;Prediabetes&quot;                                        
+##  [97] &quot;Pulmonary emphysema&quot;                                
+##  [98] &quot;Recurrent rectal polyp&quot;                             
+##  [99] &quot;Respiratory distress&quot;                               
+## [100] &quot;Retinopathy due to type 2 diabetes mellitus&quot;        
+## [101] &quot;Rupture of appendix&quot;                                
+## [102] &quot;Seizure disorder&quot;                                   
+## [103] &quot;Sepsis caused by virus&quot;                             
+## [104] &quot;Septic shock&quot;                                       
+## [105] &quot;Sinusitis&quot;                                          
+## [106] &quot;Sore throat symptom&quot;                                
+## [107] &quot;Sprain of ankle&quot;                                    
+## [108] &quot;Sprain of wrist&quot;                                    
+## [109] &quot;Sputum finding&quot;                                     
+## [110] &quot;Streptococcal sore throat&quot;                          
+## [111] &quot;Tubal pregnancy&quot;                                    
+## [112] &quot;Type 2 diabetes mellitus&quot;                           
+## [113] &quot;Viral sinusitis&quot;                                    
+## [114] &quot;Vomiting symptom&quot;                                   
+## [115] &quot;Wheezing&quot;                                           
+## [116] &quot;Whiplash injury to neck&quot;</code></pre>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="kw">list</span>(<span class="dt">constraints =</span> constraints,</a>
+<a class="sourceLine" id="cb14-2" data-line-number="2">     <span class="dt">condition_occurrence =</span> condition_occurrence) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb14-3" data-line-number="3"><span class="st">  </span><span class="kw">transpose</span>() <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb14-4" data-line-number="4"><span class="st">  </span><span class="kw">map</span>(<span class="cf">function</span>(x) x<span class="op">$</span>condition_occurrence[<span class="op">!</span>(x<span class="op">$</span>condition_occurrence <span class="op">%in%</span><span class="st"> </span>x<span class="op">$</span>constraints)]) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb14-5" data-line-number="5"><span class="st">  </span><span class="kw">map</span>(unique) <span class="op">%&gt;%</span></a>
+<a class="sourceLine" id="cb14-6" data-line-number="6"><span class="st">  </span><span class="kw">keep</span>(<span class="op">~</span><span class="st"> </span><span class="kw">length</span>(.) <span class="op">&gt;</span><span class="st"> </span><span class="dv">0</span>)</a></code></pre></div>
+<pre><code>## $condition_source
+##   [1] &quot;Disease caused by 2019-nCoV&quot;                        
+##   [2] &quot;Laceration of thigh&quot;                                
+##   [3] &quot;Diarrhea symptom&quot;                                   
+##   [4] &quot;Nausea&quot;                                             
+##   [5] &quot;Vomiting symptom&quot;                                   
+##   [6] &quot;Chronic sinusitis&quot;                                  
+##   [7] &quot;Polyp of colon&quot;                                     
+##   [8] &quot;Osteoarthritis of knee&quot;                             
+##   [9] &quot;Partial thickness burn&quot;                             
+##  [10] &quot;Laceration of forearm&quot;                              
+##  [11] &quot;Myocardial infarction&quot;                              
+##  [12] &quot;Essential hypertension&quot;                             
+##  [13] &quot;Whiplash injury to neck&quot;                            
+##  [14] &quot;Sputum finding&quot;                                     
+##  [15] &quot;Chill&quot;                                              
+##  [16] &quot;Concussion with loss of consciousness&quot;              
+##  [17] &quot;Concussion with no loss of consciousness&quot;           
+##  [18] &quot;Seizure disorder&quot;                                   
+##  [19] &quot;Nasal congestion&quot;                                   
+##  [20] &quot;Prediabetes&quot;                                        
+##  [21] &quot;Sore throat symptom&quot;                                
+##  [22] &quot;Pneumonia&quot;                                          
+##  [23] &quot;Acute pulmonary embolism&quot;                           
+##  [24] &quot;Hypoxemia&quot;                                          
+##  [25] &quot;Laceration of foot&quot;                                 
+##  [26] &quot;Anemia&quot;                                             
+##  [27] &quot;Respiratory distress&quot;                               
+##  [28] &quot;Sinusitis&quot;                                          
+##  [29] &quot;Miscarriage in first trimester&quot;                     
+##  [30] &quot;Dyspnea&quot;                                            
+##  [31] &quot;Wheezing&quot;                                           
+##  [32] &quot;Escherichia coli urinary tract infection&quot;           
+##  [33] &quot;Osteoporosis&quot;                                       
+##  [34] &quot;Cerebrovascular accident&quot;                           
+##  [35] &quot;Sprain of wrist&quot;                                    
+##  [36] &quot;Pulmonary emphysema&quot;                                
+##  [37] &quot;Opioid abuse&quot;                                       
+##  [38] &quot;Normal pregnancy&quot;                                   
+##  [39] &quot;Complete miscarriage&quot;                               
+##  [40] &quot;Sprain of ankle&quot;                                    
+##  [41] &quot;Blighted ovum&quot;                                      
+##  [42] &quot;Drug overdose&quot;                                      
+##  [43] &quot;Chronic intractable migraine without aura&quot;          
+##  [44] &quot;Chronic pain&quot;                                       
+##  [45] &quot;Contact dermatitis&quot;                                 
+##  [46] &quot;Chronic low back pain&quot;                              
+##  [47] &quot;Impacted molars&quot;                                    
+##  [48] &quot;Chronic neck pain&quot;                                  
+##  [49] &quot;Alzheimer's disease&quot;                                
+##  [50] &quot;Osteoarthritis of hip&quot;                              
+##  [51] &quot;Chronic congestive heart failure&quot;                   
+##  [52] &quot;Eclampsia in pregnancy&quot;                             
+##  [53] &quot;Muscle pain&quot;                                        
+##  [54] &quot;Sepsis caused by virus&quot;                             
+##  [55] &quot;Joint pain&quot;                                         
+##  [56] &quot;Appendicitis&quot;                                       
+##  [57] &quot;Hyperlipidemia&quot;                                     
+##  [58] &quot;Rupture of appendix&quot;                                
+##  [59] &quot;Localized, primary osteoarthritis of the hand&quot;      
+##  [60] &quot;Atrial fibrillation&quot;                                
+##  [61] &quot;Fracture of ankle&quot;                                  
+##  [62] &quot;Cardiac arrest&quot;                                     
+##  [63] &quot;Tubal pregnancy&quot;                                    
+##  [64] &quot;Perennial allergic rhinitis with seasonal variation&quot;
+##  [65] &quot;Recurrent rectal polyp&quot;                             
+##  [66] &quot;Malignant tumor of colon&quot;                           
+##  [67] &quot;Laceration of hand&quot;                                 
+##  [68] &quot;Neoplasm of prostate&quot;                               
+##  [69] &quot;Type 2 diabetes mellitus&quot;                           
+##  [70] &quot;Carcinoma in situ of prostate&quot;                      
+##  [71] &quot;Disorder of kidney due to diabetes mellitus&quot;        
+##  [72] &quot;Metabolic syndrome X&quot;                               
+##  [73] &quot;Hypertriglyceridemia&quot;                               
+##  [74] &quot;Emphysematous bronchitis&quot;                           
+##  [75] &quot;Chronic kidney disease stage 1&quot;                     
+##  [76] &quot;Acute respiratory failure&quot;                          
+##  [77] &quot;Acute deep venous thrombosis&quot;                       
+##  [78] &quot;Fracture of forearm&quot;                                
+##  [79] &quot;Non-small cell carcinoma of lung, TNM stage 1&quot;      
+##  [80] &quot;Major depressive disorder&quot;                          
+##  [81] &quot;Non-small cell lung cancer&quot;                         
+##  [82] &quot;Idiopathic atrophic hypothyroidism&quot;                 
+##  [83] &quot;Headache&quot;                                           
+##  [84] &quot;Childhood asthma&quot;                                   
+##  [85] &quot;Fibromyalgia&quot;                                       
+##  [86] &quot;Coronary arteriosclerosis&quot;                          
+##  [87] &quot;Retinopathy due to type 2 diabetes mellitus&quot;        
+##  [88] &quot;Neuropathy due to type 2 diabetes mellitus&quot;         
+##  [89] &quot;Hyperglycemia&quot;                                      
+##  [90] &quot;Familial Alzheimer's disease of early onset&quot;        
+##  [91] &quot;Epidermal burn of skin&quot;                             
+##  [92] &quot;Epilepsy&quot;                                           
+##  [93] &quot;Hemoptysis&quot;                                         
+##  [94] &quot;Perennial allergic rhinitis&quot;                        
+##  [95] &quot;Acute respiratory distress syndrome&quot;                
+##  [96] &quot;Septic shock&quot;                                       
+##  [97] &quot;Heart failure&quot;                                      
+##  [98] &quot;Injury of kidney&quot;                                   
+##  [99] &quot;Injury of tendon of the rotator cuff of shoulder&quot;   
+## [100] &quot;Facial laceration&quot;                                  
+## [101] &quot;Fracture of rib&quot;                                    
+## [102] &quot;Pre-eclampsia&quot;                                      
+## [103] &quot;Pathological fracture due to osteoporosis&quot;          
+## [104] &quot;Closed fracture of hip&quot;                             
+## [105] &quot;Malignant tumor of breast&quot;                          
+## [106] &quot;Fracture of clavicle&quot;</code></pre>
+</div>
+</div>
 </div>
 </div>
 
