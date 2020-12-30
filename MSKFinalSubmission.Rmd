@@ -12,45 +12,43 @@ library(knitr)
 library(kableExtra)
 ```
 
-# Part One: Quality Framework Method   
-## Introduction  
-To adequately assess the data quality of a clinical dataset, the following overarching attributes abotu the data need to be taken into account beforehand. beginning with defining a patient population, the timeline boundaries, and target events within the data such as:  
+## Part One: Quality Framework Method   
 
-|        **Cohort**: adult, urological cancer clinic patients  
-         **Demographics**: 
-|        **Timeline**: one year  
-|        **Event**: clinic visit  
+### Introduction   
 
-The framework will first standardize the dataset and take a brief overview of the dataset. This will be followed by assigning a datatype to each field in the dataset (_01_dataframe_characterization.R_). The dataframe will be divided according to datatype, which is then subsequently fed into its respective data quality pipeline (_02_qa.R_).  
+To adequately assess the data quality of a clinical dataset, the following overarching attributes about the data as whole need to be taken into account:  
 
-The input data is first imported and prepared via standardization. Standardization is a step towards ensuring that the data quality framework is reproducible and scalable regardless of the data source (_00_config.R_). This entails removing white spaces, converting column names to upper case and replacing punctuation with only underscores, and adding a primary key for internal tracking purposes.  
+1. **Cohort definition**: that population that is being studied, which are answered by questions such as:    
 
-The a 5 observation sample of the raw input data:  
-```{r, echo = FALSE}
-INPUT_DATA %>%
-        sample_n(5)
-```
-  
-A 5 observation sample of the standardized input data:  
-```{r, echo=FALSE}
-INPUT_DATA <-
-INPUT_DATA %>%
-        mutate_all(tolower) %>%
-        add_seasoning_to_input()
+    * Adult or pediatric population?   
+    
+    * What is the inclusion criteria?   
+    
+    * What is the exclusion criteria?   
 
-INPUT_DATA %>%
-        sample_n(5)
-```
-  
-### Script Features  
-There are 3 main common features to all the subprocesses of this framework:  
+An example of a cohort definition is "All the adult COVID-positive patients that were admitted to the ICU at MSK".  
+
+1. **Timeline**: the timeframe that the study entails. Extending the example given, the timeline for this study can be the outcomes of COVID-positive patients 1 year after their initial hospitalization.  
+
+_Cohort Definition_ and _Timeline_ serve as the foundation for a research study and confirmation of both should be the first step in the QA process.  
+
+
+### Framework 
+
+Once the preliminary research study characterization is established, the Data Quality Framework itself will take the R class of each field in the dataset, and each R class is associated with a unique data quality pipeline.   
+
+There are 2 main common features to all the subprocesses of this framework:  
 1. **SCRIPT_MAP**: the primary map used for a certain pipeline to drive the qa process  
-2. **INPUT_DATA**: data the was provided in the assignment  
-3. **OUTPUT_FLAGS**: observations in the INPUT_DATA that have been flagged for further review  
+1. **OUTPUT_FLAGS**: observations in the INPUT_DATA that have been flagged for further review  
   
 ## 01. Dataframe Characterization (_01_dataframe_characterization.R_)
 ```{r, echo=FALSE, eval=FALSE}
-source('~/R/MSK/01_dataframe_characterization.R')
+tibble::tribble(
+    ~COL_DATATYPE,~DATATYPE_RULE,~DATATYPE_CONSTRAINT,~SOFT_FLAG,~HARD_FLAG,~QA_STEP,
+    "category", "matches control data", "requires control data", "not found within control data", "NA", "a",
+    "number", "only numeric characters with maximum 1 decimal point", "NA", "greater or less than 2.5 standard deviations from the mean", "NA", "b",
+    "date", "maximum 8 and minimum 4 numeric characters, maximum 2 punctuation characters", "NA", "greater or less than 2.5 standard deviations from the mean", "future date", "c",
+"time", "maximum 6 numeric characters, maximum 2 punctuation characters", "NA", "NA", "times greater than or equal to 24:00", "d")
 ```
 
 **Dataframe characterization** entails surveying the dataset as a whole, and then diving deeper into the data by assigning a datatype for each field:  
