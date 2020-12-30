@@ -1,0 +1,75 @@
+---
+title: "Primary Template"
+author: "Meera Y. Patel, M.D."
+output: 
+  html_document:
+    theme: flatly
+    highlight: kate  
+    toc: yes
+    number_sections: true
+    toc_depth: 3 
+    toc_float: 
+      collapsed: false  
+      smooth_scroll: false
+    code_folding: show #or hide
+    df_print: paged
+    fig_height: 5 
+    fig_width: 7 
+    fig_caption: true
+    dev: png
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "reports") 
+  })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      eval = TRUE,
+                      cache = TRUE,
+                      cache.path = "reports/cache/",
+                      child = NULL, #file/s to knit and then include,
+                      collapse = FALSE, #collapse all output into a single block,
+                      error = TRUE, #display error messages in doc. FALSE stops render when error is thrown
+                      fig.align = "center", #left, right, center, or default
+                      include = TRUE, #include chunk?
+                      message = TRUE, #display code messages?
+                      tidy = TRUE, #tidy code 
+                      warning = TRUE, #include warnings?
+                      results = "markup"
+                        # "asis": passthrough results
+                        # "hide": do not display results 
+                        # "hold": put all results below all code
+                      )
+
+library(tidyverse)
+```
+  
+  
+## Framework Foundation
+
+### Datatype Matrix 
+
+Once the preliminary research study characterization is established, the Framework itself will take the R class of each field in the dataset, and each R class is associated with a unique data quality pipeline related to the permitted values within the given field. For the purposes of this brief demonstration, rules are applied on the limited set of datatypes of _category_, _text_, _float_, _integer_, _date_, and _datetime_.  In reality, many additional datatypes may exist, such as _time_ for a timestamp without a date, or large integers that could be considered the equivalent to _bigint_ in SQL.  
+
+
+```{r, echo=FALSE}
+kableExtra::kable(x = 
+tibble::tribble(
+    ~datatype, ~r_class, ~rule, ~soft_flag,~hard_flag,
+    "category", "factor", "value in established constraints", "not found within control data", "", 
+    "text", "character", "", "", "",
+    "float", "c('numeric', 'double')", "only numeric characters with maximum 1 decimal point", "greater or less than 2.5 standard deviations from the mean", "", 
+    "integer", "integer", "only numeric characters with 0 decimal point", "greater or less than 2.5 standard deviations from the mean", "",
+    "date", "Date", "maximum 8 and minimum 4 numeric characters, maximum 2 punctuation characters", "greater or less than 2.5 standard deviations from the mean", "future date", 
+"datetime", "POSIXct", "maximum 6 numeric characters, maximum 2 punctuation characters", "", "times greater than or equal to 24:00"),
+    caption = "Matrix that maps a `datatype` of a field in a dataframe to the R object class (`r_class`). Each field has a single `datatype` that is constrained to a specific R object class and a set of additional rules associated with the datatype (`rule`). A `soft_flag` represents clinically improbable values that will require confirmation that the value is not due to error such as a typo. A `hard_flag` is a flag where the value is clinically impossible and must be corrected such as a date value that occurs in the future. Note that a matrix such as this one would require regular refinement to accommodate for nuances such as if a dataset includes a field such as _date of next appointment_, which will contain dates that may occur in the future. This is an example of where a new datatype alloting future dates may need to be introduced to avoid any _hard flags_ for acceptable values.")
+```
+
+
+<br>  
+The purpose of applying these fundamental rules is to confirm the data integrity before moving forward with more complex data quality rules. For example, a more complex rule may be one where the date of death must be preceded by a date of birth. However, it is the foundational rule on the datatype _date_ that preliminarily confirms that all the date of death and date of birth data are in a parseable format, that those that fall within the 95% percentile in either direction have been reviewed and confirmed, and that particular attention has been paid to any data that indicates dates of death and birth that are occurring in the future from this moment in time. 
+
+
+### Surveying Source Data  
+
+
