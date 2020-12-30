@@ -1,0 +1,297 @@
+---
+title: "Clinical Data Quality Framework Method"
+author: "Meera Y. Patel, MD"
+date: "4/30/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE) 
+source('00_config.R')
+library(knitr)
+library(kableExtra)
+```
+
+# Part One: Quality Framework Method   
+## Introduction  
+To adequately assess the data quality of a clinical dataset, the following overarching attributes abotu the data need to be taken into account beforehand. beginning with defining a patient population, the timeline boundaries, and target events within the data such as:  
+
+|        **Cohort**: adult, urological cancer clinic patients  
+         **Demographics**: 
+|        **Timeline**: one year  
+|        **Event**: clinic visit  
+
+The framework will first standardize the dataset and take a brief overview of the dataset. This will be followed by assigning a datatype to each field in the dataset (_01_dataframe_characterization.R_). The dataframe will be divided according to datatype, which is then subsequently fed into its respective data quality pipeline (_02_qa.R_).  
+
+The input data is first imported and prepared via standardization. Standardization is a step towards ensuring that the data quality framework is reproducible and scalable regardless of the data source (_00_config.R_). This entails removing white spaces, converting column names to upper case and replacing punctuation with only underscores, and adding a primary key for internal tracking purposes.  
+
+The a 5 observation sample of the raw input data:  
+```{r, echo = FALSE}
+INPUT_DATA %>%
+        sample_n(5)
+```
+  
+A 5 observation sample of the standardized input data:  
+```{r, echo=FALSE}
+INPUT_DATA <-
+INPUT_DATA %>%
+        mutate_all(tolower) %>%
+        add_seasoning_to_input()
+
+INPUT_DATA %>%
+        sample_n(5)
+```
+  
+### Script Features  
+There are 3 main common features to all the subprocesses of this framework:  
+1. **SCRIPT_MAP**: the primary map used for a certain pipeline to drive the qa process  
+2. **INPUT_DATA**: data the was provided in the assignment  
+3. **OUTPUT_FLAGS**: observations in the INPUT_DATA that have been flagged for further review  
+  
+## 01. Dataframe Characterization (_01_dataframe_characterization.R_)
+```{r, echo=FALSE, eval=FALSE}
+source('~/R/MSK/01_dataframe_characterization.R')
+```
+
+**Dataframe characterization** entails surveying the dataset as a whole, and then diving deeper into the data by assigning a datatype for each field:  
+```{r, echo=FALSE}
+str(INPUT_DATA)
+```
+  
+The distribution of values for each variable is also surveyed:  
+```{r, echo=FALSE}
+summary(INPUT_DATA %>% select(-PKEY) %>% mutate_all(as.factor))
+```
+  
+We then weed out duplicate values from the input data (_INPUT_DATA object_), which is then added to a dataframe of flagged data (_OUTPUT_FLAGS object_) in the same original structure with the addition of _FLAG_REASON_ and _FLAG_TYPE variables_. The _FLAG_REASON value_ for this data is "duplicate".  
+
+A 5 observation sample of the flagged data is:  
+```{r, echo=FALSE}
+INPUT_DATA_TOTAL <- INPUT_DATA
+INPUT_DATA_FINAL <-
+INPUT_DATA_TOTAL %>%
+        distinct(PATIENT_ID, PATIENT_DIAGNOSIS, INSURANCE_TYPE, AGE, SEX, VISIT_DATE, PT_SCHEDULED_APPT, PT_ARRIVE_TIME, PT_START_TIME, PT_END_TIME, PROVIDER_NAME, .keep_all = TRUE)
+
+OUTPUT_FLAGS_01 <-
+        INPUT_DATA_TOTAL[!(INPUT_DATA_TOTAL$PKEY %in% INPUT_DATA_FINAL$PKEY),] %>%
+        mutate(FLAG_REASON = "duplicate")
+        
+
+print(OUTPUT_FLAGS_01 %>%
+        sample_n(5)
+)
+```
+  
+For this exercise, the possible datatypes are limited to four: **category**, **number**, **date**, and **time**. In practice, there are additional types such as datetime, string, and boolean. Each datatype follows its assigned rules. An overall overview of the datatypes and their associated rules can be seen in Table 1. These rules are called **Standalone Rules** because it is assessing the data quality in an isolated manner and not relative to other variables found in this data such as relative to visit dates. **Relative Rules** are implemented downstream with increasing complexity, which will be explained later.  
+
+```{r, echo=FALSE}
+load('01_dataframe_characterization.RData')
+kable(STANDALONE_RULES, caption = "Standalone Rules") %>%
+  kable_styling(position = "left", font_size = 8) %>%
+  column_spec(column = c(2, 4, 5), width = "3cm") %>%
+  column_spec(column = c(1), width = "2.5cm") %>%
+  column_spec(column = c(6), width = ".75cm") %>%
+  column_spec(column = c(3), width = "3.5cm")
+```
+
+Other important definitions include:  
+**Hard Flag**: clinically impossible value. For example, a birthdate that takes place in the future is clinically impossible.  
+**Soft Flag**: clinically improbable value, such as an extremely high white blood cell count of 30000.
+Each variable is assigned a datatype and joined with the rules to create a _SCRIPT_MAP object_ that is used to guide the remainder of the framework. It is a list that has divided the column names based on datatype to execute scripts against. Each datatype has its own downstream pipeline indicated by the _QA_STEP variable_ that this script map will direct the data flow with for **Step 02** in the framework.  
+
+```{r, echo=FALSE}
+load('01_dataframe_characterization.RData')
+print(SCRIPT_MAP)
+```
+
+## 02. Quality Framework By Datatype  
+### a. Category (_02a_category_qa.R_)  
+```{r, echo = FALSE}
+source('~/R/MSK/02a_category_qa.R')
+load("02a_category_qa.RData")
+```
+
+A **category** datatype is defined as a vector of possible values that the content of the column can fall under. Therefore a requisite for a quality process for this datatype is having the necessary control data to compare it to.  
+
+The script map for this step is customized to guide this effort:  
+```{r, echo = FALSE}
+load("02a_category_qa.RData")
+print(SCRIPT_MAP)
+```
+  
+Though _PKEY_ and _PATIENT_ID variables_ are categorical, they serve as identifiers in the data and do not require controls. The remaining variables require an associated **control vector**, the object name of which is in the _CONTROL_OBJ_NAME variable_. In this exercise, I've assumed that all the unique values for each column is the control. However, in more realistic cases, the control vectors are iteratively updated with new values or error values can be mapped to an existing control value. The controls are as follows:  
+```{r, echo=TRUE}
+PATIENT_DIAGNOSIS_CONTROL <- tolower(c("Prostate Cancer","Kidney Cancer",
+                                       "Bladder Cancer","Testicular Cancer"))
+INSURANCE_TYPE_CONTROL <- tolower(c("Private Insurance","Medicaid",
+                                    "Self Insured","Medicare",""))
+SEX_CONTROL <- tolower(c("M", "F"))
+PROVIDER_NAME_CONTROL <- tolower(c("L. Svenson","I. Petrov", "E. Ahuja",
+                                   "J. Smith","N. Fulano","M. Dupont", 
+                                   "S. Moreau","W. Plinge","C. S. Ming","C. Siu Ming"))
+```
+
+If there is a mismatch, the mismatched observations are compiled in an _OUTPUT_FLAGS_02A object_ and are removed from the input data. It is also noted at this point that there are two providers "C. S. Ming" and "C. Siu Ming" that may potentially be duplicates. In real-life circumstances, I would check to see if they are the same provider, in which case the control set _PROVIDER_NAME_CONTROL_ would not include one of the values. The unmatched value would be flagged and mapped to the correct control value. 
+
+### b. Number (_02b_number_qa.R_)
+```{r, echo=FALSE}
+source('~/R/MSK/02b_number_qa.R')
+load("02b_number_qa.RData")
+```
+The customized script map for the number datatype is:
+```{r, echo=FALSE}
+load("02b_number_qa.RData")
+print(SCRIPT_MAP)
+```
+In each variable, a sequential check on the number of numbers, decimals, other punctuation, and letters is used to flag values that do not fall within the rule of only numbers and no more than one decimal point. In this exercise, only one column is designated a number datatype, and analysis on the mentioned character counts returns no observations to flag. All the values in the _AGE variable_ consist of only 2 numbers.
+
+### c. Date (_02c_date_qa.R_)
+```{r, echo = FALSE}
+source('~/R/MSK/02c_date_qa.R')
+load("02c_date_qa.RData")
+```
+Like the previous datatype, a series of sequential checks were conducted on the number of different types of characters. The rules for the date datatype in this exercise were no greater than 2 punctuation marks, no more than 8 numbers, no less than 4 numbers, values that did not parse using the _lubridate::ymd function_, and parsed dates that occurred in the future.
+
+The script map is very similar to the one for number datatype:
+```{r, echo = FALSE}
+load("02c_date_qa.RData")
+print(SCRIPT_MAP)
+```
+
+Applying the rules above on the single column, returns no values to flag. All values in the _VISIT_DATE variable_ follow the format of "YYYY-MM-DD" and none of the dates occur in the future.
+
+### d. Time (_02d_time_qa.R_)  
+```{r,echo=FALSE}
+source('~/R/MSK/02d_time_qa.R')
+load("02d_time_qa.RData")
+```
+Like the previous 2 datatypes, a series of sequential checks were conducted on the number of different types of characters. The rules for the time datatype in this exercise were no greater than 2 punctuation marks, no more than 6 numbers, no less than 3 numbers, and values that did not parse using the _lubridate::hm function_.
+
+The script map contains 4 columns this time:
+```{r, echo=FALSE}
+load("02d_time_qa.RData")
+print(SCRIPT_MAP)
+```
+
+Applying the rules above on all columns, returns no values to flag, however. All data in the 4 columns contain valid hour and minute values as determined by the clinical rules applied.  
+
+## 03. Final Output (_03_final.R_)  
+The final output is _final_standalone_flag_output.xlsx_. The final **validated data** is de-duplicated. The duplicates and flags from **Step 02a to 02d** are combined into a single **output flags dataframe**. Additionally, there is an overlap between the final validated data and flagged data that is designated in an **overlap** tab. More detailed definitions for the three tabs:  
+**VALIDATED_DATA**: all observations that have been de-duplicated and has passed the standalone datatype quality checks.  
+**OUTPUT_FLAGS**: observations that have been flagged with the reason in the _FLAG_REASON variable_ and flag severity (hard, soft, or NA) in the _FLAG_TYPE variable_.  
+**OVERLAP_INPUT_FLAGS**: ideally only one observation is accounted for between the validated data and the flagged data, but an overlap might occur inevitably. In the case of this exercise, the overlap occured because blank values are flagged regardless by default, but a blank value was also included in the control data for _INSURANCE_TYPE variable_. This overlap will require addressing whether blank values should be considered a unique control value, imputed with another value, or considered missing for this specific variable.  
+
+## 04. Beyond Standalone Flags  
+Conducting a quality check past the standalone flags are beyond the scope of this assignment. However, for a more thorough quality check, some **soft flags** such as values greater than or less than 2.5 standard deviations from the mean for enumerated datatypes and  **relative flags** are employed in increasing complexity.   
+
+### Soft Flags  
+Soft flags are a means to ensure that the outliers are indeed outliers as opposed to technical or human error. All flags for category data are typically soft because the control data is dynamically updated and can have an infinite number of control values in theory. However, the highest and lowest values in enumerated datatypes such as number and date may be fed into a pipeline that involves patient record checks to ensure validity and reliability. The only exception would be time datatype, where the data value is circular rather than linear.   
+
+### Relative Flags  
+These flags can be relative to the datatype, patient, provider, clinic, diagnosis, and so on. For example, a relative flag for the time datatype in the data here would be making sure that the _PT_START_TIME variable_ occurs prior to the _PT_END_TIME variable_. On the other hand, a flag relative to the patient record can be checking if a reported appointment date falls between the patient's date of birth and date of death. These flags can scale in the number of variables being compared against each other at infinite levels that include patient-level, provider-level, diagnosis-level, etc.  
+
+# Part Two: Analysis  
+After adjudicating on the flagged and overlap data, the final validated data would be ready for analysis. Assumptions made to this effect include that blank values in the _INSURANCE_TYPE variable_ are valid control values and are included in the data used for analysis.  
+
+The validated data has `r nrow(INPUT_DATA_FINAL)` unique observations. The original data had `r nrow(INPUT_DATA)` observations, but `r nrow(INPUT_DATA)-nrow(INPUT_DATA_FINAL)` were found to be duplicates and excluded.
+
+The variables of the final validated data is converted to the appropriate data class using the script map created in **Step 01 Data Characterization** that designates the datatype.  
+```{r,echo=FALSE}
+load('01_dataframe_characterization.RData')
+SCRIPT_MAP <- lapply(SCRIPT_MAP, call_mr_clean)
+print(bind_rows(SCRIPT_MAP) %>% select(-QA_STEP))
+INPUT_DATA_ANALYSIS <- INPUT_DATA_FINAL
+```
+Category datatype columns will be kept as character class while number will be converted to double class, date will be converted to date class, and time will be converted to POSIXct:  
+
+```{r, echo = TRUE}
+for (i in 1:nrow(SCRIPT_MAP$date)) {
+          x <- SCRIPT_MAP$date$COL_NAME[i]
+          x <- enquo(x)
+          INPUT_DATA_ANALYSIS <-
+          INPUT_DATA_ANALYSIS %>%
+                    mutate_at(vars(!!x), list(~ymd(.)))
+}
+
+for (i in 1:nrow(SCRIPT_MAP$number)) {
+          x <- SCRIPT_MAP$number$COL_NAME[i]
+          x <- enquo(x)
+          INPUT_DATA_ANALYSIS <-
+          INPUT_DATA_ANALYSIS %>%
+                    mutate_at(vars(!!x), list(~as.double(.)))
+}
+
+for (i in 1:nrow(SCRIPT_MAP$time)) {
+          x <- SCRIPT_MAP$time$COL_NAME[i]
+          x <- enquo(x)
+          INPUT_DATA_ANALYSIS <-
+          INPUT_DATA_ANALYSIS %>%
+                    mutate_at(vars(!!x), list(~hm(.)))
+}
+
+```
+
+## 01. Patient-Level  
+The patient population can be captured with a histogram plotting the distribution of patient qualities. The distribution of age is as follows:  
+
+```{r, echo=FALSE}
+hist(INPUT_DATA_ANALYSIS$AGE, col = "green4", breaks = 50, xlim = c(15,95), main = "Frequency Distribution of Age", xlab = "Age", ylab = "Frequency")
+```
+  
+It is common assumption that the more complex the patient, the more clinic time is needed to treat the patient. In this dataset, a patient with multiple primary cancers may be considered a complex patient. However, summary data indicates that all patients in this dataset have one primary cancer diagnosis.  
+```{r, echo = FALSE}
+INPUT_DATA_PATIENT <-
+        INPUT_DATA_ANALYSIS %>%
+        group_by(PATIENT_ID) %>%
+        summarize(CANCER_TYPE_NUMBER = length(unique(PATIENT_DIAGNOSIS))) %>%
+        arrange(desc(CANCER_TYPE_NUMBER))
+```
+
+## 02. Provider  
+We can also delve into assessing provider performance. Again assuming that "C. S. Ming" and "C. Siu Ming" are two different providers, we can look at the patient population each provider serves. This bar chart was meant to stack patients based on cancer type, but upon visualization, it is clear that each provider treats one cancer type at this clinic.  
+
+```{r, echo=FALSE}
+INPUT_DATA_PROVIDER <-
+INPUT_DATA_ANALYSIS %>%
+  group_by(PROVIDER_NAME, PATIENT_DIAGNOSIS) %>%
+  summarise(COUNT = length(PATIENT_DIAGNOSIS)) %>%
+  arrange(PATIENT_DIAGNOSIS) %>%
+  ungroup() %>%
+  mutate(PROVIDER_NAME = factor(PROVIDER_NAME, levels = PROVIDER_NAME))
+  
+
+library(ggplot2)
+ggplot(INPUT_DATA_PROVIDER , aes(x = PROVIDER_NAME, y = COUNT, fill =  PATIENT_DIAGNOSIS)) +
+        geom_bar(stat = "identity") + 
+        ggtitle("Patient Panel Size and Cancer Type for Each Provider") +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## 03. Cancer Type  
+The total clinic time in minutes was calculated based on _PT_START_TIME_ and _PT_END_TIME variables_. **Relatively flagged** data was identified when the _PT_START_TIME varible_ took place after the _PT_END_TIME variable_. An assumption was made that these values were interchanged to calculate the results rather than excluded.  
+
+The frequency distribution was then visualized for clinic time for all appointments.  
+
+```{r, echo=FALSE}
+INPUT_DATA_CANCER <-
+  suppressMessages(
+INPUT_DATA_ANALYSIS %>%
+  mutate(TOTAL_CLINIC_TIME = (period_to_seconds(PT_END_TIME - PT_START_TIME))/60) %>%
+  mutate(TOTAL_CLINIC_TIME = ifelse(TOTAL_CLINIC_TIME < 0, TOTAL_CLINIC_TIME*(-1), TOTAL_CLINIC_TIME)))
+
+hist(INPUT_DATA_CANCER$TOTAL_CLINIC_TIME, col = "gray", main = "Frequency Distribution of All Clinic Visits", xlab = "Total Clinic Time (Minutes)", xlim = c(0,50))
+```
+
+While the above histogram provides a general idea of the distribution of time dedicated to patients at this clinic, the cancer types represented in this dataset (testicular, kidney, prostate, bladder) vary widely in life expectancy, treatment pathways, and prevalent patient characteristics. For example, prostate cancer is less deadly than the other cancers listed, where many patients may die of other age-related causes before the cancer progresses. Testicular cancer tends to affect younger populations and the long-term survival rate is also higher than other cancers. Bladder and kidney cancers are much more to affect life expectency and require prompt aggressive treatment.  
+
+Sieving the clinic time distribution by cancer type shows a different story. Bladder cancer appointments tend to require longer clinic times. Kidney cancer also has a higher density in clinic times greater than 30 minutes, but its distribution has the largest range across times than the other cancers. As expected, prostate and testicular cancers fall on the lower end of the spectrum, since these types of visits are more focused on surveillance than aggressive treatment.  
+
+```{r,echo=FALSE}
+ggplot(INPUT_DATA_CANCER, aes(TOTAL_CLINIC_TIME, fill = PATIENT_DIAGNOSIS)) + geom_density(alpha = 0.2) + ggtitle("Density of Clinic Times by Cancer Type") +labs(y= "Density", x = "Clinic Time (Minutes)")
+```
+```
+
+### Questions For End Users
++ How should the blank insurance value be handled? It can be considered a valid control with its own unique definition or it can be imputed/mapped to an agreed upon value.  
++ Are C. S. Ming and C. Sui Ming the same provider?  
++ When the start time is after the end time, is it safe to assume that these values were accidentally interchanged at the time of capture?  

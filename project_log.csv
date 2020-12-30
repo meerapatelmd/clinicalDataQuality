@@ -1,0 +1,5 @@
+date_and_time,activity,filename,summary
+2019-04-30 11:30:34,log created,./project_log.csv,initiated log for project
+2019-04-30 12:24:55,input,INPUT/MSK Data Quality Test - Data.csv,"""Reloading input data from earlier"""
+2019-04-30 19:06:41,input,INPUT/DATATYPE_RULEBOOK - standalone_rules.csv,Importing 01_dataframe_characterization rules
+2019-05-01 0:13:25,output,OUTPUT/final_standalone_flag_output.xlsx,"Writing the final xlsx containing the validated final data, the flagged data, and another tab showing the observations that overlap in the final data and flagged data"

@@ -1,0 +1,5 @@
+COL_DATATYPE,DATATYPE_RULE,DATATYPE_CONSTRAINT,SOFT_FLAG,HARD_FLAG,QA_STEP
+category,matches control data,requires control data,not found within control data,,a
+number,only numeric characters with maximum 1 decimal point,,greater or less than 2.5 standard deviations from the mean,,b
+date,"maximum 8 and minimum 4 numeric characters, maximum 2 punctuation characters",,greater or less than 2.5 standard deviations from the mean,future date,c
+time,"maximum 6 numeric characters, maximum 2 punctuation characters",,,times greater than or equal to 24:00,d
