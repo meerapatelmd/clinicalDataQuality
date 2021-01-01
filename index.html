@@ -2970,16 +2970,18 @@ div.tocify {
 <div id="introduction" class="section level2">
 <h2><span class="header-section-number">0.1</span> Introduction</h2>
 <p>To adequately assess the data quality of a clinical dataset, the following overarching attributes about the data as a whole should be taken into account:</p>
-<ol style="list-style-type: decimal">
+<ol class="example" style="list-style-type: decimal">
 <li><p><strong>Cohort definition</strong>: that population that is being studied, which are answered by questions such as:</p>
 <ul>
-<li><p><em>Adult or pediatric population?</em></p></li>
-<li><p><em>What is the inclusion criteria?</em></p></li>
-<li><p><em>What is the exclusion criteria?</em></p></li>
+<li><em>Adult or pediatric population?</em><br />
+</li>
+<li><em>What is the inclusion criteria?</em><br />
+</li>
+<li><em>What is the exclusion criteria?</em></li>
 </ul></li>
 </ol>
 <p>An example of a cohort definition is “All the adult HIV-positive patients that were admitted to the ICU at MSK”.</p>
-<ol style="list-style-type: decimal">
+<ol start="2" class="example" style="list-style-type: decimal">
 <li><strong>Timeline</strong>: the timeframe that the study entails. Extending the example given, the timeline for this study can be the <em>clinical outcomes of HIV-positive patients 1 year after their first HIV-related hospitalization</em>.</li>
 </ol>
 <p><em>Cohort Definition</em> and <em>Timeline</em> serve as the bare minimum knowledge for a data-driven research study and confirmation of both should be the first step in the QA process.</p>
@@ -3223,9 +3225,11 @@ category
 <div id="application" class="section level2">
 <h2><span class="header-section-number">0.3</span> Application</h2>
 <p>To apply the data quality rules, the fields can be grouped by assigned datatype, and each grouping can be sent to its respective data quality pipeline as defined by the <code>rule</code> in the <code>datatype matrix</code>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">condition_occurrence_datatypes &lt;-<span class="st"> </span><span class="kw">split</span>(condition_occurrence_metadata, condition_occurrence_metadata<span class="op">$</span>datatype) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="st">    </span><span class="kw">map</span>(select, <span class="op">-</span>datatype) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unlist) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unname)</a>
-<a class="sourceLine" id="cb3-3" data-line-number="3">condition_occurrence_datatypes</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">condition_occurrence_datatypes &lt;-<span class="st"> </span><span class="kw">split</span>(condition_occurrence_metadata, </a>
+<a class="sourceLine" id="cb3-2" data-line-number="2">    condition_occurrence_metadata<span class="op">$</span>datatype) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="st">    </span><span class="kw">map</span>(select, <span class="op">-</span>datatype) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unlist) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="st">    </span><span class="kw">map</span>(unname)</a>
+<a class="sourceLine" id="cb3-5" data-line-number="5">condition_occurrence_datatypes</a></code></pre></div>
 <pre><code>## $category
 ## [1] &quot;gender&quot;           &quot;condition_source&quot;
 ## 
@@ -3241,8 +3245,10 @@ category
 <p>Fields of datatype <code>identifier</code> should have unique values that equivalent to the length that is expected sample size. The programmatic rule used is confirming that all the expected unique identifiers are found in the data. In this example the unique identifiers are the sequence from 1 to 100 (<code>1:100</code>).</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
 <a class="sourceLine" id="cb5-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>identifier)) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.character) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(<span class="cf">function</span>(x) <span class="kw">c</span>(x[<span class="op">!</span>(x <span class="op">%in%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="st">    </span><span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>))], <span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>)[<span class="op">!</span>(<span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>) <span class="op">%in%</span><span class="st"> </span>x)]))</a></code></pre></div>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.character) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb5-4" data-line-number="4"><span class="st">    </span><span class="kw">map</span>(<span class="cf">function</span>(x) <span class="kw">c</span>(x[<span class="op">!</span>(x <span class="op">%in%</span><span class="st"> </span><span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>))], </a>
+<a class="sourceLine" id="cb5-5" data-line-number="5">        <span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>)[<span class="op">!</span>(<span class="kw">as.character</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">100</span>) <span class="op">%in%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb5-6" data-line-number="6"><span class="st">            </span>x)]))</a></code></pre></div>
 <pre><code>## $person_id
 ## [1] &quot;54&quot;</code></pre>
 </div>
@@ -3258,7 +3264,8 @@ category
 <p>Fields of datatype <code>date</code> should not have any dates that occur in the future.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
 <a class="sourceLine" id="cb7-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>date)) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.Date) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(<span class="op">~</span>.[centipede<span class="op">::</span><span class="kw">no_na</span>(.) <span class="op">&gt;</span><span class="st"> </span><span class="kw">Sys.Date</span>()])</a></code></pre></div>
+<a class="sourceLine" id="cb7-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.Date) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb7-4" data-line-number="4"><span class="st">    </span><span class="kw">map</span>(<span class="op">~</span>.[centipede<span class="op">::</span><span class="kw">no_na</span>(.) <span class="op">&gt;</span><span class="st"> </span><span class="kw">Sys.Date</span>()])</a></code></pre></div>
 <pre><code>## $condition_start_date
 ## Date of length 0
 ## 
@@ -3273,7 +3280,8 @@ category
 <h4><span class="header-section-number">0.3.2.3</span> Soft Flag</h4>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
 <a class="sourceLine" id="cb9-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>date)) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.Date) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(<span class="op">~</span><span class="kw">summary</span>(.))</a></code></pre></div>
+<a class="sourceLine" id="cb9-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.Date) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb9-4" data-line-number="4"><span class="st">    </span><span class="kw">map</span>(<span class="op">~</span><span class="kw">summary</span>(.))</a></code></pre></div>
 <pre><code>## $condition_start_date
 ##         Min.      1st Qu.       Median         Mean      3rd Qu.         Max. 
 ## &quot;1928-09-08&quot; &quot;2010-08-14&quot; &quot;2017-10-07&quot; &quot;2010-01-19&quot; &quot;2020-03-06&quot; &quot;2020-12-19&quot; 
@@ -3292,15 +3300,19 @@ category
 <div id="datatype-category" class="section level3">
 <h3><span class="header-section-number">0.3.3</span> Datatype: Category</h3>
 <p>The <code>category</code> datatype requires the most user feedback for this framework since it requires a set of predetermined constraints that will ultimately determine the degree of flagging that will occur. In this sample data, there are 2 fields of this datatype: <code>gender</code> and <code>condition_source</code>. Each will require a vector of constraints for the QA process</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">constraints &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">gender =</span> <span class="kw">c</span>(<span class="st">&quot;FEMALE&quot;</span>, <span class="st">&quot;MALE&quot;</span>), <span class="dt">condition_source =</span> <span class="kw">c</span>(<span class="st">&quot;Fatigue&quot;</span>, </a>
-<a class="sourceLine" id="cb11-2" data-line-number="2">    <span class="st">&quot;Otitis media&quot;</span>, <span class="st">&quot;Loss of taste&quot;</span>, <span class="st">&quot;Streptococcal sore throat&quot;</span>, <span class="st">&quot;Acute bacterial sinusitis&quot;</span>, </a>
-<a class="sourceLine" id="cb11-3" data-line-number="3">    <span class="st">&quot;Cough&quot;</span>, <span class="st">&quot;Viral sinusitis&quot;</span>, <span class="st">&quot;Fever&quot;</span>, <span class="st">&quot;Acute bronchitis&quot;</span>, <span class="st">&quot;Acute viral pharyngitis&quot;</span>))</a></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">constraints &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">gender =</span> <span class="kw">c</span>(<span class="st">&quot;FEMALE&quot;</span>, </a>
+<a class="sourceLine" id="cb11-2" data-line-number="2">    <span class="st">&quot;MALE&quot;</span>), <span class="dt">condition_source =</span> <span class="kw">c</span>(<span class="st">&quot;Fatigue&quot;</span>, </a>
+<a class="sourceLine" id="cb11-3" data-line-number="3">    <span class="st">&quot;Otitis media&quot;</span>, <span class="st">&quot;Loss of taste&quot;</span>, <span class="st">&quot;Streptococcal sore throat&quot;</span>, </a>
+<a class="sourceLine" id="cb11-4" data-line-number="4">    <span class="st">&quot;Acute bacterial sinusitis&quot;</span>, <span class="st">&quot;Cough&quot;</span>, </a>
+<a class="sourceLine" id="cb11-5" data-line-number="5">    <span class="st">&quot;Viral sinusitis&quot;</span>, <span class="st">&quot;Fever&quot;</span>, <span class="st">&quot;Acute bronchitis&quot;</span>, </a>
+<a class="sourceLine" id="cb11-6" data-line-number="6">    <span class="st">&quot;Acute viral pharyngitis&quot;</span>))</a></code></pre></div>
 <div id="hard-flag-2" class="section level4">
 <h4><span class="header-section-number">0.3.3.1</span> Hard Flag</h4>
 <p>Fields of datatype <code>category</code> should fall within their constraints.</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" data-line-number="1">condition_occurrence &lt;-<span class="st"> </span>readr<span class="op">::</span><span class="kw">read_csv</span>(<span class="st">&quot;data-raw/CONDITION_OCCURRENCE.csv&quot;</span>)</a>
 <a class="sourceLine" id="cb12-2" data-line-number="2">condition_occurrence <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="kw">all_of</span>(condition_occurrence_datatypes<span class="op">$</span>category)) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb12-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.factor) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(levels) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unique)</a></code></pre></div>
+<a class="sourceLine" id="cb12-3" data-line-number="3"><span class="st">    </span>rubix<span class="op">::</span><span class="kw">tibble_to_list</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(as.factor) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb12-4" data-line-number="4"><span class="st">    </span><span class="kw">map</span>(levels) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unique)</a></code></pre></div>
 <pre><code>## $gender
 ## [1] &quot;FEMALE&quot; &quot;MALE&quot;  
 ## 
@@ -3423,7 +3435,8 @@ category
 ## [116] &quot;Whiplash injury to neck&quot;</code></pre>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb14-1" data-line-number="1"><span class="kw">list</span>(<span class="dt">constraints =</span> constraints, <span class="dt">condition_occurrence =</span> condition_occurrence) <span class="op">%&gt;%</span><span class="st"> </span></a>
 <a class="sourceLine" id="cb14-2" data-line-number="2"><span class="st">    </span><span class="kw">transpose</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(<span class="cf">function</span>(x) x<span class="op">$</span>condition_occurrence[<span class="op">!</span>(x<span class="op">$</span>condition_occurrence <span class="op">%in%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb14-3" data-line-number="3"><span class="st">    </span>x<span class="op">$</span>constraints)]) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unique) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">keep</span>(<span class="op">~</span><span class="kw">length</span>(.) <span class="op">&gt;</span><span class="st"> </span><span class="dv">0</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb14-3" data-line-number="3"><span class="st">    </span>x<span class="op">$</span>constraints)]) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map</span>(unique) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb14-4" data-line-number="4"><span class="st">    </span><span class="kw">keep</span>(<span class="op">~</span><span class="kw">length</span>(.) <span class="op">&gt;</span><span class="st"> </span><span class="dv">0</span>)</a></code></pre></div>
 <pre><code>## $condition_source
 ##   [1] &quot;Disease caused by 2019-nCoV&quot;                        
 ##   [2] &quot;Laceration of thigh&quot;                                
